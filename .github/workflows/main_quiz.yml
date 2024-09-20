@@ -47,9 +47,9 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-  permissions:
-    id-token: write  # This allows GitHub Actions to request an ID token
-    contents: read  # Ensure it can read the contents if needed
+    permissions:
+      id-token: write  # This allows GitHub Actions to request an ID token
+      contents: read  # Ensure it can read the contents if needed
 
     steps:
       # Step 7: Download the build artifact from the build job
