@@ -1,12 +1,9 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy ASP.Net Core app to Azure Web App - Quiz
+name: Build and deploy ASP.Net Core WebAPI to Azure Web App - Quiz
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'webapi/**'  # Trigger only if changes are made in the webapi folder
   workflow_dispatch:
 
 jobs:
@@ -22,10 +19,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build ./webapi --configuration Release  # Build WebAPI from the 'webapi' folder
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./webapi -c Release -o ${{env.DOTNET_ROOT}}/myapp  # Publish WebAPI from 'webapi' folder
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -40,7 +37,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write  # This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -51,9 +48,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_D00927D60AC8466FACDDACEFB9CECF9D }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2B71CC1792C74687B34EA6974A2601D5 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FF3AF25D0E384864959D52B7616E687E }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -62,4 +59,3 @@ jobs:
           app-name: 'Quiz'
           slot-name: 'Production'
           package: .
-          
