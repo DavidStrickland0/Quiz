@@ -47,8 +47,9 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write  # This is required for requesting the JWT
+  permissions:
+    id-token: write  # This allows GitHub Actions to request an ID token
+    contents: read  # Ensure it can read the contents if needed
 
     steps:
       # Step 7: Download the build artifact from the build job
@@ -64,7 +65,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
-          client-secret: ${{ secrets.AZUREAPPSERVICE_CLIENTSECRET }}
+          federated-token: ${{ secrets.GITHUB_TOKEN }} 
 
       # Step 9: Deploy the zip file to the Azure Web App
       - name: Deploy to Azure Web App
