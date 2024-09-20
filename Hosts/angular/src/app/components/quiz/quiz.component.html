@@ -1,0 +1,52 @@
+<div class="quiz-container" *ngIf="question">
+    <h2>Question</h2>
+    <p>{{ question.text }}</p>
+  
+    <!-- Use checkbox if multiple answers are required, otherwise use radio buttons -->
+    <div *ngIf="question.isMultiple">
+      <div *ngFor="let answer of question.answers; let i = index">
+        <label>
+          <input type="checkbox" 
+                 [value]="answer" 
+                 (change)="onAnswerSelected(answer)"
+                 [checked]="selectedAnswers.includes(answer)" />
+          {{ answer }}
+        </label>
+      </div>
+    </div>
+    <div *ngIf="!question.isMultiple">
+      <div *ngFor="let answer of question.answers; let i = index">
+        <label>
+          <input type="radio" 
+                 [value]="answer" 
+                 (change)="onAnswerSelected(answer)"
+                 [checked]="selectedAnswers.includes(answer)"
+                 name="single-answer" />
+          {{ answer }}
+        </label>
+      </div>
+    </div>
+  
+    <!-- Submit button -->
+    <button (click)="submitAnswer()" [disabled]="selectedAnswers.length === 0">Submit Answer</button>
+  
+    <!-- Display result after submission -->
+    <div *ngIf="isAnswerCorrect !== null">
+      <p *ngIf="isAnswerCorrect === true" class="correct">Correct!</p>
+      <p *ngIf="isAnswerCorrect === false" class="incorrect">Incorrect. Try Again!</p>
+    </div>
+  
+    <!-- Progress indicator for the refresh countdown -->
+    <div *ngIf="isAnswerCorrect === true">
+      <p>Next question will load in {{ timeLeft }} seconds...</p>
+      <div class="progress-bar">
+        <div class="progress" [style.width.%]="progressPercentage"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Loader or message for when the question is being loaded or unavailable -->
+  <div *ngIf="!question">
+    <p>Loading question...</p>
+  </div>
+  

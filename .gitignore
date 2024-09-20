@@ -1,0 +1,66 @@
+# Ignore files related to node.js and Angular
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.sass-cache/
+.angular/cache/
+.angular/
+coverage/
+!src/environments/*.ts
+src/environments/*.prod.ts
+
+# Angular build outputs
+output/
+temp/
+aot/
+build/
+cache/
+logs/
+
+# Ignore IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore files related to .NET Core
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.pdb
+*.cache
+*.log
+
+# Ignore publish output
+publish/
+appsettings*.json
+
+# Ignore .NET Core dependency folders
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Ignore Visual Studio Code settings
+.vscode/*
+
+# Ignore Rider/JetBrains IDE settings
+.idea/
+
+# Ignore Visual Studio auto-generated files
+*.vs/
+.vs/
+_ReSharper*/
+
+# Ignore MacOS system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
