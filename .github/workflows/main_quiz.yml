@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core WebAPI to Azure Web App - Quiz
+name: Build and deploy ASP.Net Core WebAPI Console App to Azure Web App - Quiz
 
 on:
   push:
@@ -11,24 +11,35 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # Step 1: Checkout code from GitHub
       - uses: actions/checkout@v4
 
+      # Step 2: Set up .NET Core environment
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
 
+      # Step 3: Build the WebAPI console app located in the webapi folder
       - name: Build with dotnet
         run: dotnet build ./webapi --configuration Release  # Build WebAPI from the 'webapi' folder
 
+      # Step 4: Publish the WebAPI console app into a publish directory
       - name: dotnet publish
-        run: dotnet publish ./webapi -c Release -o "${{ env.DOTNET_ROOT }}/myapp"  # Properly quote the output path
+        run: dotnet publish ./webapi -c Release -o ./publish  # Publish WebAPI from 'webapi' folder
 
+      # Step 5: Zip the publish output
+      - name: Zip the publish folder
+        run: |
+          cd publish
+          zip -r mywebapi.zip .
+
+      # Step 6: Upload the zip artifact for deployment
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: "${{ env.DOTNET_ROOT }}/myapp"
+          path: ./publish/mywebapi.zip
 
   deploy:
     runs-on: windows-latest
@@ -40,22 +51,26 @@ jobs:
       id-token: write  # This is required for requesting the JWT
 
     steps:
+      # Step 7: Download the build artifact from the build job
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
       
+      # Step 8: Login to Azure using the secrets for Service Principal
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_D00927D60AC8466FACDDACEFB9CECF9D }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2B71CC1792C74687B34EA6974A2601D5 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FF3AF25D0E384864959D52B7616E687E }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
+          client-secret: ${{ secrets.AZUREAPPSERVICE_CLIENTSECRET }}
 
+      # Step 9: Deploy the zip file to the Azure Web App
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Quiz'
+          app-name: 'Quiz'  # Name of your Azure Web App
           slot-name: 'Production'
-          package: .
+          package: ./mywebapi.zip  # Path to the zip file that was created and downloaded
