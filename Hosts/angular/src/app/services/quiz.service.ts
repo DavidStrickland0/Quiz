@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class QuizService {
 
-  private apiQuestionUrl = "https://localhost:7257/question"
-  private apiCheckAnswerUrl = "https://localhost:7257/check-answer";
+  private apiQuestionUrl = "https://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net/question"
+  private apiCheckAnswerUrl = "https://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net/check-answer";
   question : any
   correct : any
 

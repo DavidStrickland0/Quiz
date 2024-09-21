@@ -1,4 +1,4 @@
-@webapi_HostAddress = http://localhost:5005
+@webapi_HostAddress = hhttps://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net/
 
 GET {{webapi_HostAddress}}/weatherforecast/
 Accept: application/json
