@@ -43,7 +43,8 @@ namespace lib
             {
                 Index = _questions.IndexOf(randomQuestion),
                 text = randomQuestion.Question,
-                answers = shuffledOptions
+                answers = shuffledOptions,
+                isMultiple = randomQuestion.CorrectAnswer.Count>1
             };
         }
 

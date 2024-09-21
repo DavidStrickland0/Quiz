@@ -11,5 +11,7 @@ namespace lib
         public int Index { get; set; }
         public string text { get; set; }
         public List<string> answers { get; set; }
+
+        public bool isMultiple { get; set; }
     }
 }
