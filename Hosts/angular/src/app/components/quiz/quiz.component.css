@@ -13,3 +13,17 @@
     width: 100%; /* Initially full */
     transition: width 1s linear; /* Smooth transition */
   }
+  button {
+    font-size: 1.5em; /* Increase font size */
+    padding: 15px 30px; /* Increase padding to make the button larger */
+    background-color: #4CAF50; /* Optional: Change background color */
+    color: white; /* Optional: Change text color */
+    border: none; /* Optional: Remove border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+button:disabled {
+    background-color: #ccc; /* Optional: Change background when disabled */
+    cursor: not-allowed; /* Change cursor when button is disabled */
+}
