@@ -1,0 +1,31 @@
+/* App-level styles for Dark Mode */
+body {
+    background-color: #121212; /* Dark background for the entire app */
+    color: #e0e0e0; /* Light text color for readability */
+    font-family: Arial, sans-serif; /* Consistent font throughout the app */
+}
+
+a {
+    color: #1a73e8; /* Bright blue for links to stand out in dark mode */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-size: 16px; /* Consistent button font size */
+    padding: 10px 20px;
+    background-color: #303f9f; /* Dark blue for buttons */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 4px; /* Slightly rounded corners for buttons */
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+/* Additional styles can be added here as needed */

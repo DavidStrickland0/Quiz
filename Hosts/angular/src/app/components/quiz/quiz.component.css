@@ -1,29 +1,45 @@
 .progress-bar {
-    width: 100%;
-    background-color: #f3f3f3;
-    border: 1px solid #ccc;
-    height: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .progress {
-    height: 100%;
-    background-color: #4caf50;
-    width: 100%; /* Initially full */
-    transition: width 1s linear; /* Smooth transition */
-  }
-  button {
-    font-size: 1.5em; /* Increase font size */
-    padding: 15px 30px; /* Increase padding to make the button larger */
-    background-color: #4CAF50; /* Optional: Change background color */
-    color: white; /* Optional: Change text color */
-    border: none; /* Optional: Remove border */
-    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
-    cursor: pointer; /* Change cursor to pointer for better UX */
+  width: 100%;
+  background-color: #333; /* Darker background for progress bar */
+  border: 1px solid #555; /* Dark border color */
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #76ff03; /* A bright green color for better visibility */
+  width: 100%; /* Initially full */
+  transition: width 1s linear; /* Smooth transition */
+}
+
+button {
+  font-size: 1.5em; /* Increase font size */
+  padding: 15px 30px; /* Increase padding to make the button larger */
+  background-color: #303f9f; /* Dark blue background */
+  color: white; /* White text color for contrast */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for better UX */
 }
 
 button:disabled {
-    background-color: #ccc; /* Optional: Change background when disabled */
-    cursor: not-allowed; /* Change cursor when button is disabled */
+  background-color: #666; /* Darker shade when disabled */
+  cursor: not-allowed; /* Not-allowed cursor when button is disabled */
+}
+
+.quiz-container {
+  background-color: #121212; /* Dark background for the container */
+  color: #e0e0e0; /* Light text for readability */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners for aesthetic */
+}
+
+.correct {
+  color: #4caf50; /* Green text for correct answer */
+}
+
+.incorrect {
+  color: #f44336; /* Red text for incorrect answer */
 }
