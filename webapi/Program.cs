@@ -34,7 +34,7 @@ app.UseCors("AllowAll");
 // Endpoint to get a random question
 app.MapGet("/question", () =>
 {
-    var question = QuizProvider.RandomQuestion();
+    var question = QuizProvider.RandomQuestion("az-900");
     if (question == null)
     {
         return Results.NotFound("No questions available.");
@@ -46,7 +46,27 @@ app.MapGet("/question", () =>
 // Updated endpoint to check if a list of answers is correct
 app.MapPost("/check-answer", (int questionIndex, List<string> answerTexts) =>
 {
-    var areCorrect = QuizProvider.AreAnswersCorrect(questionIndex, answerTexts);
+    var areCorrect = QuizProvider.AreAnswersCorrect("az-900",questionIndex, answerTexts);
+    return Results.Ok(areCorrect);
+})
+.WithOpenApi();
+
+// Endpoint to get a random question
+app.MapGet("{Test}/question", (string Test) =>
+{
+    var question = QuizProvider.RandomQuestion(Test);
+    if (question == null)
+    {
+        return Results.NotFound("No questions available.");
+    }
+    return Results.Ok(question);
+})
+.WithOpenApi();
+
+// Updated endpoint to check if a list of answers is correct
+app.MapPost("{Test}/check-answer", (string Test,int questionIndex, List<string> answerTexts) =>
+{
+    var areCorrect = QuizProvider.AreAnswersCorrect(Test,questionIndex, answerTexts);
     return Results.Ok(areCorrect);
 })
 .WithOpenApi();

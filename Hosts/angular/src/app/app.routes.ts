@@ -3,6 +3,6 @@ import { QuizComponent } from './components/quiz/quiz.component';
 
 export const routes: Routes = [
     {
-        path: '', component: QuizComponent
+        path: ':quizName', component: QuizComponent
     }
 ];

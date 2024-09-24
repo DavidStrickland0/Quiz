@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { QuizService } from '../../services/quiz.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-quiz',
@@ -19,41 +20,50 @@ export class QuizComponent implements OnInit {
   timeLeft: number = 5;
   progressPercentage: number = 100;
   countdownInterval: any;
+  quizName: string = ''; // Holds the quiz name from the route parameter
 
-  constructor(private quizService: QuizService) { }
+  constructor(private quizService: QuizService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.loadQuestion();
+    // Get the quiz name from the route parameter
+    this.route.paramMap.subscribe(params => {
+      this.quizName = params.get('quizName') || '';
+      this.loadQuestion();
+    });
   }
 
   loadQuestion(): void {
-    this.quizService.retrieveQuestion().subscribe(
-      (data) => {
-        this.question = data;
-        this.selectedAnswers = [];
-        this.isAnswerCorrect = null;
-        this.resetCountdown();
-      },
-      (error) => {
-        console.error('Error retrieving question', error);
-      }
-    );
+    if (this.quizName) {
+      this.quizService.retrieveQuestion(this.quizName).subscribe(
+        (data) => {
+          this.question = data;
+          this.selectedAnswers = [];
+          this.isAnswerCorrect = null;
+          this.resetCountdown();
+        },
+        (error) => {
+          console.error('Error retrieving question', error);
+        }
+      );
+    }
   }
 
   submitAnswer(): void {
-    this.quizService.checkAnswer(this.question.index, this.selectedAnswers).subscribe(
-      (response) => {
-        this.result = response;
-        this.isAnswerCorrect = response;
+    if (this.quizName && this.question) {
+      this.quizService.checkAnswer(this.quizName, this.question.index, this.selectedAnswers).subscribe(
+        (response) => {
+          this.result = response;
+          this.isAnswerCorrect = response;
 
-        if (this.isAnswerCorrect) {
-          this.startCountdown();
+          if (this.isAnswerCorrect) {
+            this.startCountdown();
+          }
+        },
+        (error) => {
+          console.error('Error checking answer', error);
         }
-      },
-      (error) => {
-        console.error('Error checking answer', error);
-      }
-    );
+      );
+    }
   }
 
   onAnswerSelected(answer: string): void {

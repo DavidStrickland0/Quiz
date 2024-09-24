@@ -9,7 +9,7 @@ namespace lib
 {
     public class QuizProvider
     {
-        private static List<QuizQuestion> _questions;
+        private static Dictionary<string,List<QuizQuestion>> _questions = new Dictionary<string, List<QuizQuestion>>();
 
         static QuizProvider()
         {
@@ -18,14 +18,34 @@ namespace lib
 
         private static void LoadQuestions()
         {
-            // Load questions from the JSON file
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(),  "az-900.json");
-            var jsonData = File.ReadAllText(filePath);
-            _questions = JsonSerializer.Deserialize<List<QuizQuestion>>(jsonData);
+            // Define the folder where the quiz files are located (current directory in this case)
+            string quizDirectory = Directory.GetCurrentDirectory();
+
+            // Get all files with the ".quiz" extension in the current directory
+            var quizFiles = Directory.GetFiles(quizDirectory, "*.quiz");
+
+            // Iterate over each file and load the questions
+            foreach (var filePath in quizFiles)
+            {
+                // Extract the test name from the file name (without the extension)
+                var testName = Path.GetFileNameWithoutExtension(filePath);
+
+                // Read the contents of the quiz file
+                var jsonData = File.ReadAllText(filePath);
+
+                // Deserialize the JSON data into a list of QuizQuestion objects and add to the dictionary
+                var questions = JsonSerializer.Deserialize<List<QuizQuestion>>(jsonData);
+
+                // Add the deserialized questions to the _questions dictionary, using the test name as the key
+                if (questions != null)
+                {
+                    _questions[testName] = questions;
+                }
+            }
         }
 
         // Method to get a random question
-        public static RandomizedQuestion RandomQuestion()
+        public static RandomizedQuestion RandomQuestion(string test)
         {
             if (_questions == null || !_questions.Any())
             {
@@ -33,7 +53,7 @@ namespace lib
             }
 
             var random = new Random();
-            var randomQuestion = _questions[random.Next(_questions.Count)];
+            var randomQuestion = _questions[test][random.Next(_questions.Count)];
 
             var shuffledOptions = randomQuestion.Options
                                                 .OrderBy(x => Guid.NewGuid())
@@ -41,22 +61,21 @@ namespace lib
 
             return new RandomizedQuestion
             {
-                Index = _questions.IndexOf(randomQuestion),
+                Index = _questions[test].IndexOf(randomQuestion),
                 text = randomQuestion.Question,
-                answers = shuffledOptions,
-                isMultiple = randomQuestion.CorrectAnswer.Count>1
+                answers = shuffledOptions
             };
         }
 
         // Method to verify if the provided answers are correct
-        public static bool AreAnswersCorrect(int questionIndex, List<string> answerTexts)
+        public static bool AreAnswersCorrect(string test, int questionIndex, List<string> answerTexts)
         {
             if (_questions == null || questionIndex < 0 || questionIndex >= _questions.Count)
             {
                 return false; // Invalid question index
             }
 
-            var question = _questions[questionIndex];
+            var question = _questions[test][questionIndex];
 
             // Get the correct answers from the question by their index
             var correctAnswers = question.CorrectAnswer.Select(index => question.Options[index]).ToList();
