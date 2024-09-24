@@ -7,21 +7,22 @@ import { Observable } from 'rxjs';
 })
 export class QuizService {
 
-  private apiQuestionUrl = "https://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net/question"
-  private apiCheckAnswerUrl = "https://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net/check-answer";
+  private apiUrl = "https://quiz-c5c5fvb0f6dndabe.centralus-01.azurewebsites.net"
   question : any
   correct : any
 
   constructor(private httpClient: HttpClient) { }
 
  // Retrieve question
-  retrieveQuestion(): Observable<any> {
-    return this.httpClient.get(this.apiQuestionUrl);
+  retrieveQuestion(quizName:string): Observable<any> {
+    const url = `${this.apiUrl}/${quizName}/question`
+    return this.httpClient.get(url);
   }
 
   // Check answer
-  checkAnswer(questionIndex: number, answer: string[]): Observable<any> {
+  checkAnswer(quizName:string,questionIndex: number, answer: string[]): Observable<any> {
+    const url = `${this.apiUrl}/${quizName}/check-answer`
     const params = { questionIndex: questionIndex.toString() };
-    return this.httpClient.post(this.apiCheckAnswerUrl, answer, { params });
+    return this.httpClient.post(url, answer, { params });
   }
 }
