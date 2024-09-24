@@ -47,13 +47,13 @@ namespace lib
         // Method to get a random question
         public static RandomizedQuestion RandomQuestion(string test)
         {
-            if (_questions == null || !_questions.Any())
+            if (_questions == null || !_questions.ContainsKey(test) || _questions[test] == null)
             {
                 return null;
             }
 
             var random = new Random();
-            var randomQuestion = _questions[test][random.Next(_questions.Count)];
+            var randomQuestion = _questions[test][random.Next(_questions[test].Count)];
 
             var shuffledOptions = randomQuestion.Options
                                                 .OrderBy(x => Guid.NewGuid())
@@ -63,14 +63,15 @@ namespace lib
             {
                 Index = _questions[test].IndexOf(randomQuestion),
                 text = randomQuestion.Question,
-                answers = shuffledOptions
+                answers = shuffledOptions,
+                isMultiple = randomQuestion.CorrectAnswer.Count>1
             };
         }
 
         // Method to verify if the provided answers are correct
         public static bool AreAnswersCorrect(string test, int questionIndex, List<string> answerTexts)
         {
-            if (_questions == null || questionIndex < 0 || questionIndex >= _questions.Count)
+            if (_questions == null || !_questions.ContainsKey(test)|| _questions[test] == null || questionIndex < 0 || questionIndex >= _questions[test].Count)
             {
                 return false; // Invalid question index
             }

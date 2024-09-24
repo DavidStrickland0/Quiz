@@ -2300,5 +2300,192 @@
       "The Scrum Team"
     ],
     "correctAnswer": [ 2 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Roles",
+    "outlineSection": "Product Owner",
+    "question": "Who is responsible for defining the acceptance criteria for Product Backlog items?",
+    "options": [
+      "The Scrum Master",
+      "The Product Owner",
+      "The Development Team",
+      "The Stakeholders"
+    ],
+    "correctAnswer": [ 1 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Events",
+    "outlineSection": "Sprint Planning",
+    "question": "Which of the following happens during Sprint Planning? (Select two)",
+    "options": [
+      "The Product Owner presents the ordered Product Backlog",
+      "The Scrum Team defines how to meet the Sprint Goal",
+      "Stakeholders decide the Sprint Goal",
+      "The Scrum Master assigns tasks to team members"
+    ],
+    "correctAnswer": [ 0, 1 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Artifacts",
+    "outlineSection": "Increment",
+    "question": "True or False: Each Increment must be potentially releasable.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Theory",
+    "subject": "Understand Scrum Values",
+    "outlineSection": "Scrum Values",
+    "question": "Which Scrum value promotes mutual trust and support within the Scrum Team?",
+    "options": [
+      "Respect",
+      "Focus",
+      "Openness",
+      "Commitment"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Roles",
+    "outlineSection": "Development Team",
+    "question": "True or False: The Development Team works with the Product Owner to prioritize the Product Backlog items.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": [ 1 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Events",
+    "outlineSection": "Sprint Retrospective",
+    "question": "Which of the following is an outcome of the Sprint Retrospective? (Select two)",
+    "options": [
+      "A plan for improvements in the next Sprint",
+      "Updated Product Backlog items",
+      "Insights on what went well and what could be improved",
+      "Selection of Product Backlog items for the next Sprint"
+    ],
+    "correctAnswer": [ 0, 2 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Artifacts",
+    "outlineSection": "Definition of Done",
+    "question": "True or False: The Definition of Done applies to every Increment created by the Scrum Team.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Events",
+    "outlineSection": "Daily Scrum",
+    "question": "What is the time-box for the Daily Scrum?",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "30 minutes",
+      "1 hour"
+    ],
+    "correctAnswer": [ 1 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Roles",
+    "outlineSection": "Scrum Master",
+    "question": "Which of the following are responsibilities of the Scrum Master? (Select two)",
+    "options": [
+      "Ensuring Scrum is understood and enacted",
+      "Assigning tasks to team members",
+      "Removing impediments that prevent progress",
+      "Prioritizing Product Backlog items"
+    ],
+    "correctAnswer": [ 0, 2 ]
+  },
+  {
+    "header": "Scrum Theory",
+    "subject": "Understand Scrum Theory",
+    "outlineSection": "Empiricism",
+    "question": "Which of the following is one of the three pillars of Scrum?",
+    "options": [
+      "Adaptation",
+      "Velocity",
+      "Forecasting",
+      "Iteration"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Events",
+    "outlineSection": "Sprint Planning",
+    "question": "What is the purpose of Sprint Planning?",
+    "options": [
+      "To plan for the next Sprint",
+      "To inspect progress toward the Sprint Goal",
+      "To review the Increment",
+      "To refine the Product Backlog"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Artifacts",
+    "outlineSection": "Sprint Backlog",
+    "question": "True or False: The Sprint Backlog is owned by the Development Team.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Events",
+    "outlineSection": "Sprint Review",
+    "question": "Who participates in the Sprint Review?",
+    "options": [
+      "The Scrum Master and stakeholders",
+      "The Product Owner and stakeholders",
+      "The Scrum Team and stakeholders",
+      "The Scrum Master and Product Owner"
+    ],
+    "correctAnswer": [ 2 ]
+  },
+  {
+    "header": "Scrum Framework",
+    "subject": "Understand Scrum Roles",
+    "outlineSection": "Scrum Master",
+    "question": "True or False: The Scrum Master is responsible for coaching the team in self-organization.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": [ 0 ]
+  },
+  {
+    "header": "Scrum Theory",
+    "subject": "Understand Scrum Theory",
+    "outlineSection": "Scrum Values",
+    "question": "Which of the following values encourages transparency within the Scrum Team?",
+    "options": [
+      "Commitment",
+      "Focus",
+      "Respect",
+      "Openness"
+    ],
+    "correctAnswer": [ 3 ]
   }
+
+
 ]
