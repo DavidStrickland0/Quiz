@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { QuizService } from '../../services/quiz.service';
@@ -22,7 +22,11 @@ export class QuizComponent implements OnInit {
   countdownInterval: any;
   quizName: string = ''; // Holds the quiz name from the route parameter
 
-  constructor(private quizService: QuizService, private route: ActivatedRoute) { }
+  constructor(
+    private quizService: QuizService, 
+    private route: ActivatedRoute,
+    private cdr: ChangeDetectorRef  // Inject ChangeDetectorRef
+  ) { }
 
   ngOnInit(): void {
     // Get the quiz name from the route parameter
@@ -37,9 +41,11 @@ export class QuizComponent implements OnInit {
       this.quizService.retrieveQuestion(this.quizName).subscribe(
         (data) => {
           this.question = data;
+          this.question.isMultiple = data.correctAnswer.length>1;
           this.selectedAnswers = [];
           this.isAnswerCorrect = null;
           this.resetCountdown();
+          this.cdr.markForCheck();  // Force change detection
         },
         (error) => {
           console.error('Error retrieving question', error);
@@ -58,6 +64,7 @@ export class QuizComponent implements OnInit {
           if (this.isAnswerCorrect) {
             this.startCountdown();
           }
+          this.cdr.markForCheck();  // Force change detection after checking answer
         },
         (error) => {
           console.error('Error checking answer', error);

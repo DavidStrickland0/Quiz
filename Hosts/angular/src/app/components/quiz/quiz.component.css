@@ -43,3 +43,29 @@ button:disabled {
 .incorrect {
   color: #f44336; /* Red text for incorrect answer */
 }
+.answer-option {
+  margin-bottom: 15px; /* Add spacing between options */
+}
+
+.answer-label {
+  font-size: 1.5em; /* Increase the font size for better readability */
+  display: flex; /* Make the label fill the clickable area */
+  align-items: center; /* Align checkbox or radio button with the text */
+  cursor: pointer; /* Make it clear that the label is clickable */
+  padding: 10px; /* Increase padding around the label for easier clicking */
+  border: 2px solid #333; /* Add a border for better visibility */
+  border-radius: 8px; /* Rounded corners for a nicer look */
+  background-color: #202020; /* Dark background for better contrast */
+  color: #ffffff; /* Light text color for readability */
+}
+
+.answer-label input {
+  width: 25px; /* Increase size of checkbox/radio button */
+  height: 25px; /* Increase size of checkbox/radio button */
+  margin-right: 15px; /* Add space between checkbox/radio button and label text */
+}
+
+.answer-label:hover {
+  background-color: #424242; /* Change background on hover to indicate interactivity */
+  border-color: #76ff03; /* Highlight border on hover */
+}

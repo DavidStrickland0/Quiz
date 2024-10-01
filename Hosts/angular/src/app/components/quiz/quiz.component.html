@@ -1,11 +1,10 @@
 <div class="quiz-container" *ngIf="question">
     <h2>Question</h2>
-    <p>{{ question.text }}</p>
-  
+    <p>{{ question.question }}</p>
     <!-- Use checkbox if multiple answers are required, otherwise use radio buttons -->
     <div *ngIf="question.isMultiple">
-      <div *ngFor="let answer of question.answers; let i = index">
-        <label>
+      <div *ngFor="let answer of question.options; let i = index" class="answer-option">
+        <label class="answer-label">
           <input type="checkbox" 
                  [value]="answer" 
                  (change)="onAnswerSelected(answer)"
@@ -15,8 +14,8 @@
       </div>
     </div>
     <div *ngIf="!question.isMultiple">
-      <div *ngFor="let answer of question.answers; let i = index">
-        <label>
+      <div *ngFor="let answer of question.options; let i = index" class="answer-option">
+        <label class="answer-label">
           <input type="radio" 
                  [value]="answer" 
                  (change)="onAnswerSelected(answer)"
@@ -44,10 +43,9 @@
         <div class="progress" [style.width.%]="progressPercentage"></div>
       </div>
     </div>
-  </div>
-  
-  <!-- Loader or message for when the question is being loaded or unavailable -->
-  <div *ngIf="!question">
+</div>
+
+<!-- Loader or message for when the question is being loaded or unavailable -->
+<div *ngIf="!question">
     <p>Loading question...</p>
-  </div>
-  
+</div>
