@@ -70,8 +70,8 @@ export class QuizService {
 
   // Randomize the options of a question and return it
   private getRandomizedQuestion(): any {
-    const randomIndex = Math.floor(Math.random() * this.questions.filter(q=>q.correctAnswer.length>1).length);
-    const randomQuestion = this.questions.filter(q=>q.correctAnswer.length>1)[randomIndex];
+    const randomIndex = Math.floor(Math.random() * this.questions.length);
+    const randomQuestion = this.questions[randomIndex];
 
     // Shuffle the options
     const shuffledOptions = [...randomQuestion.options].sort(() => Math.random() - 0.5);
