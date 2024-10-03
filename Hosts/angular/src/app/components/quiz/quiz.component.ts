@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { QuizService } from '../../services/quiz.service';
 import { ActivatedRoute } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-quiz',
@@ -25,13 +26,15 @@ export class QuizComponent implements OnInit {
   constructor(
     private quizService: QuizService, 
     private route: ActivatedRoute,
-    private cdr: ChangeDetectorRef  // Inject ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    private titleService: Title  // Inject ChangeDetectorRef
   ) { }
 
   ngOnInit(): void {
     // Get the quiz name from the route parameter
     this.route.paramMap.subscribe(params => {
       this.quizName = params.get('quizName') || '';
+      this.titleService.setTitle(`${this.quizName} Quiz`);
       this.loadQuestion();
     });
   }
