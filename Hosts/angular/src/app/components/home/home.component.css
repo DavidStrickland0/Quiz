@@ -135,4 +135,51 @@
     padding-left: 20px;
     list-style-type: square;
   }
-  
+  /* Style for the hamburger button */
+.hamburger-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #e0e0e0;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Hamburger icon (3 lines) */
+.hamburger-icon {
+  font-size: 36px;
+  color: #e0e0e0;
+}
+
+/* Popup menu styles */
+.popup-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  z-index: 100;
+}
+
+.popup-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-menu li {
+  margin: 10px 0;
+}
+
+.popup-menu a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+.popup-menu a:hover {
+  text-decoration: underline;
+}
