@@ -1,0 +1,4684 @@
+[
+ {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "The Constitution",
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The Declaration of Independence",
+      "The Articles of Confederation",
+      "The Constitution",
+      "The Bill of Rights"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Purpose of the Constitution",
+    "question": "What does the Constitution do?",
+    "options": [
+      "Protects the rights of the states",
+      "Sets up the government, defines the government, and protects basic rights of Americans",
+      "Establishes state sovereignty",
+      "Grants the President absolute power"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Self-Government",
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "In God We Trust",
+      "Life, Liberty, Happiness",
+      "We the People",
+      "One Nation Under God"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Amendments",
+    "question": "What is an amendment?",
+    "options": [
+      "A change or addition to the Constitution",
+      "A section of the Constitution",
+      "A new branch of government",
+      "A federal law"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Bill of Rights",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Articles of Confederation",
+      "The Bill of Rights",
+      "The Ten Commandments",
+      "The Declaration of Independence"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights and Freedoms",
+    "outlineSection": "First Amendment",
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "Right to bear arms",
+      "Freedom of speech",
+      "Right to a fair trial",
+      "Right to vote"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Amendments",
+    "question": "How many amendments does the Constitution have?",
+    "options": [
+      "10",
+      "27",
+      "15",
+      "33"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "The Declaration of Independence",
+    "outlineSection": "Independence from Britain",
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Established the Constitution",
+      "Declared independence from France",
+      "Announced, declared, and secured independence from Great Britain",
+      "Created the U.S. Congress"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Rights",
+    "outlineSection": "Declaration of Independence",
+    "question": "What are two rights in the Declaration of Independence?",
+    "options": [
+      "Life and liberty",
+      "Right to bear arms and freedom of speech",
+      "Right to vote and freedom of religion",
+      "Right to property and free trade"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Individual Rights",
+    "outlineSection": "Freedom of Religion",
+    "question": "What is freedom of religion?",
+    "options": [
+      "You must practice Christianity",
+      "You can practice any religion, or not practice a religion",
+      "Religion is separate from government",
+      "Only certain religions are allowed"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Economic System",
+    "outlineSection": "Economic System in the U.S.",
+    "question": "What is the economic system in the United States?",
+    "options": [
+      "Socialist economy",
+      "Capitalist economy",
+      "Command economy",
+      "Traditional economy"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of Law",
+    "outlineSection": "Rule of Law",
+    "question": "What is the “rule of law”?",
+    "options": [
+      "Only leaders must follow the law",
+      "The government can override laws",
+      "Everyone, including leaders, must follow the law",
+      "Laws apply only to citizens"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "System of Government",
+    "outlineSection": "Branches of Government",
+    "question": "Name one branch or part of the government.",
+    "options": [
+      "Congress",
+      "Federal Reserve",
+      "Supreme Court",
+      "Executive"
+    ],
+    "correctAnswer": [0, 2, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Preventing Abuse of Power",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "Federalism",
+      "Checks and balances",
+      "The Senate",
+      "The electoral college"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Roles of the Executive",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Chief Justice",
+      "The Speaker of the House",
+      "The Vice President",
+      "The President"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Powers",
+    "outlineSection": "Making Laws",
+    "question": "Who makes federal laws?",
+    "options": [
+      "Congress",
+      "The Supreme Court",
+      "The President",
+      "State governments"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Structure of Congress",
+    "outlineSection": "Parts of Congress",
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "Senate and House of Representatives",
+      "House of Commons and House of Lords",
+      "Executive and Legislative",
+      "Judiciary and Legislative"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Representation in Senate",
+    "outlineSection": "Senate Membership",
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "50",
+      "100",
+      "435",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Terms",
+    "outlineSection": "Length of Senate Term",
+    "question": "We elect a U.S. Senator for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Representation",
+    "outlineSection": "House of Representatives",
+    "question": "The House of Representatives has how many voting members?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "435"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Terms",
+    "outlineSection": "Length of Representative Term",
+    "question": "We elect a U.S. Representative for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Representation",
+    "outlineSection": "Who a Senator Represents",
+    "question": "Who does a U.S. Senator represent?",
+    "options": [
+      "All people of the state",
+      "Only registered voters",
+      "Only the state government",
+      "Only people who voted for them"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Representation",
+    "outlineSection": "House Representation",
+    "question": "Why do some states have more Representatives than other states?",
+    "options": [
+      "Because of the state’s location",
+      "Because of the state’s population",
+      "Because of the state's historical significance",
+      "Because of state wealth"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Presidential Terms",
+    "question": "We elect a President for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Elections",
+    "outlineSection": "Presidential Elections",
+    "question": "In what month do we vote for President?",
+    "options": [
+      "January",
+      "June",
+      "September",
+      "November"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Presidential Succession",
+    "question": "If the President can no longer serve, who becomes President?",
+    "options": [
+      "The Secretary of State",
+      "The Vice President",
+      "The Speaker of the House",
+      "The Chief Justice"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Succession",
+    "outlineSection": "Further Succession",
+    "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "options": [
+      "The Secretary of State",
+      "The Speaker of the House",
+      "The Chief Justice",
+      "The Secretary of Defense"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Military Powers",
+    "outlineSection": "Commander in Chief",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Secretary of Defense",
+      "The President",
+      "The Vice President",
+      "The Joint Chiefs of Staff"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Process",
+    "outlineSection": "Passing Laws",
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The Speaker of the House",
+      "The Chief Justice",
+      "The President",
+      "The Vice President"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Process",
+    "outlineSection": "Veto Power",
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Speaker of the House",
+      "The Chief Justice",
+      "The President",
+      "The Vice President"
+    ],
+    "correctAnswer": [2]
+  },
+{
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "President’s Cabinet",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Makes laws",
+      "Advises the President",
+      "Leads the military",
+      "Oversees elections"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Positions",
+    "outlineSection": "Cabinet-level Roles",
+    "question": "What are two Cabinet-level positions?",
+    "options": [
+      "Secretary of Agriculture and Secretary of Defense",
+      "Governor and Secretary of Health",
+      "Chief Justice and Secretary of Labor",
+      "Attorney General and Vice President"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Role of the Courts",
+    "question": "What does the judicial branch do?",
+    "options": [
+      "Creates laws",
+      "Enforces laws",
+      "Reviews and interprets laws",
+      "Writes executive orders"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Highest Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "District Court",
+      "Court of Appeals",
+      "Supreme Court",
+      "State Supreme Court"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Supreme Court Justices",
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "15"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Chief Justice",
+    "question": "Who is the Chief Justice of the United States now?",
+    "options": [
+      "Answers will vary (current Chief Justice)",
+      "The President",
+      "The Speaker of the House",
+      "The Secretary of State"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Government",
+    "outlineSection": "Powers of the Federal Government",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To issue driver’s licenses",
+      "To print money",
+      "To establish local schools",
+      "To manage public health"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Government",
+    "outlineSection": "Powers of the States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "options": [
+      "To make treaties",
+      "To declare war",
+      "To provide schooling and education",
+      "To coin money"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Government",
+    "outlineSection": "Governor",
+    "question": "Who is the Governor of your state now?",
+    "options": [
+      "Answers will vary (current Governor)",
+      "The Chief Justice",
+      "The President",
+      "The Vice President"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "The Cabinet",
+    "outlineSection": "Advisory Roles",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Writes laws",
+      "Advises the President",
+      "Commands the military",
+      "Manages Congress"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Positions",
+    "outlineSection": "Roles in the Cabinet",
+    "question": "What are two Cabinet-level positions?",
+    "options": [
+      "Secretary of Agriculture and Secretary of Commerce",
+      "Governor and Mayor",
+      "Chief Justice and Secretary of the Interior",
+      "Secretary of Technology and Secretary of Defense"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Role of the Judicial Branch",
+    "question": "What does the judicial branch do?",
+    "options": [
+      "Makes laws",
+      "Interprets laws and resolves disputes",
+      "Enforces laws",
+      "Manages foreign relations"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Highest Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "Court of Appeals",
+      "Supreme Court",
+      "District Court",
+      "Family Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Supreme Court Justices",
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court Leadership",
+    "outlineSection": "Chief Justice",
+    "question": "Who is the Chief Justice of the United States now?",
+    "options": [
+      "John Roberts",
+      "Clarence Thomas",
+      "Sonia Sotomayor",
+      "Elena Kagan"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Powers",
+    "outlineSection": "Powers of Federal Government",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To print money",
+      "To set up schools",
+      "To issue driver’s licenses",
+      "To conduct elections"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Powers",
+    "outlineSection": "Powers Reserved to States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "options": [
+      "To declare war",
+      "To provide schooling and education",
+      "To print money",
+      "To create an army"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Government",
+    "outlineSection": "Role of the Governor",
+    "question": "Who is the Governor of your state now?",
+    "options": [
+      "Answers will vary",
+      "The President",
+      "The Secretary of State",
+      "The Mayor"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Geography",
+    "outlineSection": "Capital of Your State",
+    "question": "What is the capital of your state?",
+    "options": [
+      "Answers will vary",
+      "Washington, D.C.",
+      "New York City",
+      "Los Angeles"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Political Parties",
+    "outlineSection": "Major Political Parties",
+    "question": "What are the two major political parties in the United States?",
+    "options": [
+      "Democratic and Republican",
+      "Liberal and Conservative",
+      "Green and Libertarian",
+      "Federalist and Whig"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Current Politics",
+    "outlineSection": "Political Party of the President",
+    "question": "What is the political party of the President now?",
+    "options": [
+      "Democratic",
+      "Republican",
+      "Independent",
+      "Libertarian"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Leadership",
+    "outlineSection": "Speaker of the House",
+    "question": "What is the name of the Speaker of the House of Representatives now?",
+    "options": [
+      "Kevin McCarthy",
+      "Nancy Pelosi",
+      "Hakeem Jeffries",
+      "Paul Ryan"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Rights",
+    "outlineSection": "Constitutional Amendments on Voting",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Citizens 18 and older can vote",
+      "Only male citizens can vote",
+      "Voting is restricted to property owners",
+      "There are no voting age requirements"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Responsibilities",
+    "outlineSection": "Responsibilities of Citizenship",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Serving on a jury",
+      "Paying taxes",
+      "Obeying laws",
+      "Attending school"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Rights",
+    "outlineSection": "Rights of U.S. Citizens",
+    "question": "Name one right only for United States citizens.",
+    "options": [
+      "Freedom of speech",
+      "Freedom of religion",
+      "The right to vote in federal elections",
+      "Freedom of assembly"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights for All",
+    "outlineSection": "Rights of Everyone in the U.S.",
+    "question": "What are two rights of everyone living in the United States?",
+    "options": [
+      "Freedom of expression and freedom of speech",
+      "Right to vote and right to bear arms",
+      "Right to a driver's license and freedom of religion",
+      "Right to education and freedom to petition the government"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "National Symbols",
+    "outlineSection": "Pledge of Allegiance",
+    "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "options": [
+      "The President",
+      "The United States and the flag",
+      "The Supreme Court",
+      "The military"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Oath of Allegiance",
+    "outlineSection": "Responsibilities of New Citizens",
+    "question": "What is one promise you make when you become a United States citizen?",
+    "options": [
+      "Give up loyalty to other countries",
+      "Obey only state laws",
+      "Vote in every election",
+      "Learn all foreign languages"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Age",
+    "outlineSection": "Minimum Age to Vote",
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "16 and older",
+      "18 and older",
+      "21 and older",
+      "25 and older"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Democratic Participation",
+    "outlineSection": "Ways to Participate",
+    "question": "What are two ways that Americans can participate in their democracy?",
+    "options": [
+      "Vote and join a political party",
+      "Ignore politics and stay uninformed",
+      "Break laws to protest",
+      "Avoid all government contact"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Tax Requirements",
+    "outlineSection": "Income Tax",
+    "question": "When is the last day you can send in federal income tax forms?",
+    "options": [
+      "January 1",
+      "April 15",
+      "July 4",
+      "December 31"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Selective Service",
+    "outlineSection": "Military Requirements",
+    "question": "When must all men register for the Selective Service?",
+    "options": [
+      "At age 16",
+      "At age 18",
+      "At age 21",
+      "At age 25"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial America",
+    "outlineSection": "Reasons for Colonization",
+    "question": "What is one reason colonists came to America?",
+    "options": [
+      "To escape war with Canada",
+      "For religious freedom",
+      "To establish communist societies",
+      "To find free education"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Native American History",
+    "outlineSection": "Pre-Colonial America",
+    "question": "Who lived in America before the Europeans arrived?",
+    "options": [
+      "American Indians",
+      "Pilgrims",
+      "Africans",
+      "Spanish settlers"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial America",
+    "outlineSection": "Slavery",
+    "question": "What group of people was taken to America and sold as slaves?",
+    "options": [
+      "Native Americans",
+      "Africans",
+      "Asians",
+      "Canadians"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Revolutionary War",
+    "outlineSection": "Causes of the Revolution",
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "Because of high taxes (taxation without representation)",
+      "To form a monarchy",
+      "To remain British citizens",
+      "To create a European alliance"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Founding Documents",
+    "question": "Who wrote the Declaration of Independence?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams",
+      "Benjamin Franklin"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Adoption of the Declaration",
+    "question": "When was the Declaration of Independence adopted?",
+    "options": [
+      "July 4, 1776",
+      "September 17, 1787",
+      "December 15, 1791",
+      "April 19, 1775"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Original States",
+    "outlineSection": "The 13 Colonies",
+    "question": "There were 13 original states. Name three.",
+    "options": [
+      "New Hampshire, Massachusetts, Rhode Island",
+      "Florida, Texas, California",
+      "Kentucky, Tennessee, Ohio",
+      "Alabama, Mississippi, Louisiana"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Constitutional History",
+    "outlineSection": "The Constitution",
+    "question": "What happened at the Constitutional Convention?",
+    "options": [
+      "The Constitution was written",
+      "The Bill of Rights was added",
+      "The Revolutionary War ended",
+      "The Declaration of Independence was signed"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Constitutional History",
+    "outlineSection": "Founding Documents",
+    "question": "When was the Constitution written?",
+    "options": [
+      "1776",
+      "1787",
+      "1812",
+      "1865"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Federalist Papers",
+    "outlineSection": "Supporting the Constitution",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "George Washington",
+      "James Madison",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Historical Figures",
+    "outlineSection": "Founding Fathers",
+    "question": "Who is the 'Father of Our Country'?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams",
+      "Alexander Hamilton"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Historical Figures",
+    "outlineSection": "First Presidents",
+    "question": "Who was the first President?",
+    "options": [
+      "Thomas Jefferson",
+      "Benjamin Franklin",
+      "George Washington",
+      "John Adams"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "1800s History",
+    "outlineSection": "Territorial Expansion",
+    "question": "What territory did the United States buy from France in 1803?",
+    "options": [
+      "Alaska",
+      "Hawaii",
+      "Louisiana Territory",
+      "Florida"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "The Civil War",
+    "outlineSection": "Key Events",
+    "question": "Name the U.S. war between the North and the South.",
+    "options": [
+      "The Revolutionary War",
+      "The Civil War",
+      "The War of 1812",
+      "The Spanish-American War"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "The Civil War",
+    "outlineSection": "Civil War Causes",
+    "question": "Name one problem that led to the Civil War.",
+    "options": [
+      "Immigration",
+      "Slavery",
+      "Expansion to the West",
+      "Political parties"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "20th Century Leaders",
+    "question": "What did Martin Luther King, Jr. do?",
+    "options": [
+      "Became the first Black President",
+      "Led the Civil Rights Movement",
+      "Signed the Emancipation Proclamation",
+      "Wrote the Declaration of Independence"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "U.S. Borders",
+    "question": "Name one U.S. state that borders Canada.",
+    "options": [
+      "Texas",
+      "Alaska",
+      "California",
+      "Florida"
+    ],
+    "correctAnswer": [1]
+  },
+{
+    "header": "American History",
+    "subject": "The Emancipation Proclamation",
+    "outlineSection": "Civil War Era",
+    "question": "What did the Emancipation Proclamation do?",
+    "options": [
+      "Declared independence from Great Britain",
+      "Freed slaves in the Confederacy",
+      "Established the Constitution",
+      "Ended the Civil War"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Historical Figures",
+    "outlineSection": "20th Century Presidents",
+    "question": "Who was President during the Great Depression and World War II?",
+    "options": [
+      "Woodrow Wilson",
+      "Franklin D. Roosevelt",
+      "Harry Truman",
+      "Dwight D. Eisenhower"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Allies and Enemies",
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "Germany, Italy, and Japan",
+      "Russia, China, and Japan",
+      "England, France, and Germany",
+      "Mexico, Canada, and Cuba"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Cold War",
+    "outlineSection": "Ideological Conflicts",
+    "question": "During the Cold War, what was the main concern of the United States?",
+    "options": [
+      "Communism",
+      "Colonialism",
+      "Global Warming",
+      "Civil Rights"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "Social Movements",
+    "question": "What movement tried to end racial discrimination?",
+    "options": [
+      "The Abolitionist Movement",
+      "The Civil Rights Movement",
+      "The Suffrage Movement",
+      "The Populist Movement"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Geography",
+    "outlineSection": "Rivers",
+    "question": "Name one of the two longest rivers in the United States.",
+    "options": [
+      "Missouri River",
+      "Colorado River",
+      "Hudson River",
+      "Ohio River"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the West Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the East Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Southern Ocean"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Territories",
+    "outlineSection": "U.S. Territories",
+    "question": "Name one U.S. territory.",
+    "options": [
+      "Puerto Rico",
+      "Cuba",
+      "Hawaii",
+      "Canada"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Symbols",
+    "outlineSection": "National Symbols",
+    "question": "What is the capital of the United States?",
+    "options": [
+      "New York City",
+      "Washington, D.C.",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "correctAnswer": [1]
+  },
+{
+    "header": "American History",
+    "subject": "Constitutional Principles",
+    "outlineSection": "The Constitution",
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Articles of Confederation",
+      "The Bill of Rights"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Separation of Powers",
+    "outlineSection": "The Three Branches",
+    "question": "Name one branch or part of the government.",
+    "options": [
+      "Congress",
+      "President",
+      "The Courts",
+      "Senate"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Structure of Congress",
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "House of Representatives and Senate",
+      "Supreme Court and Senate",
+      "Executive and Judicial",
+      "Legislative and Judicial"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Balancing Power",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "Checks and balances",
+      "Federalism",
+      "The electoral college",
+      "The Constitution"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Federalist Papers",
+    "outlineSection": "Supporting the Constitution",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "Alexander Hamilton",
+      "Thomas Jefferson",
+      "George Washington",
+      "James Madison"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American History",
+    "subject": "Historical Figures",
+    "outlineSection": "Founding Fathers",
+    "question": "Who is the 'Father of Our Country'?",
+    "options": [
+      "George Washington",
+      "Benjamin Franklin",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Rights",
+    "outlineSection": "Constitutional Amendments",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Citizens eighteen (18) and older can vote",
+      "Only male citizens can vote",
+      "Only citizens who own property can vote",
+      "Only citizens in certain states can vote"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Powers",
+    "outlineSection": "Commander in Chief",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Chief Justice",
+      "The President",
+      "The Speaker of the House",
+      "The Secretary of Defense"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "Social Movements",
+    "question": "What movement tried to end racial discrimination?",
+    "options": [
+      "The Abolitionist Movement",
+      "The Civil Rights Movement",
+      "The Suffrage Movement",
+      "The Progressive Movement"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Symbols",
+    "outlineSection": "National Anthem",
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "The Star-Spangled Banner",
+      "God Bless America",
+      "My Country, 'Tis of Thee"
+    ],
+    "correctAnswer": [1]
+  },
+{
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Key Figures",
+    "question": "What was one important thing that Abraham Lincoln did?",
+    "options": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Wrote the Declaration of Independence",
+      "Led the Confederacy",
+      "Established the Bill of Rights"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Emancipation Proclamation",
+    "question": "What did the Emancipation Proclamation do?",
+    "options": [
+      "Ended the Civil War",
+      "Freed slaves in the Confederate states",
+      "Gave women the right to vote",
+      "Abolished the Supreme Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Women's Rights",
+    "outlineSection": "Historical Figures",
+    "question": "What did Susan B. Anthony do?",
+    "options": [
+      "Fought for women’s rights",
+      "Was the first female Senator",
+      "Wrote the Constitution",
+      "Signed the Declaration of Independence"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "20th Century Conflicts",
+    "outlineSection": "World Wars",
+    "question": "Name one war fought by the United States in the 1900s.",
+    "options": [
+      "The Mexican-American War",
+      "World War I",
+      "The Civil War",
+      "The French and Indian War"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "World War I",
+    "outlineSection": "Presidential Leadership",
+    "question": "Who was President during World War I?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "Theodore Roosevelt",
+      "Woodrow Wilson",
+      "Harry Truman"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Historical Conflicts",
+    "question": "Who was President during the Great Depression and World War II?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "Herbert Hoover",
+      "Harry Truman",
+      "Dwight D. Eisenhower"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Allied and Axis Powers",
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "Japan, Germany, and Italy",
+      "France, Spain, and Japan",
+      "Russia, China, and Germany",
+      "England, France, and Germany"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Cold War",
+    "outlineSection": "Ideological Conflicts",
+    "question": "During the Cold War, what was the main concern of the United States?",
+    "options": [
+      "Communism",
+      "Environmentalism",
+      "Free trade",
+      "Civil rights"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "September 11, 2001",
+    "outlineSection": "Terrorism",
+    "question": "What major event happened on September 11, 2001, in the United States?",
+    "options": [
+      "The start of the Iraq War",
+      "A stock market crash",
+      "Terrorists attacked the United States",
+      "The signing of the Patriot Act"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Native American Tribes",
+    "outlineSection": "Indigenous Peoples",
+    "question": "Name one American Indian tribe in the United States.",
+    "options": [
+      "Cherokee",
+      "Zulu",
+      "Maori",
+      "Inca"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Rivers",
+    "question": "Name one of the two longest rivers in the United States.",
+    "options": [
+      "Mississippi River",
+      "Colorado River",
+      "Hudson River",
+      "Potomac River"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the West Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the East Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Southern Ocean"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Territories",
+    "outlineSection": "U.S. Territories",
+    "question": "Name one U.S. territory.",
+    "options": [
+      "Puerto Rico",
+      "Greenland",
+      "Haiti",
+      "Honduras"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Borders",
+    "outlineSection": "Border States",
+    "question": "Name one state that borders Canada.",
+    "options": [
+      "California",
+      "Michigan",
+      "Ohio",
+      "Georgia"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Borders",
+    "outlineSection": "Border States",
+    "question": "Name one state that borders Mexico.",
+    "options": [
+      "Texas",
+      "Nevada",
+      "Oklahoma",
+      "Missouri"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "National Capital",
+    "outlineSection": "Geography",
+    "question": "What is the capital of the United States?",
+    "options": [
+      "New York City",
+      "Washington, D.C.",
+      "Los Angeles",
+      "Boston"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "National Symbols",
+    "outlineSection": "Statue of Liberty",
+    "question": "Where is the Statue of Liberty?",
+    "options": [
+      "New Jersey",
+      "New York Harbor",
+      "Boston Harbor",
+      "Washington, D.C."
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Flag",
+    "outlineSection": "Flag Symbolism",
+    "question": "Why does the flag have 13 stripes?",
+    "options": [
+      "For the 13 original colonies",
+      "For the 13 founding fathers",
+      "For the 13 amendments",
+      "For the 13 states in the Union"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Flag",
+    "outlineSection": "Flag Symbolism",
+    "question": "Why does the flag have 50 stars?",
+    "options": [
+      "For the 50 colonies",
+      "For the 50 states",
+      "For the 50 amendments",
+      "For the 50 capitals"
+    ],
+    "correctAnswer": [1]
+  },
+{
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Structure of Congress",
+    "question": "How many voting members are in the House of Representatives?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "435"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Presidential Terms",
+    "question": "For how many years is a U.S. President elected?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Role of the Supreme Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "Federal Court",
+      "Supreme Court",
+      "District Court",
+      "State Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights and Freedoms",
+    "outlineSection": "Bill of Rights",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Declaration of Independence",
+      "The Federalist Papers",
+      "The Bill of Rights",
+      "The Articles of Confederation"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Independence",
+    "outlineSection": "Declaration of Independence",
+    "question": "Who wrote the Declaration of Independence?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Benjamin Franklin",
+      "Alexander Hamilton"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "The Revolutionary War",
+    "outlineSection": "Causes of Independence",
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "For religious freedom",
+      "To avoid taxes",
+      "For self-government and freedom from British control",
+      "For land expansion"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial America",
+    "outlineSection": "Colonial Life",
+    "question": "What group of people was taken to America and sold as slaves?",
+    "options": [
+      "Native Americans",
+      "Africans",
+      "Chinese",
+      "Europeans"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Separation of Powers",
+    "outlineSection": "Checks and Balances",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The Bill of Rights",
+      "Checks and balances",
+      "The President",
+      "Federalism"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Powers",
+    "outlineSection": "Making Laws",
+    "question": "Who makes federal laws?",
+    "options": [
+      "The Senate only",
+      "The House of Representatives only",
+      "Congress",
+      "The President"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Role of the President",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Speaker of the House",
+      "The President",
+      "The Supreme Court",
+      "The Senate"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Veto Power",
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Vice President",
+      "The President",
+      "The Supreme Court",
+      "The Senate"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Structure of Congress",
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "Senate and House of Representatives",
+      "The White House and Supreme Court",
+      "Executive and Legislative",
+      "Senate and Supreme Court"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Roles",
+    "outlineSection": "Advisory Roles",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Manages Congress",
+      "Commands the military",
+      "Advises the President",
+      "Creates laws"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Military Command",
+    "outlineSection": "Commander in Chief",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Vice President",
+      "The Speaker of the House",
+      "The Secretary of Defense",
+      "The President"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Number of Justices",
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "correctAnswer": [2]
+  },
+{
+    "header": "American Government",
+    "subject": "Founding Documents",
+    "outlineSection": "Constitutional Purpose",
+    "question": "What does the Constitution do?",
+    "options": [
+      "Creates state laws",
+      "Defines the powers of each state",
+      "Sets up the government and protects basic rights of Americans",
+      "Establishes foreign policy"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Founding Documents",
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Freed slaves in the United States",
+      "Announced and declared independence from Great Britain",
+      "Declared a national holiday",
+      "Created the Bill of Rights"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Laws",
+    "outlineSection": "Legislative Process",
+    "question": "Who makes federal laws?",
+    "options": [
+      "The Supreme Court",
+      "State Governors",
+      "The President alone",
+      "Congress"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate",
+    "outlineSection": "Representation",
+    "question": "Who does a U.S. Senator represent?",
+    "options": [
+      "The President's interests",
+      "Only people who voted for them",
+      "All people of their state",
+      "Their political party"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Presidential Role",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Vice President",
+      "The Chief Justice",
+      "The Speaker of the House",
+      "The President"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Causes of the Civil War",
+    "question": "Name one problem that led to the Civil War.",
+    "options": [
+      "Disputes over immigration",
+      "The need for education reform",
+      "Slavery",
+      "Trade restrictions with Canada"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Government Structure",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The Bill of Rights",
+      "Checks and balances",
+      "Term limits",
+      "Voting restrictions"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Fathers",
+    "outlineSection": "Early American Leaders",
+    "question": "Who is the 'Father of Our Country'?",
+    "options": [
+      "Abraham Lincoln",
+      "John Adams",
+      "George Washington",
+      "Benjamin Franklin"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Fathers",
+    "outlineSection": "Presidential History",
+    "question": "Who was the first President?",
+    "options": [
+      "Thomas Jefferson",
+      "Benjamin Franklin",
+      "George Washington",
+      "John Adams"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Rights",
+    "outlineSection": "Constitutional Amendments",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Citizens 18 and older can vote",
+      "Voting is restricted to landowners",
+      "Only male citizens can vote",
+      "Only citizens with a college degree can vote"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Responsibilities",
+    "outlineSection": "Jury Duty",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Paying taxes",
+      "Serving on a jury",
+      "Obeying traffic laws",
+      "Serving in the military"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Supreme Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "Court of Appeals",
+      "District Court",
+      "Federal Court",
+      "Supreme Court"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American History",
+    "subject": "The Great Depression",
+    "outlineSection": "Presidential Leadership",
+    "question": "Who was President during the Great Depression and World War II?",
+    "options": [
+      "Herbert Hoover",
+      "Franklin D. Roosevelt",
+      "Woodrow Wilson",
+      "Dwight D. Eisenhower"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Bill of Rights",
+    "outlineSection": "Individual Rights",
+    "question": "What are two rights in the Declaration of Independence?",
+    "options": [
+      "Life and liberty",
+      "The right to bear arms and freedom of religion",
+      "Right to a fair trial and right to privacy",
+      "Equal protection and due process"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "First Amendment",
+    "outlineSection": "Freedom of Speech",
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "Freedom of speech",
+      "Right to privacy",
+      "Right to equal pay",
+      "Right to a public defender"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "Key Figures",
+    "question": "What did Martin Luther King, Jr. do?",
+    "options": [
+      "Founded the Red Cross",
+      "Invented the light bulb",
+      "Led the Civil Rights Movement",
+      "Signed the Declaration of Independence"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Revolutionary War",
+    "outlineSection": "Colonial America",
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "To expand to the West",
+      "To gain control of Canada",
+      "Because of high taxes and lack of representation",
+      "To unify with other British colonies"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "20th Century Conflicts",
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "Germany, Japan, and Italy",
+      "Russia, China, and Japan",
+      "Canada, Mexico, and Brazil",
+      "France, Britain, and Spain"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rule of Law",
+    "outlineSection": "Legal System",
+    "question": "What is the “rule of law”?",
+    "options": [
+      "Only government officials must follow the law",
+      "Laws are recommendations, not requirements",
+      "Everyone, including leaders, must follow the law",
+      "Laws change every year"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Federalist Papers",
+    "outlineSection": "Supporting the Constitution",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "James Madison",
+      "Thomas Jefferson",
+      "George Washington",
+      "John Hancock"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Founding Documents",
+    "outlineSection": "Purpose of the Constitution",
+    "question": "What does the Constitution do?",
+    "options": [
+      "Creates the Army",
+      "Defines individual states’ powers",
+      "Sets up and defines the government, protects basic rights of Americans",
+      "Establishes foreign policy"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Principles of American Democracy",
+    "outlineSection": "Self-Government",
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "One Nation United",
+      "We the People",
+      "Freedom for All",
+      "Liberty and Justice"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Powers",
+    "outlineSection": "Law-Making",
+    "question": "Who makes federal laws?",
+    "options": [
+      "The President",
+      "The Supreme Court",
+      "The Senate alone",
+      "Congress"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Representation",
+    "outlineSection": "Role of Senators",
+    "question": "Who does a U.S. Senator represent?",
+    "options": [
+      "Only people who vote",
+      "The military",
+      "All people of the state",
+      "People who pay taxes"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Term",
+    "outlineSection": "Length of Term",
+    "question": "We elect a U.S. Senator for how many years?",
+    "options": [
+      "4 years",
+      "6 years",
+      "8 years",
+      "10 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Executive Powers",
+    "outlineSection": "Role of the President",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Senate",
+      "The Chief Justice",
+      "The Speaker of the House",
+      "The President"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Rights",
+    "outlineSection": "Constitutional Amendments",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Only men can vote",
+      "Only property owners can vote",
+      "Citizens 18 and older can vote",
+      "Only people with jobs can vote"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Responsibilities",
+    "outlineSection": "Duties of Citizenship",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Paying taxes",
+      "Serving in the military",
+      "Serving on a jury",
+      "Following traffic laws"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting",
+    "outlineSection": "Age Requirement",
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Amendments",
+    "outlineSection": "First Amendment",
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "Right to bear arms",
+      "Freedom of speech",
+      "Freedom from taxation",
+      "Right to privacy"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Causes",
+    "question": "What was one problem that led to the Civil War?",
+    "options": [
+      "Religious differences",
+      "Slavery",
+      "Trade with Canada",
+      "Immigration"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Preventing Concentration of Power",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The President",
+      "Checks and balances",
+      "Term limits",
+      "International treaties"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Alliances",
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "Germany, Japan, and Italy",
+      "China, Russia, and Japan",
+      "England, Spain, and Italy",
+      "France, Japan, and India"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federalism",
+    "outlineSection": "Federal Powers",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To establish schools",
+      "To declare war",
+      "To issue driver's licenses",
+      "To set local taxes"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Founding Documents",
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Created the Constitution",
+      "Declared independence from Britain",
+      "Established the Bill of Rights",
+      "Abolished slavery"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Fathers",
+    "outlineSection": "Early Presidents",
+    "question": "Who was the first President?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington",
+      "Alexander Hamilton"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet",
+    "outlineSection": "Executive Branch",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Writes laws",
+      "Commands the military",
+      "Advises the President",
+      "Runs elections"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rule of Law",
+    "outlineSection": "Legal Principles",
+    "question": "What is the 'rule of law'?",
+    "options": [
+      "Only the President must follow the law",
+      "All laws apply to everyone equally",
+      "Citizens can choose which laws to follow",
+      "Laws are not enforced"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Law-Making Process",
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The Speaker of the House",
+      "The Supreme Court",
+      "The President",
+      "Congress"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Veto Power",
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Senate",
+      "The Supreme Court",
+      "The President",
+      "The Attorney General"
+    ],
+    "correctAnswer": [2]
+  },
+{
+    "header": "American Government",
+    "subject": "Principles of Democracy",
+    "outlineSection": "Purpose of the Constitution",
+    "question": "What does the Constitution do?",
+    "options": [
+      "Declares independence",
+      "Establishes taxes",
+      "Sets up the government and protects basic rights",
+      "Forms alliances"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Amendments",
+    "outlineSection": "Purpose of Amendments",
+    "question": "What is an amendment?",
+    "options": [
+      "A new section in the Declaration",
+      "A change or addition to the Constitution",
+      "A replacement of the Bill of Rights",
+      "A type of court decision"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights and Freedoms",
+    "outlineSection": "Bill of Rights",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Articles of Freedom",
+      "The Declaration of Rights",
+      "The Bill of Rights",
+      "The Constitution Acts"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "First Amendment",
+    "outlineSection": "Freedom of Expression",
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "Freedom from taxes",
+      "Right to privacy",
+      "Freedom of speech",
+      "Right to property"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Number of Amendments",
+    "outlineSection": "Total Amendments",
+    "question": "How many amendments does the Constitution have?",
+    "options": [
+      "12",
+      "27",
+      "33",
+      "40"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Historical Documents",
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Freed the slaves",
+      "Announced independence from Britain",
+      "Established Congress",
+      "Created the Bill of Rights"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Unalienable Rights",
+    "question": "What are two rights in the Declaration of Independence?",
+    "options": [
+      "Liberty and property",
+      "Freedom and equality",
+      "Life and liberty",
+      "Happiness and security"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights and Freedoms",
+    "outlineSection": "Freedom of Religion",
+    "question": "What is freedom of religion?",
+    "options": [
+      "All citizens must follow the same religion",
+      "You can practice any religion, or not practice a religion",
+      "Only official religions are allowed",
+      "Religion is restricted to private settings"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Economic System",
+    "outlineSection": "American Economy",
+    "question": "What is the economic system in the United States?",
+    "options": [
+      "Communist economy",
+      "Traditional economy",
+      "Capitalist economy",
+      "Socialist economy"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rule of Law",
+    "outlineSection": "Legal Principles",
+    "question": "What is the 'rule of law'?",
+    "options": [
+      "Only officials follow the law",
+      "Laws can be ignored if inconvenient",
+      "Everyone, including leaders, must follow the law",
+      "The law changes yearly"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Branches of Government",
+    "outlineSection": "System of Government",
+    "question": "Name one branch or part of the government.",
+    "options": [
+      "The Federal Reserve",
+      "The Supreme Congress",
+      "The Legislature",
+      "The Navy"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Power Limitations",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The President’s veto",
+      "State intervention",
+      "Checks and balances",
+      "Local law enforcement"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Structure of Congress",
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "The Senate and the House of Representatives",
+      "The Executive and the Judicial",
+      "The House of Commons and the House of Lords",
+      "The Cabinet and the House"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Representation",
+    "outlineSection": "Senate Membership",
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "50",
+      "100",
+      "435",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Terms",
+    "outlineSection": "Senator Terms",
+    "question": "We elect a U.S. Senator for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Representation",
+    "outlineSection": "House Membership",
+    "question": "The House of Representatives has how many voting members?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "435"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Representation",
+    "outlineSection": "Term Length",
+    "question": "We elect a U.S. Representative for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Elections",
+    "outlineSection": "Term Length",
+    "question": "We elect a President for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Representation",
+    "outlineSection": "Constituency",
+    "question": "Who does a U.S. Senator represent?",
+    "options": [
+      "Only those who voted for them",
+      "Only the state government",
+      "All people of their state",
+      "Only registered voters"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Representation",
+    "outlineSection": "Why Representation Differs",
+    "question": "Why do some states have more Representatives than other states?",
+    "options": [
+      "Due to population size",
+      "Based on state age",
+      "Because of state area",
+      "Based on state wealth"
+    ],
+    "correctAnswer": [0]
+  },
+{
+    "header": "American Government",
+    "subject": "Executive Branch",
+    "outlineSection": "Presidential Role",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Speaker of the House",
+      "The President",
+      "The Chief Justice",
+      "The Senate Majority Leader"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Elections",
+    "outlineSection": "Election Month",
+    "question": "In what month do we vote for President?",
+    "options": [
+      "January",
+      "March",
+      "June",
+      "November"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Succession",
+    "outlineSection": "Vice Presidential Role",
+    "question": "If the President can no longer serve, who becomes President?",
+    "options": [
+      "The Speaker of the House",
+      "The Secretary of State",
+      "The Vice President",
+      "The Chief Justice"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Order of Succession",
+    "outlineSection": "Further Succession",
+    "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "options": [
+      "The Secretary of Defense",
+      "The Speaker of the House",
+      "The Secretary of State",
+      "The Attorney General"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Commander in Chief",
+    "outlineSection": "Military Leadership",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Vice President",
+      "The President",
+      "The Secretary of Defense",
+      "The Chairman of the Joint Chiefs of Staff"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Law-Making Process",
+    "outlineSection": "Signing Bills",
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The Speaker of the House",
+      "The President",
+      "The Chief Justice",
+      "The Vice President"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Veto Power",
+    "outlineSection": "Blocking Laws",
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Vice President",
+      "The President",
+      "The Speaker of the House",
+      "The Secretary of State"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet",
+    "outlineSection": "Presidential Advisors",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Runs federal elections",
+      "Commands the military",
+      "Advises the President",
+      "Enacts state laws"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Positions",
+    "outlineSection": "Cabinet-Level Roles",
+    "question": "What are two Cabinet-level positions?",
+    "options": [
+      "Governor and Mayor",
+      "Chief Justice and Secretary of Labor",
+      "Secretary of Defense and Secretary of Education",
+      "Federal Reserve Chair and Speaker of the House"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Supreme Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "District Court",
+      "Supreme Court",
+      "Federal Court of Appeals",
+      "Constitutional Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Number of Justices",
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Powers",
+    "outlineSection": "Government Powers",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To set up schools",
+      "To print money",
+      "To issue marriage licenses",
+      "To regulate private businesses"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Powers",
+    "outlineSection": "Reserved Powers",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "options": [
+      "To declare war",
+      "To coin money",
+      "To provide schooling and education",
+      "To regulate interstate trade"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Government",
+    "outlineSection": "State Leadership",
+    "question": "Who is the Governor of your state now?",
+    "options": [
+      "Answers will vary",
+      "The President",
+      "The Chief Justice",
+      "The Attorney General"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Capitals",
+    "outlineSection": "State Geography",
+    "question": "What is the capital of your state?",
+    "options": [
+      "Answers will vary",
+      "New York",
+      "Washington, D.C.",
+      "Los Angeles"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Political Parties",
+    "outlineSection": "Major Parties",
+    "question": "What are the two major political parties in the United States?",
+    "options": [
+      "Green and Libertarian",
+      "Democratic and Republican",
+      "Federalist and Whig",
+      "Progressive and Conservative"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Party",
+    "outlineSection": "Current Politics",
+    "question": "What is the political party of the President now?",
+    "options": [
+      "Republican",
+      "Democratic",
+      "Green",
+      "Independent"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Speaker of the House",
+    "outlineSection": "House Leadership",
+    "question": "What is the name of the Speaker of the House of Representatives now?",
+    "options": [
+      "Nancy Pelosi",
+      "John Boehner",
+      "Kevin McCarthy",
+      "Paul Ryan"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Requirements",
+    "outlineSection": "Constitutional Amendments",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Only citizens who own property can vote",
+      "Citizens 18 and older can vote",
+      "Only citizens with a job can vote",
+      "Only men can vote"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Responsibilities of Citizenship",
+    "outlineSection": "Jury Duty",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Serving on a jury",
+      "Paying taxes",
+      "Enlisting in the military",
+      "Obeying laws"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Rights",
+    "outlineSection": "Voting",
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "First Amendment Rights",
+    "outlineSection": "Rights for All",
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "Freedom to work",
+      "Right to privacy",
+      "Freedom of speech",
+      "Freedom from taxes"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Responsibilities of Citizenship",
+    "outlineSection": "Jury Service",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Paying taxes",
+      "Serving on a jury",
+      "Obeying the law",
+      "Voting in local elections"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "Key Figures",
+    "question": "What did Martin Luther King, Jr. do?",
+    "options": [
+      "Led the fight for women's rights",
+      "Advocated for the Civil Rights Movement",
+      "Established the U.S. Constitution",
+      "Wrote the Federalist Papers"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "National Anthem",
+    "outlineSection": "Symbols of Freedom",
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "The Star-Spangled Banner",
+      "This Land is Your Land",
+      "God Bless America"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Revolutionary War",
+    "outlineSection": "Independence",
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "To expand U.S. territory",
+      "To gain religious freedom",
+      "Due to high taxes and lack of representation",
+      "To abolish slavery"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Significance",
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Ended the Civil War",
+      "Announced and declared independence from Britain",
+      "Created the first state constitutions",
+      "Formed a national bank"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Causes",
+    "question": "What was one problem that led to the Civil War?",
+    "options": [
+      "Immigration policy",
+      "Education reform",
+      "Slavery",
+      "Voting rights"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Amendments",
+    "outlineSection": "Voting Rights",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Citizens 18 and older can vote",
+      "Only men can vote",
+      "Only property owners can vote",
+      "Only citizens with a job can vote"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Constitutional History",
+    "outlineSection": "Founding Documents",
+    "question": "What happened at the Constitutional Convention?",
+    "options": [
+      "The Declaration of Independence was signed",
+      "The Constitution was written",
+      "The Bill of Rights was added",
+      "The Revolutionary War ended"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Documents",
+    "outlineSection": "Constitution Drafting",
+    "question": "When was the Constitution written?",
+    "options": [
+      "1776",
+      "1787",
+      "1801",
+      "1812"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Federalist Papers",
+    "outlineSection": "Supporting the Constitution",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "Thomas Jefferson",
+      "James Madison",
+      "George Washington",
+      "John Adams"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Figures",
+    "outlineSection": "Historical Leaders",
+    "question": "Who is the 'Father of Our Country'?",
+    "options": [
+      "Abraham Lincoln",
+      "George Washington",
+      "Benjamin Franklin",
+      "Thomas Jefferson"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "First Presidents",
+    "outlineSection": "Presidential History",
+    "question": "Who was the first President?",
+    "options": [
+      "John Adams",
+      "Thomas Jefferson",
+      "George Washington",
+      "James Madison"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Native Americans",
+    "outlineSection": "Indigenous Tribes",
+    "question": "Name one American Indian tribe in the United States.",
+    "options": [
+      "Cherokee",
+      "Zulu",
+      "Inuit",
+      "Maasai"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Longest Rivers",
+    "question": "Name one of the two longest rivers in the United States.",
+    "options": [
+      "Mississippi River",
+      "Colorado River",
+      "Hudson River",
+      "Ohio River"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the West Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Southern Ocean"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the East Coast of the United States?",
+    "options": [
+      "Arctic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Territories",
+    "outlineSection": "Geographic Regions",
+    "question": "Name one U.S. territory.",
+    "options": [
+      "Puerto Rico",
+      "Greenland",
+      "Jamaica",
+      "Cuba"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Symbols of Freedom",
+    "outlineSection": "Statue of Liberty",
+    "question": "Where is the Statue of Liberty?",
+    "options": [
+      "New York Harbor",
+      "Boston Harbor",
+      "Washington, D.C.",
+      "San Francisco"
+    ],
+    "correctAnswer": [0]
+  },
+{
+    "header": "American History",
+    "subject": "Colonial America",
+    "outlineSection": "Colonist Motives",
+    "question": "What is one reason colonists came to America?",
+    "options": [
+      "To practice their religion freely",
+      "To establish a new monarchy",
+      "To join British Parliament",
+      "To avoid taxes"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Native American History",
+    "outlineSection": "Indigenous Peoples",
+    "question": "Who lived in America before the Europeans arrived?",
+    "options": [
+      "Africans",
+      "Pilgrims",
+      "American Indians",
+      "Spanish settlers"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Slavery",
+    "outlineSection": "Forced Migration",
+    "question": "What group of people was taken to America and sold as slaves?",
+    "options": [
+      "Native Americans",
+      "Africans",
+      "Asians",
+      "Australians"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Revolutionary War",
+    "outlineSection": "Colonial Resistance",
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "Because of high taxes and lack of representation",
+      "To expand westward",
+      "To remove the monarchy",
+      "To prevent British immigration"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Founding Fathers",
+    "outlineSection": "Declaration of Independence",
+    "question": "Who wrote the Declaration of Independence?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "James Madison",
+      "John Adams"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Historical Significance",
+    "question": "When was the Declaration of Independence adopted?",
+    "options": [
+      "July 4, 1776",
+      "September 17, 1787",
+      "December 15, 1791",
+      "April 19, 1775"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "13 Colonies",
+    "outlineSection": "Original States",
+    "question": "There were 13 original states. Name three.",
+    "options": [
+      "New Hampshire, Massachusetts, Rhode Island",
+      "Florida, Texas, California",
+      "Ohio, Indiana, Illinois",
+      "Alabama, Mississippi, Louisiana"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "U.S. Constitution",
+    "outlineSection": "Constitutional Convention",
+    "question": "What happened at the Constitutional Convention?",
+    "options": [
+      "The Constitution was written",
+      "The Revolutionary War ended",
+      "The Declaration of Independence was signed",
+      "The first President was elected"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "U.S. Constitution",
+    "outlineSection": "Founding Documents",
+    "question": "When was the Constitution written?",
+    "options": [
+      "1776",
+      "1787",
+      "1791",
+      "1801"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Federalist Papers",
+    "outlineSection": "Supporting Ratification",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "Alexander Hamilton",
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Presidents",
+    "outlineSection": "Early Leadership",
+    "question": "Who is the 'Father of Our Country'?",
+    "options": [
+      "George Washington",
+      "Benjamin Franklin",
+      "Thomas Jefferson",
+      "James Madison"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "U.S. Presidents",
+    "outlineSection": "First President",
+    "question": "Who was the first President?",
+    "options": [
+      "John Adams",
+      "George Washington",
+      "Thomas Jefferson",
+      "Alexander Hamilton"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "20th Century Conflicts",
+    "outlineSection": "World War I",
+    "question": "Who was President during World War I?",
+    "options": [
+      "Woodrow Wilson",
+      "Franklin D. Roosevelt",
+      "Theodore Roosevelt",
+      "Warren G. Harding"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Axis Powers",
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "Japan, Germany, and Italy",
+      "China, Russia, and Japan",
+      "France, Britain, and Germany",
+      "Canada, Mexico, and Brazil"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Cold War",
+    "outlineSection": "Main Concerns",
+    "question": "During the Cold War, what was the main concern of the United States?",
+    "options": [
+      "Communism",
+      "Colonialism",
+      "Environmentalism",
+      "Religious freedom"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights",
+    "outlineSection": "End of Discrimination",
+    "question": "What movement tried to end racial discrimination?",
+    "options": [
+      "The Civil Rights Movement",
+      "The Temperance Movement",
+      "The Abolitionist Movement",
+      "The Labor Movement"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Longest Rivers",
+    "question": "Name one of the two longest rivers in the United States.",
+    "options": [
+      "Mississippi River",
+      "Hudson River",
+      "Potomac River",
+      "Rio Grande"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "National Symbols",
+    "outlineSection": "Pledge of Allegiance",
+    "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "options": [
+      "The President",
+      "The United States and the flag",
+      "The Congress",
+      "The Supreme Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "National Anthem",
+    "outlineSection": "Symbol of Freedom",
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "The Star-Spangled Banner",
+      "God Bless America",
+      "My Country, 'Tis of Thee"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "September 11",
+    "outlineSection": "Modern Events",
+    "question": "What major event happened on September 11, 2001, in the United States?",
+    "options": [
+      "A terrorist attack",
+      "A financial crisis",
+      "A hurricane disaster",
+      "An election scandal"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal and State Powers",
+    "outlineSection": "Constitutional Powers",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To declare war",
+      "To issue driver's licenses",
+      "To establish city zoning",
+      "To create local police departments"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Powers",
+    "outlineSection": "Powers Reserved for States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "options": [
+      "To declare war",
+      "To provide schooling and education",
+      "To make treaties",
+      "To coin money"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Government",
+    "outlineSection": "Government Structure",
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The Supreme Court",
+      "Checks and balances",
+      "Term limits",
+      "Voter registration"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate",
+    "outlineSection": "Membership",
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senator Term Length",
+    "outlineSection": "Duration",
+    "question": "We elect a U.S. Senator for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Membership",
+    "outlineSection": "Number of Representatives",
+    "question": "The House of Representatives has how many voting members?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "435"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Term Length",
+    "outlineSection": "Duration of Office",
+    "question": "We elect a U.S. Representative for how many years?",
+    "options": [
+      "1 year",
+      "2 years",
+      "4 years",
+      "6 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Term Length",
+    "outlineSection": "Duration of Office",
+    "question": "We elect a President for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Number of Justices",
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Review",
+    "outlineSection": "Highest Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "The Court of Appeals",
+      "The Supreme Court",
+      "The District Court",
+      "The Federal Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judiciary",
+    "outlineSection": "Supreme Court Term",
+    "question": "How long do Supreme Court justices serve?",
+    "options": [
+      "10 years",
+      "For life",
+      "Until age 65",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Role",
+    "outlineSection": "Head of State",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Vice President",
+      "The President",
+      "The Speaker of the House",
+      "The Secretary of Defense"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Authority",
+    "outlineSection": "Veto Power",
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Supreme Court",
+      "The Vice President",
+      "The President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Law-Making Process",
+    "outlineSection": "Signing Legislation",
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The Supreme Court",
+      "The Vice President",
+      "The President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet",
+    "outlineSection": "Advisory Body",
+    "question": "What does the President’s Cabinet do?",
+    "options": [
+      "Passes laws",
+      "Commands the military",
+      "Advises the President",
+      "Oversees elections"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Positions",
+    "outlineSection": "Cabinet-Level Roles",
+    "question": "What are two Cabinet-level positions?",
+    "options": [
+      "Treasurer and Senator",
+      "Governor and Secretary of State",
+      "Secretary of Education and Secretary of Defense",
+      "Mayor and Federal Judge"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Responsibilities of Citizenship",
+    "outlineSection": "Jury Duty",
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Obeying the law",
+      "Serving on a jury",
+      "Paying taxes",
+      "Joining the military"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Rights",
+    "outlineSection": "Voting",
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Amendments",
+    "outlineSection": "Bill of Rights",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Bill of Rights",
+      "The Articles of Confederation",
+      "The Preamble",
+      "The Declaration of Rights"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Indigenous Peoples",
+    "outlineSection": "Native American Tribes",
+    "question": "Name one American Indian tribe in the United States.",
+    "options": [
+      "Cherokee",
+      "Zulu",
+      "Aztec",
+      "Maori"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Functions",
+    "outlineSection": "Government Role",
+    "question": "What does the Constitution do? (Select all that apply)",
+    "options": [
+      "Sets up the government",
+      "Defines the government",
+      "Protects basic rights of Americans",
+      "Establishes state laws"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "First Amendment Rights",
+    "outlineSection": "Rights and Freedoms",
+    "question": "What is one right or freedom from the First Amendment? (Select all that apply)",
+    "options": [
+      "Freedom of speech",
+      "Right to bear arms",
+      "Freedom of religion",
+      "Freedom of assembly"
+    ],
+    "correctAnswer": [0, 2, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Rights in Declaration",
+    "question": "What are two rights in the Declaration of Independence? (Select two)",
+    "options": [
+      "Life",
+      "Liberty",
+      "Pursuit of happiness",
+      "Property ownership"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "System of Checks",
+    "outlineSection": "Balancing Powers",
+    "question": "What stops one branch of government from becoming too powerful? (Select all that apply)",
+    "options": [
+      "Checks and balances",
+      "The Constitution",
+      "Separation of powers",
+      "Electoral college"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Responsibilities",
+    "outlineSection": "Functions of the Judicial Branch",
+    "question": "What does the judicial branch do? (Select all that apply)",
+    "options": [
+      "Reviews laws",
+      "Explains laws",
+      "Conducts wars",
+      "Decides if a law goes against the Constitution"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal Powers",
+    "outlineSection": "Governmental Powers",
+    "question": "What is one power of the federal government? (Select all that apply)",
+    "options": [
+      "To print money",
+      "To declare war",
+      "To provide education",
+      "To make treaties"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Powers",
+    "outlineSection": "Authority of States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states? (Select all that apply)",
+    "options": [
+      "Provide schooling and education",
+      "Create an army",
+      "Provide protection (police)",
+      "Coin money"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Amendments",
+    "outlineSection": "Constitutional Rights",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them. (Select all that apply)",
+    "options": [
+      "Citizens 18 and older can vote",
+      "You don’t have to pay (a poll tax) to vote",
+      "Women and men can vote",
+      "Only male citizens can vote"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Responsibilities",
+    "outlineSection": "Duties of Citizenship",
+    "question": "What is one responsibility that is only for United States citizens? (Select all that apply)",
+    "options": [
+      "Serve on a jury",
+      "Pay taxes",
+      "Vote in a federal election",
+      "Serve in the military"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Rights",
+    "outlineSection": "Rights of Everyone",
+    "question": "What are two rights of everyone living in the United States? (Select all that apply)",
+    "options": [
+      "Freedom of expression",
+      "Freedom to petition the government",
+      "Right to bear arms",
+      "Right to public education"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial America",
+    "outlineSection": "Reasons for Colonization",
+    "question": "What is one reason colonists came to America? (Select all that apply)",
+    "options": [
+      "Freedom",
+      "Economic opportunity",
+      "Practice religion",
+      "Join British Parliament"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American History",
+    "subject": "Causes of the Civil War",
+    "outlineSection": "Civil War Issues",
+    "question": "Name one problem that led to the Civil War. (Select all that apply)",
+    "options": [
+      "Slavery",
+      "Economic reasons",
+      "States’ rights",
+      "Military conscription"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American History",
+    "subject": "Constitutional Convention",
+    "outlineSection": "Founding Documents",
+    "question": "What happened at the Constitutional Convention? (Select all that apply)",
+    "options": [
+      "The Declaration of Independence was signed",
+      "The Constitution was written",
+      "The Founding Fathers wrote the Constitution",
+      "George Washington was elected President"
+    ],
+    "correctAnswer": [1, 2]
+  },
+  {
+    "header": "American History",
+    "subject": "Bill of Rights",
+    "outlineSection": "Amendments",
+    "question": "What do we call the first ten amendments to the Constitution? (Select all that apply)",
+    "options": [
+      "Bill of Rights",
+      "Articles of Confederation",
+      "Federalist Papers",
+      "Declaration of Independence"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Law",
+    "outlineSection": "The Rule of Law",
+    "question": "What is the “rule of law”? (Select all that apply)",
+    "options": [
+      "Everyone must follow the law",
+      "Only citizens must follow the law",
+      "Leaders must obey the law",
+      "Government must obey the law"
+    ],
+    "correctAnswer": [0, 2, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federalism",
+    "outlineSection": "Federal and State Powers",
+    "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government? (Select all that apply)",
+    "options": [
+      "Declare war",
+      "Create an army",
+      "Approve zoning and land use",
+      "Make treaties"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Roles",
+    "outlineSection": "Functions",
+    "question": "What does the judicial branch do? (Select all that apply)",
+    "options": [
+      "Explains laws",
+      "Resolves disputes",
+      "Conducts foreign policy",
+      "Decides if a law goes against the Constitution"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "Major U.S. Rivers",
+    "question": "Name one of the two longest rivers in the United States. (Select all that apply)",
+    "options": [
+      "Mississippi River",
+      "Rio Grande",
+      "Hudson River",
+      "Missouri River"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Symbols",
+    "outlineSection": "Meaning of the Flag",
+    "question": "Why does the flag have 13 stripes? (Select all that apply)",
+    "options": [
+      "Because there were 13 original colonies",
+      "Because there are 13 national parks",
+      "To honor the 13 founding fathers",
+      "To symbolize liberty"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Symbols",
+    "outlineSection": "Flag Symbolism",
+    "question": "Why does the flag have 50 stars? (Select all that apply)",
+    "options": [
+      "One for each state",
+      "To represent each year of independence",
+      "To honor the 50 state capitals",
+      "One for each original colony"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Legislative Branch",
+    "outlineSection": "Structure of Congress",
+    "question": "What are the two parts of the U.S. Congress? (Select both)",
+    "options": [
+      "The Senate",
+      "The House of Representatives",
+      "The Supreme Court",
+      "The Executive Office"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Congressional Representation",
+    "outlineSection": "Senate Membership",
+    "question": "How many U.S. Senators are there? (Select the correct answer)",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Term of Senators",
+    "outlineSection": "Length of Term",
+    "question": "We elect a U.S. Senator for how many years? (Select the correct answer)",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "House of Representatives",
+    "outlineSection": "Number of Members",
+    "question": "The House of Representatives has how many voting members? (Select the correct answer)",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "435"
+    ],
+    "correctAnswer": [3]
+  },
+  {
+    "header": "American Government",
+    "subject": "House Term",
+    "outlineSection": "Length of Term",
+    "question": "We elect a U.S. Representative for how many years? (Select the correct answer)",
+    "options": [
+      "1 year",
+      "2 years",
+      "4 years",
+      "6 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Term",
+    "outlineSection": "Length of Term",
+    "question": "We elect a President for how many years? (Select the correct answer)",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Veto Power",
+    "outlineSection": "Presidential Powers",
+    "question": "Who vetoes bills? (Select the correct answer)",
+    "options": [
+      "The Supreme Court",
+      "The Vice President",
+      "The President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Authority",
+    "outlineSection": "Judicial Branch",
+    "question": "What does the judicial branch do? (Select all that apply)",
+    "options": [
+      "Reviews laws",
+      "Explains laws",
+      "Settles disputes",
+      "Declares laws unconstitutional"
+    ],
+    "correctAnswer": [0, 1, 2, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Highest Court",
+    "question": "What is the highest court in the United States? (Select the correct answer)",
+    "options": [
+      "The District Court",
+      "The Court of Appeals",
+      "The Supreme Court",
+      "The Federal Court"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court Justices",
+    "outlineSection": "Number of Justices",
+    "question": "How many justices are on the Supreme Court? (Select the correct answer)",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court Tenure",
+    "outlineSection": "Term of Office",
+    "question": "How long do Supreme Court justices serve? (Select the correct answer)",
+    "options": [
+      "10 years",
+      "For life",
+      "Until age 65",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Powers",
+    "outlineSection": "Authority of States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states? (Select all that apply)",
+    "options": [
+      "Provide schooling and education",
+      "Coin money",
+      "Make treaties",
+      "Provide protection (police)"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Role",
+    "outlineSection": "Commander in Chief",
+    "question": "Who is the Commander in Chief of the military? (Select the correct answer)",
+    "options": [
+      "The Secretary of Defense",
+      "The President",
+      "The Vice President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet",
+    "outlineSection": "Roles and Responsibilities",
+    "question": "What does the President’s Cabinet do? (Select all that apply)",
+    "options": [
+      "Advises the President",
+      "Commands the military",
+      "Enacts state laws",
+      "Oversees federal agencies"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Cabinet Positions",
+    "outlineSection": "Cabinet-Level Roles",
+    "question": "What are two Cabinet-level positions? (Select all that apply)",
+    "options": [
+      "Secretary of Defense",
+      "Attorney General",
+      "Federal Reserve Chair",
+      "Governor"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizen Rights",
+    "outlineSection": "Freedoms for Everyone",
+    "question": "What are two rights of everyone living in the United States? (Select all that apply)",
+    "options": [
+      "Freedom of speech",
+      "Freedom to petition the government",
+      "Right to public education",
+      "Freedom of movement"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Rights Listed",
+    "question": "What are two rights in the Declaration of Independence? (Select all that apply)",
+    "options": [
+      "Life",
+      "Liberty",
+      "Pursuit of happiness",
+      "Equality"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial Motives",
+    "outlineSection": "Reasons for Immigration",
+    "question": "What is one reason colonists came to America? (Select all that apply)",
+    "options": [
+      "Freedom",
+      "Economic opportunity",
+      "To escape taxes",
+      "To practice religion"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Symbols",
+    "outlineSection": "Flag Symbolism",
+    "question": "Why does the flag have 13 stripes? (Select the correct answer)",
+    "options": [
+      "To honor the 13 founding fathers",
+      "For the 13 colonies",
+      "To represent 13 cities",
+      "To symbolize unity"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizenship Responsibilities",
+    "outlineSection": "Selective Service",
+    "question": "When must all men register for the Selective Service? (Select all that apply)",
+    "options": [
+      "At age 16",
+      "At age 18",
+      "Between 18 and 26",
+      "After college"
+    ],
+    "correctAnswer": [1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Congressional Structure",
+    "outlineSection": "Legislative Branch",
+    "question": "What are the two parts of the U.S. Congress? (Select two)",
+    "options": [
+      "The Senate",
+      "The Supreme Court",
+      "The House of Representatives",
+      "The Executive Branch"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Congressional Terms",
+    "outlineSection": "Terms of Office",
+    "question": "How many years is a U.S. Senator elected for?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Requirements",
+    "outlineSection": "Eligibility",
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "September 11, 2001",
+    "outlineSection": "Recent History",
+    "question": "What major event happened on September 11, 2001, in the United States?",
+    "options": [
+      "A hurricane struck the East Coast",
+      "Terrorists attacked the United States",
+      "The stock market crashed",
+      "A presidential election took place"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "U.S. Territories",
+    "question": "Name one U.S. territory. (Select one)",
+    "options": [
+      "Guam",
+      "Hawaii",
+      "Alaska",
+      "Florida"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American History",
+    "subject": "Independence",
+    "outlineSection": "Declaration of Independence",
+    "question": "Who wrote the Declaration of Independence?",
+    "options": [
+      "Benjamin Franklin",
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Supreme Court",
+    "outlineSection": "Judicial Branch",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "Court of Appeals",
+      "The Supreme Court",
+      "Federal District Court",
+      "The Circuit Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil War",
+    "outlineSection": "Conflict Causes",
+    "question": "Name one issue that led to the Civil War. (Select all that apply)",
+    "options": [
+      "Economic policies",
+      "Slavery",
+      "States' rights",
+      "Prohibition"
+    ],
+    "correctAnswer": [1, 2]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Symbols",
+    "outlineSection": "National Symbols",
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "The Star-Spangled Banner",
+      "My Country, 'Tis of Thee",
+      "God Bless America"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "State Responsibilities",
+    "outlineSection": "Powers Reserved to States",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states? (Select all that apply)",
+    "options": [
+      "To make treaties",
+      "To provide schooling and education",
+      "To maintain the military",
+      "To issue driver's licenses"
+    ],
+    "correctAnswer": [1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal vs State Power",
+    "outlineSection": "Federalism",
+    "question": "What is one power of the federal government? (Select all that apply)",
+    "options": [
+      "To print money",
+      "To make treaties",
+      "To issue marriage licenses",
+      "To declare war"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American History",
+    "subject": "Early Government",
+    "outlineSection": "Constitutional Convention",
+    "question": "What happened at the Constitutional Convention?",
+    "options": [
+      "The Constitution was written",
+      "The Declaration of Independence was signed",
+      "George Washington was elected",
+      "The Articles of Confederation were repealed"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Checks and Balances",
+    "outlineSection": "Government Structure",
+    "question": "What stops one branch of government from becoming too powerful? (Select all that apply)",
+    "options": [
+      "Checks and balances",
+      "Separation of powers",
+      "Public opinion",
+      "Executive orders"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Role",
+    "outlineSection": "Executive Branch",
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Vice President",
+      "The Supreme Court",
+      "The President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Geography",
+    "outlineSection": "Oceans",
+    "question": "What ocean is on the East Coast of the United States?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Gulf of Mexico"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "U.S. Holidays",
+    "outlineSection": "National Holidays",
+    "question": "Name two national U.S. holidays. (Select all that apply)",
+    "options": [
+      "Thanksgiving",
+      "Labor Day",
+      "Valentine’s Day",
+      "Veterans Day"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Amendments",
+    "outlineSection": "Amendments Process",
+    "question": "What is an amendment?",
+    "options": [
+      "A part of the Declaration of Independence",
+      "A change to the Constitution",
+      "An additional law",
+      "An executive order"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "World War II",
+    "outlineSection": "Allied and Axis Powers",
+    "question": "Who did the United States fight in World War II? (Select all that apply)",
+    "options": [
+      "Germany",
+      "Japan",
+      "Italy",
+      "China"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Citizenship Participation",
+    "outlineSection": "Democratic Participation",
+    "question": "What are two ways Americans can participate in their democracy? (Select all that apply)",
+    "options": [
+      "Run for office",
+      "Vote",
+      "Apply for a government grant",
+      "Write to a newspaper"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+{
+    "header": "American Government",
+    "subject": "Amendments",
+    "outlineSection": "Constitutional Changes",
+    "question": "How many amendments does the Constitution have?",
+    "options": [
+      "27",
+      "21",
+      "10",
+      "15"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Founding Principles",
+    "question": "What did the Declaration of Independence do? (Select all that apply)",
+    "options": [
+      "Announced independence from Great Britain",
+      "Declared independence from Great Britain",
+      "Established freedom of speech",
+      "Said that the United States is free from Great Britain"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American History",
+    "subject": "Indigenous Peoples",
+    "outlineSection": "Pre-Colonial America",
+    "question": "Who lived in America before the Europeans arrived? (Select all that apply)",
+    "options": [
+      "Native Americans",
+      "British Settlers",
+      "Spanish Explorers",
+      "American Indians"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rule of Law",
+    "outlineSection": "Legal Principles",
+    "question": "What is the “rule of law”? (Select all that apply)",
+    "options": [
+      "Everyone must follow the law",
+      "Only citizens must follow the law",
+      "Leaders must obey the law",
+      "Government must obey the law"
+    ],
+    "correctAnswer": [0, 2, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Branches of Government",
+    "outlineSection": "Government Structure",
+    "question": "Name one branch or part of the government.",
+    "options": [
+      "Congress",
+      "The Judiciary",
+      "The Treasury",
+      "The Senate"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate Membership",
+    "outlineSection": "Number of Senators",
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Term",
+    "outlineSection": "Elections",
+    "question": "We elect a President for how many years?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Constitutional Amendments",
+    "outlineSection": "Amendment Purpose",
+    "question": "What is an amendment? (Select all that apply)",
+    "options": [
+      "A change to the Constitution",
+      "A new law by Congress",
+      "A proposal by the President",
+      "An addition to the Constitution"
+    ],
+    "correctAnswer": [0, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Amendments",
+    "outlineSection": "First Ten Amendments",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Declaration of Rights",
+      "The Articles of Confederation",
+      "The Bill of Rights",
+      "The Constitution Preamble"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "American History",
+    "subject": "Declaration of Independence",
+    "outlineSection": "Colonial Rights",
+    "question": "What are two rights in the Declaration of Independence? (Select all that apply)",
+    "options": [
+      "Life",
+      "Liberty",
+      "Pursuit of happiness",
+      "Freedom of speech"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Branches of Government",
+    "outlineSection": "Government Structure",
+    "question": "Name one branch or part of the government. (Select all that apply)",
+    "options": [
+      "Legislative",
+      "Executive",
+      "Military",
+      "Judicial"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American History",
+    "subject": "Colonial Period",
+    "outlineSection": "Settlement Reasons",
+    "question": "What is one reason colonists came to America? (Select all that apply)",
+    "options": [
+      "Freedom",
+      "Religious liberty",
+      "Economic opportunity",
+      "Escape from criminal charges"
+    ],
+    "correctAnswer": [0, 1, 2]
+  },
+  {
+    "header": "American Government",
+    "subject": "Voting Amendments",
+    "outlineSection": "Right to Vote",
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them. (Select all that apply)",
+    "options": [
+      "Citizens 18 and older can vote",
+      "Only landowners can vote",
+      "You don’t have to pay a poll tax to vote",
+      "Any citizen can vote, regardless of gender"
+    ],
+    "correctAnswer": [0, 2, 3]
+  },
+  {
+    "header": "American History",
+    "subject": "Revolutionary War",
+    "outlineSection": "Conflict Causes",
+    "question": "Why did the colonists fight the British? (Select all that apply)",
+    "options": [
+      "High taxes (taxation without representation)",
+      "The British army stayed in their homes",
+      "To establish a monarchy",
+      "Lack of self-government"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Geography",
+    "outlineSection": "State Borders",
+    "question": "Name one state that borders Canada. (Select all that apply)",
+    "options": [
+      "New York",
+      "Texas",
+      "Alaska",
+      "Florida"
+    ],
+    "correctAnswer": [0, 2]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Symbols",
+    "outlineSection": "U.S. Flag",
+    "question": "Why does the flag have 13 stripes? (Select the correct answer)",
+    "options": [
+      "For the original 13 colonies",
+      "To represent 13 branches of government",
+      "To honor 13 important wars",
+      "To represent 13 presidents"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federal vs. State Powers",
+    "outlineSection": "Reserved Powers",
+    "question": "Under our Constitution, some powers belong to the states. What is one power of the states? (Select all that apply)",
+    "options": [
+      "To make treaties",
+      "To provide education",
+      "To declare war",
+      "To issue driver's licenses"
+    ],
+    "correctAnswer": [1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Federalism",
+    "outlineSection": "Federal Powers",
+    "question": "What is one power of the federal government? (Select all that apply)",
+    "options": [
+      "To print money",
+      "To create an army",
+      "To approve zoning",
+      "To make treaties"
+    ],
+    "correctAnswer": [0, 1, 3]
+  },
+  {
+    "header": "American Government",
+    "subject": "Rights and Responsibilities",
+    "outlineSection": "Jury Duty",
+    "question": "What is one responsibility only for United States citizens? (Select all that apply)",
+    "options": [
+      "Vote in a federal election",
+      "Serve on a jury",
+      "Pay federal income tax",
+      "Work for the government"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American History",
+    "subject": "Important Figures",
+    "outlineSection": "Historical Leaders",
+    "question": "Who is the “Father of Our Country”?",
+    "options": [
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "George Washington",
+      "Thomas Jefferson"
+    ],
+    "correctAnswer": [2]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Holidays",
+    "outlineSection": "National Celebrations",
+    "question": "When do we celebrate Independence Day?",
+    "options": [
+      "July 4",
+      "November 11",
+      "December 25",
+      "January 1"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Congressional Structure",
+    "outlineSection": "House and Senate",
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "The Senate",
+      "The House of Representatives",
+      "The Executive Office",
+      "The Supreme Court"
+    ],
+    "correctAnswer": [0, 1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Senate",
+    "outlineSection": "Representation",
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "50",
+      "100",
+      "435",
+      "200"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American Government",
+    "subject": "Presidential Powers",
+    "outlineSection": "Executive Authority",
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The President",
+      "The Secretary of Defense",
+      "The Vice President",
+      "The Speaker of the House"
+    ],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "American Government",
+    "subject": "Judicial Branch",
+    "outlineSection": "Supreme Court",
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "The District Court",
+      "The Supreme Court",
+      "The Court of Appeals",
+      "The Circuit Court"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Integrated Civics",
+    "subject": "Symbols",
+    "outlineSection": "National Anthem",
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "The Star-Spangled Banner",
+      "God Bless America",
+      "My Country, 'Tis of Thee"
+    ],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "American History",
+    "subject": "Civil Rights Movement",
+    "outlineSection": "Social Progress",
+    "question": "What movement tried to end racial discrimination?",
+    "options": [
+      "The Civil Rights Movement",
+      "The Labor Movement",
+      "The Suffrage Movement",
+      "The Environmental Movement"
+    ],
+    "correctAnswer": [0]
+  }
+]
+  
+  
