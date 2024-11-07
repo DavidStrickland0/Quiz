@@ -1,5 +1,8 @@
 <div class="quiz-container" *ngIf="question">
-    <h2>Question</h2>
+    <div class="question-header">
+      <h2>Question</h2>
+      <span class="attempt-counter">{{ correctOnFirstTryCount }} of {{ questionCount }}</span>
+  </div>
     <p>{{ question.question }}</p>
     <!-- Use checkbox if multiple answers are required, otherwise use radio buttons -->
     <div *ngIf="question.isMultiple">

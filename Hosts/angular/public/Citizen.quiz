@@ -159,7 +159,7 @@
     "header": "American Government",
     "subject": "System of Government",
     "outlineSection": "Branches of Government",
-    "question": "Name one branch or part of the government.",
+    "question": "Select the branchs or parts of the government.",
     "options": [
       "Congress",
       "Federal Reserve",
@@ -705,7 +705,7 @@
     "header": "American Government",
     "subject": "Citizen Rights",
     "outlineSection": "Rights of U.S. Citizens",
-    "question": "Name one right only for United States citizens.",
+    "question": "Select the rights only for United States citizens.",
     "options": [
       "Freedom of speech",
       "Freedom of religion",
@@ -926,7 +926,7 @@
     "header": "American History",
     "subject": "Federalist Papers",
     "outlineSection": "Supporting the Constitution",
-    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Select the writers.",
     "options": [
       "George Washington",
       "James Madison",
@@ -991,7 +991,7 @@
     "header": "American History",
     "subject": "The Civil War",
     "outlineSection": "Civil War Causes",
-    "question": "Name one problem that led to the Civil War.",
+    "question": "Select the problems that led to the Civil War.",
     "options": [
       "Immigration",
       "Slavery",
@@ -1017,7 +1017,7 @@
     "header": "Integrated Civics",
     "subject": "Geography",
     "outlineSection": "U.S. Borders",
-    "question": "Name one U.S. state that borders Canada.",
+    "question": "Select the U.S. state that borders Canada.",
     "options": [
       "Texas",
       "Alaska",
@@ -1095,7 +1095,7 @@
     "header": "Integrated Civics",
     "subject": "U.S. Geography",
     "outlineSection": "Rivers",
-    "question": "Name one of the two longest rivers in the United States.",
+    "question": "Select one of the two longest rivers in the United States.",
     "options": [
       "Missouri River",
       "Colorado River",
@@ -1173,7 +1173,7 @@
     "header": "American Government",
     "subject": "Separation of Powers",
     "outlineSection": "The Three Branches",
-    "question": "Name one branch or part of the government.",
+    "question": "Select the branches or parts of the government.",
     "options": [
       "Congress",
       "President",
@@ -1212,7 +1212,7 @@
     "header": "American History",
     "subject": "Federalist Papers",
     "outlineSection": "Supporting the Constitution",
-    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Select the writers.",
     "options": [
       "Alexander Hamilton",
       "Thomas Jefferson",
@@ -1992,7 +1992,7 @@
     "header": "American History",
     "subject": "Federalist Papers",
     "outlineSection": "Supporting the Constitution",
-    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Select the writers.",
     "options": [
       "James Madison",
       "Thomas Jefferson",
@@ -2928,7 +2928,7 @@
     "header": "American History",
     "subject": "Federalist Papers",
     "outlineSection": "Supporting the Constitution",
-    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Select the writers.",
     "options": [
       "Thomas Jefferson",
       "James Madison",
@@ -3162,7 +3162,7 @@
     "header": "American History",
     "subject": "Federalist Papers",
     "outlineSection": "Supporting Ratification",
-    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Select the writers.",
     "options": [
       "Alexander Hamilton",
       "Thomas Jefferson",
@@ -3708,7 +3708,7 @@
     "header": "American History",
     "subject": "Causes of the Civil War",
     "outlineSection": "Civil War Issues",
-    "question": "Name one problem that led to the Civil War. (Select all that apply)",
+    "question": "Select the problems that led to the Civil War. (Select all that apply)",
     "options": [
       "Slavery",
       "Economic reasons",
@@ -3786,7 +3786,7 @@
     "header": "Integrated Civics",
     "subject": "Geography",
     "outlineSection": "Major U.S. Rivers",
-    "question": "Name one of the two longest rivers in the United States. (Select all that apply)",
+    "question": "Select the two longest rivers in the United States. (Select all that apply)",
     "options": [
       "Mississippi River",
       "Rio Grande",
@@ -4176,7 +4176,7 @@
     "header": "American History",
     "subject": "Civil War",
     "outlineSection": "Conflict Causes",
-    "question": "Name one issue that led to the Civil War. (Select all that apply)",
+    "question": "Select the issues that led to the Civil War. (Select all that apply)",
     "options": [
       "Economic policies",
       "Slavery",
@@ -4384,7 +4384,7 @@
     "header": "American Government",
     "subject": "Branches of Government",
     "outlineSection": "Government Structure",
-    "question": "Name one branch or part of the government.",
+    "question": "Select the branches or part of the government.",
     "options": [
       "Congress",
       "The Judiciary",
@@ -4462,7 +4462,7 @@
     "header": "American Government",
     "subject": "Branches of Government",
     "outlineSection": "Government Structure",
-    "question": "Name one branch or part of the government. (Select all that apply)",
+    "question": "Select the branches or parts of the government. (Select all that apply)",
     "options": [
       "Legislative",
       "Executive",
@@ -4514,7 +4514,7 @@
     "header": "Integrated Civics",
     "subject": "Geography",
     "outlineSection": "State Borders",
-    "question": "Name one state that borders Canada. (Select all that apply)",
+    "question": "Select two states that borders Canada. (Select all that apply)",
     "options": [
       "New York",
       "Texas",

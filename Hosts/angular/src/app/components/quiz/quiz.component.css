@@ -7,6 +7,16 @@
   overflow: hidden;
 }
 
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attempt-counter {
+  font-weight: bold;
+}
+
 .progress {
   height: 100%;
   background-color: #76ff03; /* A bright green color for better visibility */

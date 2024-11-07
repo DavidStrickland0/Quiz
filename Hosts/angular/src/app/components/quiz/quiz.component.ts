@@ -23,6 +23,10 @@ export class QuizComponent implements OnInit {
   countdownInterval: any;
   quizName: string = ''; // Holds the quiz name from the route parameter
 
+  questionCount = 0;
+  correctOnFirstTryCount = 0;
+  isFirstAttempt = true;
+
   constructor(
     private quizService: QuizService, 
     private route: ActivatedRoute,
@@ -48,7 +52,8 @@ export class QuizComponent implements OnInit {
           this.selectedAnswers = [];
           this.isAnswerCorrect = null;
           this.resetCountdown();
-          this.cdr.markForCheck();  // Force change detection
+          this.cdr.markForCheck(); 
+          this.isFirstAttempt = true;
         },
         (error) => {
           console.error('Error retrieving question', error);
@@ -63,7 +68,14 @@ export class QuizComponent implements OnInit {
         (response) => {
           this.result = response;
           this.isAnswerCorrect = response;
-
+          if(this.isFirstAttempt)
+          {
+            this.isFirstAttempt=false;
+            this.questionCount++
+            if (this.isAnswerCorrect) {
+              this.correctOnFirstTryCount++
+            }
+          }
           if (this.isAnswerCorrect) {
             this.startCountdown();
           }
