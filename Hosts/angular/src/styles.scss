@@ -1,0 +1,69 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$myapp-theme-primary: mat.m2-define-palette(mat.$m2-blue-palette, A100); // Dark indigo for primary elements
+$myapp-theme-accent: mat.m2-define-palette(mat.$m2-red-palette); // Bright blue accent
+$myapp-theme-warn: mat.m2-define-palette(mat.$m2-red-palette);
+
+$myapp-theme: mat.m2-define-light-theme((
+  color: (
+    primary: $myapp-theme-primary,
+    accent: $myapp-theme-accent,
+    warn: $myapp-theme-warn,
+  )
+));
+
+@include mat.all-component-themes($myapp-theme);
+
+.mat-mdc-tab-group, .mat-mdc-tab-nav-bar{
+    --mat-tab-header-active-focus-label-text-color: #ffffff;
+    --mat-tab-header-active-label-text-color : #ffffff;
+    --mat-tab-header-inactive-label-text-color: #AAAAAA;
+    --mat-tab-header-inactive-focus-label-text-color: #1a73e8;
+    --mat-tab-header-inactive-hover-label-text-color : #1a73e8;
+    --mdc-tab-indicator-active-indicator-color: #1a73e8;
+    --mat-tab-header-active-hover-label-text-color: #5052c3;
+    --mat-tab-header-active-ripple-color: #000000;
+    --mat-tab-header-inactive-ripple-color: #000000;
+}
+
+
+/* Global styles.css for Dark Mode */
+body, html {
+    background-color: #121212; /* Dark background for the entire app */
+    color: #e0e0e0; /* Light text color for readability */
+    font-family: Arial, sans-serif; /* Consistent font throughout the app */
+}
+
+a {
+    color: #1a73e8; /* Bright blue for links to stand out in dark mode */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-size: 16px; /* Consistent button font size */
+    padding: 10px 20px;
+    background-color: #303f9f; /* Dark blue for buttons */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 4px; /* Slightly rounded corners for buttons */
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+/* Ensure all component views inherit these styles */
+* {
+    inherit: all;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Style for the hamburger button */
+

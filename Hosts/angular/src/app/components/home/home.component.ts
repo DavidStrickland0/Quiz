@@ -3,13 +3,14 @@ import { MatAccordion, MatExpansionModule } from '@angular/material/expansion';
 import { CommonModule } from '@angular/common';
 import { Title } from '@angular/platform-browser';
 import { MenuComponent } from '../menu/menu.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @Component({
   standalone: true,
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  imports: [MatExpansionModule, CommonModule, MenuComponent], // Ensure expansion modules are imported
+  imports: [MatExpansionModule, CommonModule, MenuComponent,MatTabsModule], // Ensure expansion modules are imported
 })
 export class HomeComponent {
   constructor(  private titleService: Title ){}

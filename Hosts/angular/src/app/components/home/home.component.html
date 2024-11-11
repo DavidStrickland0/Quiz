@@ -1,3 +1,4 @@
+
 <app-menu></app-menu>
 <div class="app-container">
     <header class="profile-header">
@@ -7,300 +8,395 @@
         <div class="profile-details">
           <h1>David Strickland</h1>
           <p class="headline">Specializing in Legacy Codebase Transformation & Team Revitalization</p>
-          <section class="contact-info">
+          <section class="contact-info" aria-label="Contact Information">
             <h2>Contact Information</h2>
             <p><strong>Email:</strong> <a href="mailto:davidstrickland0&#64;hotmail.com">davidstrickland0&#64;hotmail.com</a></p>
             <p><strong>Location:</strong> Dallas-Fort Worth Metroplex</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/davidstrickland">linkedin.com/in/davidstrickland</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/davidstrickland" target="_blank" rel="noopener noreferrer">linkedin.com/in/davidstrickland</a></p>
           </section>
         </div>
-      </header>
-  
-    <!-- Professional Summary Section (outside accordion) -->
-    <section class="summary">
-      <h2>Professional Summary</h2>
-      <section class="professional-summary">
-        <p style="font-size: 1.2rem;">
-          With over 20 years of experience, I specialize in modernizing legacy codebases and revitalizing underperforming teams. My expertise bridges the gap between legacy platforms and modern technologies, ensuring seamless integration and future-proofing applications. From transforming VB6 and .NET Framework systems to creating cutting-edge SaaS solutions, I consistently drive innovation and business value. I lead teams, mentor developers, and foster a culture of collaboration, guiding distributed teams through Agile and DevOps practices to deliver high-quality software.
-        </p>
-        <p style="font-size: 1.2rem;">
-          I have a proven track record with major organizations like American Airlines and Amadeus, refactoring over 100 repositories and improving performance and scalability. Whether leading CI/CD automation, integrating Azure DevOps, or developing custom APIs, I take a hands-on approach to ensure business and technical success. Certified in Agile, DevOps, and Cloud Computing, my goal is to help businesses maximize their technology investments with future-ready solutions.
-        </p>
-      </section>
-    </section>
-  
-    <!-- Start of Accordion (expansion panels for other sections) -->
-    <mat-accordion>
-  
-      <!-- Technical Skills Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Technical Skills</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="technical-skills">
-          <ul>
-            <li><strong>Codebase Transformation:</strong> .NET Framework, Java, VB6, SQL, WinForms, WPF</li>
-            <li><strong>Team Leadership:</strong> Agile Methodologies, Scrum, Coaching, Mentoring, Distributed Teams</li>
-            <li><strong>DevOps & CI/CD:</strong> Azure DevOps, GitHub Actions, Docker, Kubernetes, Jenkins, Git</li>
-            <li><strong>Cloud Platforms:</strong> Azure, AWS</li>
-            <li><strong>Database Technologies:</strong> SQL Server, Oracle, MySQL, Cosmos DB</li>
-            <li><strong>Development Practices:</strong> TDD, BDD, SOLID Principles, Clean Code, Pairing</li>
-            <li><strong>Security & Compliance:</strong> PCI Compliance, SOX Compliance, Secure Programming</li>
-          </ul>
-        </section>
-      </mat-expansion-panel>
-  
-      <!-- Certifications Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Certifications</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="certifications">
-          <ul>
-            <li><strong>Professional Agile Leadership</strong> - Scrum.org | Credential ID: 1144139</li>
-            <li><strong>Professional Scrum Master I</strong> - Scrum.org | Credential ID: 1144149</li>
-            <li><strong>Amazon Web Services Cloud Practitioner</strong> - AWS | Credential ID: cb0a60abc86c4a37a9558fbec53c5f22</li>
-          </ul>
-        </section>
-      </mat-expansion-panel>
-  
-      <!-- Trainings Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Training</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="training">
-          <ul>
-            <li><strong>Standard 10.0 - Level 1 Enterprise Architect Course</strong> - Udemy</li>
-            <li><strong>Coaching Managers and Leaders for Continuous Development</strong> - Udemy</li>
-            <li><strong>Career Coaching Certification in Career Development Coaching</strong> - Udemy</li>
-            <li><strong>Agile Transformation and Scaled Agile</strong> - Udemy</li>
-            <li><strong>How to Become a Workplace Coach: Maximising Performance</strong> - Udemy</li>
-            <li><strong>How to Become a Workplace Coach: The Fundamentals</strong> - Udemy</li>
-            <li><strong>Kanban Fundamentals: How to Become Insanely Productive</strong> - Udemy</li>
-            <li><strong>Java Essential Training: Objects and APIs</strong> - LinkedIn</li>
-            <li><strong>Becoming an Agile Coach</strong> - LinkedIn</li>
-            <li><strong>DevOps Foundations</strong> - LinkedIn</li>
-            <li><strong>Developing Leadership Presence</strong> - LinkedIn</li>
-            <li><strong>Java Design Patterns: Structural</strong> - LinkedIn</li>
-            <li><strong>Leadership in Tech</strong> - LinkedIn</li>
-            <li><strong>Learning Azure DevOps</strong> - LinkedIn</li>
-            <li><strong>Learning Kubernetes</strong> - LinkedIn</li>
-            <li><strong>Learning Terraform</strong> - LinkedIn</li>
-            <li><strong>Supply Chain Foundations</strong> - LinkedIn</li>
-            <li><strong>Supply Chain Foundations: Analytics</strong> - LinkedIn</li>
-            <li><strong>Tech Career Skills: Moving from Developer to Engineering Manager</strong> - LinkedIn</li>
-            <li><strong>Creating a Culture of Continuous Improvement</strong> - LinkedIn</li>
-            <li><strong>DevOps Foundations: Site Reliability Engineering</strong> - LinkedIn</li>
-            <li><strong>Advanced Azure Microservices with .NET for Developers</strong> - LinkedIn</li>
-            <li><strong>Advanced Microservices: Tactical Forking</strong> - LinkedIn</li>
-            <li><strong>Learning Java Enterprise Edition</strong> - LinkedIn</li>
-            <li><strong>Best Practices for New People Leaders</strong> - LinkedIn</li>
-            <li><strong>Java Essential Training: Syntax and Structure</strong> - LinkedIn</li>
-            <li><strong>Quick Scripts for Difficult Conversations</strong> - LinkedIn</li>
-          </ul>
-        </section>
-      </mat-expansion-panel>
-  
-      <!-- Work Experience Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Work Experience</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="experience">
-             <div class="job">
-            <h3>Wellfit Technologies - Software Engineer (April 2024 - Present)</h3>
-            <ul>
-              <li>Developed a SaaS solution for payment planning and processing against legacy Practice Management Systems.</li>
-              <li>Designed and built a C# REST API using .NET Core 6 and .NET Standard 2.0, ensuring integration with legacy .NET Framework 4.8.</li>
-              <li>Leveraged Azure for hosting, monitoring, securing, and scaling the system to ensure enterprise-level performance.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Owner / Engineering Consultant (Jan 2007 - Present)</h3>
-            <ul>
-                <li>Led the modernization of multiple legacy systems, including policy management and data-driven applications across industries such as insurance and government.</li>
-                <li>Migrated outdated architectures, including moving a Windows-based policy management system from VB6 to .NET Framework, improving performance and maintainability.</li>
-                 <li>Architected and developed a range of solutions, focusing on transforming legacy codebases into modern, scalable applications.</li>
-            </ul>
-          </div>
-  
+    </header>
 
-          <div class="job">
-            <h3>American Airlines - Architect Tech Lead Coach (June 2023 - Feb 2024)</h3>
-            <ul>
-              <li>Collaborated with product development teams to enhance technical excellence across various platforms.</li>
-              <li>Reviewed and refactored over 100 Git repositories addressing critical technical debt and code quality issues.</li>
-              <li>Spearheaded CI/CD pipeline automation using GitHub Actions and implemented unit testing, code quality scans, and vulnerability analysis with tools like SonarQube and Black Duck.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Axia Technology Partners - Team Lead (May 2021 - Dec 2022)</h3>
-            <ul>
-              <li>Applied Microsoft Azure and Blazor technologies for data-driven website development, delivering high-performance solutions.</li>
-              <li>Constructed an Extract, Transform, Load (ETL) service for seamless data transfer from Microsoft SQL to QuickBooks.</li>
-              <li>Revamped an L&H insurance management system to .NET 5 and Blazor, enhancing performance and user experience.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>OmniSYS - Senior Developer (November 2020 - May 2021)</h3>
-            <ul>
-              <li>Developed voice assistant bots utilizing Alexa, Google, and Microsoft technology stacks, enhancing user experiences.</li>
-              <li>Successfully implemented and optimized a third-party bot through a 90-day, 20-user pilot program.</li>
-              <li>Documented a PHP Rest-Like API using an OpenAPI swagger JSON definition, enabling the creation of a consumable NuGet package.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Amadeus - Offshore Team Supervisor (January 2016 - November 2020)</h3>
-            <ul>
-              <li>Led a remote team in decoupling legacy WinForms applications from their monolithic backend, enabling future development without affecting the existing New Skies platform.</li>
-              <li>Created an abstraction layer allowing backend evolution without impacting ongoing development.</li>
-              <li>Integrated performance optimizations like Redis Caching into legacy APIs, improving response times and system reliability.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>CitationAir - Department Lead (November 2012 - December 2014)</h3>
-            <ul>
-              <li>Architected and developed web-based applications to facilitate system integration and communication utilizing C# in Visual Studio’s MVC templates.</li>
-              <li>Headed a team of 5 developers to consolidate over 100 servers down to 12 primary servers with 12 DR/QA backups.</li>
-              <li>Implemented TFS ensuring all source code still available was placed in the repository.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Wells Fargo Home Mortgage - Team Lead (March 2011 - January 2012)</h3>
-            <ul>
-              <li>Designed the architecture and developed an interim solution to allow business to continue while waiting for a system software rewrite to be completed.</li>
-              <li>Led a team in the conversion of a disjointed series of Extra Basic Macros into a series of deterministic pieces of business logic dynamically injected into a static frame utilizing MEF.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Kansas Department of Labor - Team Lead (October 2010 - March 2011)</h3>
-            <ul>
-              <li>Developed Web Applications utilizing WPF and MVC on a WCF middle tier with a Siebel/SQL Data Tier.</li>
-              <li>Led a team in the ongoing development of Web Applications and Web Services to support the conversion of an IBM mainframe over to Oracle Siebel.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Farmer’s Mutual Hail Insurance - Senior Developer (November 2006 - November 2007)</h3>
-            <ul>
-              <li>This position was a VB.Net position working with an Oracle backend.</li>
-              <li>The project entailed merging portions of a VB6 and Cobol system together into a .Net 3.0 environment utilizing WCF for out communication to the UI tier and ODP between the middle tier and Oracle.</li>
-              <li>Assisted in the rewrite of the entire policy management system creating a Windows-based application with an Oracle 10 backend.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Midland National Life Insurance Company - Senior Developer (October 2005 - October 2006)</h3>
-            <ul>
-              <li>Developed from specification to solution a policy compliance enforcement system required to fulfill the issues isolated during a government audit.</li>
-              <li>Developed a customer survey system to ensure a higher level of customer satisfaction by allowing every new customer to be contacted.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Tulane University - Developer (May 2005 - August 2005)</h3>
-            <ul>
-              <li>This position was with a major college in New Orleans just prior to Hurricane Katrina.</li>
-              <li>The position involved implementing a new student management system, which was cut short due to the impact of the hurricane.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>New Creations Information Technology - Team Lead (May 2004 - April 2005)</h3>
-            <ul>
-              <li>Worked on contract, assisting in all areas of Microsoft development processes and projects.</li>
-              <li>Led a team of programmers in Bangalore, India, to convert a multi-language security program from VB6 to VB.Net for a Swedish client.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Lamar Advertising Company - Developer (October 2002 - September 2003)</h3>
-            <ul>
-              <li>Helped update an ASP/Access intranet site to a .NET/SQL site, integrating legacy data from ISAPI sources.</li>
-            </ul>
-          </div>
-  
-          <div class="job">
-            <h3>Great Escapes - Senior Developer (May 2001 - September 2002)</h3>
-            <ul>
-              <li>Developed and implemented a membership management system for timeshare operations, improving customer satisfaction and operational efficiency.</li>
-            </ul>
-          </div>
+    <!-- Main Content with Tabs for organized layout -->
+    <mat-tab-group class="profile-tabs">
+
+    <!-- Professional Summary Tab -->
+    <mat-tab label="Summary">
+        <section class="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                With over 20 years of experience as a software engineering leader and consultant, I specialize in transforming legacy codebases and guiding teams toward high performance. My background includes modernizing critical systems by designing forward-compatible abstractions, enabling incremental evolution without disrupting existing workflows. Through expert integration of modern platforms with legacy systems, I drive continuous business value while maintaining compatibility with established infrastructures.
+            </p>
+            <p>
+                As a Certified Professional Scrum Master and Agile Leader, I excel in mentoring teams to adopt agile principles effectively, with a focus on delivering business impact over technical complexity. I bring recent experience as a contractor and architect, leading the development of a scalable Paas and SaaS for Wellfit, integrating payment processing with legacy Practice Management Systems. This work has involved deploying a C# REST API in .NET Core, leveraging Azure for secure, scalable cloud hosting.
+            </p>
+            <p>
+                My leadership approach is grounded in agile principles and cross-functional collaboration, with a track record of building cohesive teams across onshore and offshore settings. By focusing on streamlined development processes and fostering a culture of accountability, I consistently drive project success and team growth.
+            </p>
         </section>
-      </mat-expansion-panel>
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Nonprofit Leadership</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="experience">
-            <h3>Board Member Chai and Chit Chat(C3)</h3>
-            <ul>
-                <li>Grew membership from 20 to over 6,000, managing 60+ volunteers across 50+ monthly events.</li>
-                <li>Organized initiatives ranging from support groups (cancer recovery, single mothers) to fitness programs.</li>
-                <li>Developed leadership training and mentorship programs, coaching volunteer leaders to build confidence, leadership skills, and member engagement.</li>
+    </mat-tab>
+
+        <!-- Technical Skills Tab -->
+        <mat-tab label="Technical Skills">
+            <section class="technical-skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Legacy Modernization & Codebase Transformation:</strong> .NET Framework (4.6, 4.8), .NET Core, Java, VB6, WinForms, WPF, Power Platform, legacy system rewrites, abstractions for modernization, policy management systems, seamless upgrades for mission-critical applications</li>
+                    <li><strong>API Development & Integration:</strong> C# REST APIs, Swagger, Microsoft Entra Authentication, gRPC, GraphQL, JSON API, API Gateways, PHP Rest-like APIs, event-sourced architectures (MongoDB), FHIR Specification, OpenAPI, integration with legacy .NET applications</li>
+                    <li><strong>Cloud & Serverless Architecture:</strong> Azure (PaaS, Cognitive Services, Redis Caching, Key Vault, Functions, AKS, APIM, etc), AWS (EC2, S3, RDS, LAmbda, etc), Serverless Functions (Azure, AWS Lambda), Cloud-Native Development, Edge Computing, distributed storage solutions, secure cloud hosting, scaling and monitoring</li>
+                    <li><strong>Team Leadership & Agile Practices:</strong> Agile Methodologies, Scrum (PSM III Certified), Scaled Agile Framework, Career Development Coaching, distributed team management, Agile scorecards, continuous improvement, agile estimation and planning, backlog prioritization, quantitative assessments</li>
+                    <li><strong>DevOps & CI/CD Pipelines:</strong> Azure DevOps, GitHub Actions, Jenkins, Docker, Kubernetes, CI/CD automation, Groovy plugins for IntelliJ, automated builds and testing, release management, CORS management, GitOps, repository quality improvement</li>
+                    <li><strong>Database Technologies & Management:</strong> SQL Server, Oracle, MySQL, Cosmos DB, MariaDB, MongoDB, ETL Processes , query optimization, database refactoring, feature toggling, complex data migrations</li>
+                    <li><strong>Software Design & Architecture:</strong> Microservices, Event-Driven Architecture, SOA, Domain-Driven Design (DDD), Dependency Injection, Separation of Concerns (SoC), Clean Architecture, scalability and resilience, modularization, componentization</li>
+                    <li><strong>Front-End Development & UI/UX:</strong> Angular, TypeScript, jQuery UI, RxJS, Angular Material, SCSS, Responsive Design, Accessibility (WCAG compliance), Dark Mode, user-centered design, client-side scripting, CSS Flexbox/Grid, custom component development</li>
+                    <li><strong>Security & Compliance:</strong> PCI Compliance, SOX Compliance, GDPR, RESPA, TILA, secure programming practices, coding ethics, secure API development, security audits, system vulnerability management, Azure Key Vault integration, compliance in regulated industries (e.g., mortgage, healthcare)</li>
+                    <li><strong>Observability & Monitoring:</strong> Application Performance Management (APM), logging, distributed tracing, metrics, real-time system health monitoring, Azure Monitoring, proactive issue detection, monitoring Git repositories for quality improvements</li>
+                    <li><strong>Automation & Chatbot Development:</strong> Azure Cognitive Services, Luis.AI, QnAMaker, Alexa and Google Assistant voice assistants, automation of call center support tasks, chatbot pilot programs, improving customer engagement with virtual assistants</li>
+                    <li><strong>Machine Learning & Data Science:</strong> ML.Net, natural language processing (NLP), predictive modeling, data visualization, Jupyter Notebooks, data-driven decision-making, financial risk assessment models, real-time stock analysis, data processing with Python</li>
+                    <li><strong>Low-Code/No-Code Platforms & Mobile Development:</strong> Microsoft Power Platform, Xamarin (Mobile Applications), cross-platform mobile apps, Quick Prototyping, rapid application development, Azure-hosted mobile solutions</li>
+                    <li><strong>Project Management & Client Communication:</strong> Stakeholder engagement, task prioritization, requirement gathering, project scoping, cross-functional team collaboration, mentoring for productivity, client communication in distributed environments</li>
+                    <li><strong>Business Domain Expertise:</strong> Financial Services, Mortgage and Insurance Compliance, Healthcare Applications, Practice Management Systems, Customer Relations, call center solutions, retail management, digital transformation for enterprise clients</li>
+                    <li><strong>Additional Skills & Tools:</strong> Retrospectives, GraphQL, Azure Key Vault, ChatOps, Docker Swarm, Redis, Unity, Prism, Blazor, Roslyn code generation, WebAssembly, voice bots, API versioning, error handling and debugging, KPI-based performance tracking</li>
+                </ul>
+            </section>
+        </mat-tab>
+        <!-- Certifications Tab -->
+        <mat-tab label="Certifications">
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>
+                        <strong>Professional Agile Leadership (PAL)</strong> - Scrum.org | Credential ID: 1144139
+                        <div>
+                            This certification emphasizes developing and supporting agile teams by fostering an understanding of agile principles and leadership techniques. The program covers:
+                            <ul>
+                                <li>Role of leadership in agile transformations</li>
+                                <li>Supporting and coaching agile teams for continuous improvement</li>
+                                <li>Agile metrics, KPIs, and tools for assessing team performance</li>
+                                <li>Implementing a culture of accountability, autonomy, and alignment</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Professional Scrum Master I (PSM I)</strong> - Scrum.org | Credential ID: 1144149
+                        <div>
+                            The PSM I certification demonstrates proficiency in Scrum principles, practices, and the role of a Scrum Master. It covers:
+                            <ul>
+                                <li>Understanding and implementing the Scrum framework (roles, events, artifacts)</li>
+                                <li>Facilitating Sprint Planning, Daily Scrum, Sprint Review, and Retrospective</li>
+                                <li>Mastering the Product Backlog and Sprint Backlog for effective prioritization</li>
+                                <li>Removing impediments and supporting team accountability for delivery</li>
+                                <li>Applying Scrum in complex project environments</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Amazon Web Services Cloud Practitioner</strong> - AWS | Credential ID: cb0a60abc86c4a37a9558fbec53c5f22
+                        <div>
+                            This foundational AWS certification validates expertise in cloud concepts and core AWS services. Key topics include:
+                            <ul>
+                                <li>Understanding AWS core services (EC2, S3, RDS, Lambda)</li>
+                                <li>Cloud security best practices and compliance (IAM, data protection)</li>
+                                <li>AWS architectural design principles and best practices</li>
+                                <li>Cost management and billing models within AWS</li>
+                                <li>Cloud fundamentals (compute, storage, networking, and databases)</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Certified Career Coach</strong> - Holistic Coach Academy | Credential ID: UC-e21174b5-aee1-44e0-a1dd-f377487cf96c
+                        <div>
+                            This certification establishes expertise in career coaching, emphasizing a holistic approach to personal and professional growth. It covers:
+                            <ul>
+                                <li>Career development techniques and tools for individual assessments</li>
+                                <li>Guiding clients in setting actionable goals for career advancement</li>
+                                <li>Building confidence and leadership skills in clients</li>
+                                <li>Strategies for effective communication, networking, and personal branding</li>
+                                <li>Addressing workplace challenges and developing resilience</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </mat-tab>
+        <!-- Training Tab -->
+        <mat-tab label="Training">
+            <section class="training">
+                <h2>Training</h2>
+                <ul>
+                    <li><strong>Standard 10.0 - Level 1 Enterprise Architect Course</strong> - Udemy
+                        <p>Introduces enterprise architecture, focusing on frameworks, methodologies, and aligning IT strategy with business goals.</p>
+                    </li>
+                    <li><strong>Coaching Managers and Leaders for Continuous Development</strong> - Udemy
+                        <p>Covers strategies for coaching leaders in fostering growth, resilience, and team accountability.</p>
+                    </li>
+                    <li><strong>Career Coaching Certification in Career Development Coaching</strong> - Udemy
+                        <p>Focuses on guiding career goals, personal branding, and confidence-building strategies for career growth.</p>
+                    </li>
+                    <li><strong>Agile Transformation and Scaled Agile</strong> - Udemy
+                        <p>Comprehensive coverage on implementing Agile at scale, with principles for organizational transformation and collaboration.</p>
+                    </li>
+                    <li><strong>How to Become a Workplace Coach: Maximising Performance</strong> - Udemy
+                        <p>Trains on maximizing workplace performance through feedback, motivation, and accountability.</p>
+                    </li>
+                    <li><strong>How to Become a Workplace Coach: The Fundamentals</strong> - Udemy
+                        <p>Provides foundational skills for effective workplace coaching, including building rapport and fostering growth.</p>
+                    </li>
+                    <li><strong>Kanban Fundamentals: How to Become Insanely Productive</strong> - Udemy
+                        <p>Teaches Kanban principles for productivity and workflow management, focusing on reducing bottlenecks.</p>
+                    </li>
+                    <li><strong>Advanced Azure Microservices with .NET</strong> - Udemy
+                        <p>Explores building, deploying, and managing microservices on Azure using .NET technologies.</p>
+                    </li>
+                    <li><strong>DevOps Foundations: Site Reliability Engineering</strong> - Udemy
+                        <p>Covers the principles of Site Reliability Engineering (SRE) and its application in DevOps for system reliability.</p>
+                    </li>
+                    <li><strong>Java Design Patterns: Structural</strong> - Udemy
+                        <p>In-depth exploration of structural design patterns in Java, improving code structure and efficiency.</p>
+                    </li>
+                    <li><strong>Java Essential Training: Syntax and Structure</strong> - Udemy
+                        <p>Fundamental Java training, covering syntax, structures, and essential programming principles.</p>
+                    </li>
+                    <li><strong>Learning Java Enterprise Edition</strong> - Udemy
+                        <p>Focuses on Java Enterprise Edition for scalable applications in business environments.</p>
+                    </li>
+                    <li><strong>Learning Kubernetes</strong> - Udemy
+                        <p>Comprehensive training on Kubernetes, covering container orchestration, scaling, and management.</p>
+                    </li>
+                    <li><strong>Learning Terraform</strong> - Udemy
+                        <p>Introduces infrastructure as code with Terraform, including automation and deployment strategies.</p>
+                    </li>
+                    <li><strong>Becoming an Agile Coach</strong> - Udemy
+                        <p>Skills for Agile coaching, focusing on guiding teams and organizations in Agile methodologies.</p>
+                    </li>
+                    <li><strong>Tech Career Skills: Moving from Developer to Engineering Manager</strong> - Udemy
+                        <p>Prepares developers for management roles, covering leadership and communication in technical environments.</p>
+                    </li>
+                    <li><strong>Developing Leadership Presence</strong> - Udemy
+                        <p>Builds skills for impactful leadership, emphasizing presence, communication, and influence.</p>
+                    </li>
+                    <li><strong>Creating a Culture of Continuous Improvement</strong> - Udemy
+                        <p>Strategies for embedding continuous improvement practices within teams and organizations.</p>
+                    </li>
+                </ul>
+            </section>
+        </mat-tab>
+
+        <!-- Work Experience Tab -->
+        <mat-tab label="Work Experience">
+            <section class="experience">
+                <h2>Work Experience</h2>
+
+                <div class="job">
+                    <h3>Wellfit Technologies - Software Engineer (April 2024 - Present)</h3>
+                    <ul>
+                        <li>Developed a SaaS solution for payment planning and processing tailored for the healthcare industry, integrating with legacy Practice Management Systems (PMS) to enhance functionality without disrupting existing workflows.</li>
+                        <li>Architected and implemented a C# REST API using .NET Core 6 and .NET Standard 2.0 to maintain compatibility with legacy .NET Framework 4.8 systems, ensuring seamless integration for clients.</li>
+                        <li>Deployed the solution on Azure, leveraging Azure resources for robust hosting, monitoring, security, and scalable infrastructure that meets enterprise compliance and performance standards.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Owner / Engineering Consultant (Jan 2007 - Present)</h3>
+                    <ul>
+                        <li>Modernized legacy systems across multiple sectors, including insurance, healthcare, and government, utilizing a blend of .NET Core, Azure, and modern architectural practices to enhance security, performance, and scalability.</li>
+                        <li>Led migration projects for outdated architectures, including VB6 and mainframe systems, transforming them into .NET Framework and Core-based solutions, reducing technical debt, and enabling future extensibility.</li>
+                        <li>Provided consulting on architectural strategies, process optimization, and system refactoring, delivering scalable, maintainable solutions tailored to each client's unique needs.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>American Airlines - Architect Tech Lead Coach (June 2023 - Feb 2024)</h3>
+                    <ul>
+                        <li>Collaborated with cross-functional teams to instill best practices in technical architecture and agile methodologies, driving significant improvements in code quality and project delivery timelines.</li>
+                        <li>Reviewed and refactored over 100 Git repositories, identifying and resolving technical debt, ensuring standardized coding practices, and enhancing maintainability across the codebase.</li>
+                        <li>Automated CI/CD pipelines with GitHub Actions, integrating unit tests, SonarQube for code quality, and Black Duck for vulnerability scanning, increasing deployment efficiency and reducing production risks.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Axia Technology Partners - Team Lead (May 2021 - Dec 2022)</h3>
+                    <ul>
+                        <li>Led development of data-driven web applications using Microsoft Azure and Blazor, focusing on real-time data integration and enhanced user experience to meet business requirements.</li>
+                        <li>Created an ETL service for automated data transfer from Microsoft SQL to QuickBooks, streamlining financial workflows and reducing manual data entry.</li>
+                        <li>Upgraded a life and health (L&H) insurance management system to .NET 5 and Blazor, improving system responsiveness, reliability, and user accessibility.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>OmniSYS - Senior Developer (November 2020 - May 2021)</h3>
+                    <ul>
+                        <li>Developed interactive voice assistant bots using Alexa, Google Assistant, and Microsoft technologies, expanding OmniSYS’s product offerings and increasing engagement with end-users.</li>
+                        <li>Led a 90-day pilot for a third-party chatbot with 20 users, optimizing chatbot functionality, usability, and integrating user feedback to enhance performance.</li>
+                        <li>Documented a PHP REST-like API using OpenAPI standards, enabling streamlined API consumption through a NuGet package and facilitating faster third-party integrations.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Amadeus - Offshore Team Supervisor (January 2016 - November 2020)</h3>
+                    <ul>
+                        <li>Supervised a remote team to decouple monolithic WinForms applications from a legacy backend, enabling independent development on the New Skies platform without disrupting existing services.</li>
+                        <li>Developed an abstraction layer that allowed for backend evolution without impacting ongoing or future development, supporting Amadeus’s scalability goals.</li>
+                        <li>Implemented Redis caching for legacy APIs, reducing latency and improving overall response times for a smoother user experience.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>CitationAir - IT Department Head (November 2012 - December 2014)</h3>
+                    <ul>
+                        <li>Architected and developed web applications for integrated system communication using C# MVC templates in Visual Studio, enhancing team collaboration and operational efficiency.</li>
+                        <li>Consolidated over 100 servers down to 12 primary and 12 DR/QA backups, optimizing server resources, reducing costs, and improving system reliability.</li>
+                        <li>Implemented Team Foundation Server (TFS), centralizing source control and improving version tracking, collaboration, and deployment processes across teams.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Wells Fargo Home Mortgage - Team Lead (March 2011 - January 2012)</h3>
+                    <ul>
+                        <li>Developed an interim solution to bridge operational needs during a software rewrite, ensuring continuity for critical business functions without service disruptions.</li>
+                        <li>Converted a series of macros into modular business logic components using MEF, streamlining processes and enhancing operational efficiency.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Kansas Department of Labor - Team Lead (October 2010 - March 2011)</h3>
+                    <ul>
+                        <li>Developed and optimized web applications using WPF, MVC, and WCF for a Siebel/SQL data environment, supporting a complex mainframe-to-Oracle migration initiative.</li>
+                        <li>Led a development team in building services and applications for improved data access and backend functionality during the migration.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Farmer’s Mutual Hail Insurance - Senior Developer (November 2006 - November 2007)</h3>
+                    <ul>
+                        <li>Transitioned VB6 and COBOL systems to a .NET 3.0 environment, using WCF for inter-tier communication and Oracle for backend integration, enhancing system functionality and efficiency.</li>
+                        <li>Contributed to rewriting the policy management system, implementing a Windows-based application backed by Oracle 10, significantly improving data handling and process automation.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Midland National Life Insurance Company - Senior Developer (October 2005 - October 2006)</h3>
+                    <ul>
+                        <li>Developed a compliance enforcement system in response to a government audit, ensuring regulatory standards were met and reducing compliance risks.</li>
+                        <li>Created a customer survey system to capture client feedback, contributing to higher customer satisfaction and loyalty.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Tulane University - Developer (May 2005 - August 2005)</h3>
+                    <ul>
+                        <li>Worked on implementing a new student management system, contributing to improved academic administration before project disruption by Hurricane Katrina.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>New Creations Information Technology - Team Lead (May 2004 - April 2005)</h3>
+                    <ul>
+                        <li>Led a team in Bangalore to convert a multi-language security application from VB6 to VB.NET for a Swedish client, ensuring quality, scalability, and seamless integration across platforms.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Lamar Advertising Company - Developer (October 2002 - September 2003)</h3>
+                    <ul>
+                        <li>Transitioned a legacy ASP/Access intranet system to a modern .NET/SQL environment, consolidating data sources and improving access speed.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Great Escapes - Development and Support Supervisor (May 2001 - September 2002)</h3>
+                    <ul>
+                        <li>Developed a membership management system tailored for timeshare operations, enhancing data management and client satisfaction through streamlined member services.</li>
+                        <li>Supervised a team of support technicians, ensuring high-quality support for call centers and reducing issue resolution time through process enhancements.</li>
+                        <li>Fostered cross-department collaboration between development and support, translating technical requirements into practical solutions to improve service quality.</li>
+                    </ul>
+                </div>
                 
-            </ul>
-        </section>
-    </mat-expansion-panel>
-      <!-- Education Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>Education</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="education">
-          <ul>
-            <li><strong>U.S. Navy</strong> - Communications</li>
-            <li><strong>Blackhawk Community College</strong> - Waterloo, IA</li>
-            <li><strong>University of Phoenix</strong> - Tampa, FL</li>
-          </ul>
-        </section>
-      </mat-expansion-panel>
-  
-      <!-- LinkedIn Articles Panel -->
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>LinkedIn Articles</mat-panel-title>
-        </mat-expansion-panel-header>
-        <section class="linkedin-articles">
-          <h2>LinkedIn Articles</h2>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7246014983430406145" height="645" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7156054456348954624" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135426265162911744" height="561" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7140055571608571904" height="561" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7149915788085198848" height="624" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7162532036350529536" height="645" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-  
-          <div class="article">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7166853838535077891" height="602" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-        </section>
-      </mat-expansion-panel>
-    </mat-accordion>
-  </div>
-  
+            </section>
+        </mat-tab>
+
+
+        <!-- Nonprofit Leadership Tab -->
+        <mat-tab label="Nonprofit Leadership">
+            <section class="experience">
+                <h2>Nonprofit Leadership</h2>
+                <div class="job">
+                    <h3>Board Member - Chai and Chit Chat (C3)</h3>
+                    <ul>
+                        <li>Expanded membership from 20 to over 6,000, overseeing a team of 60+ volunteers and coordinating 50+ monthly events.</li>
+                        <li>Established diverse interest groups, including those for new brides, working women, and mothers, fostering community support and engagement.</li>
+                        <li>Organized cultural celebrations, such as national holidays and festivals, to promote cultural heritage and unity among members.</li>
+                        <li>Implemented mentorship programs connecting experienced members with newcomers, facilitating personal and professional growth.</li>
+                        <li>Developed partnerships with local businesses and organizations to provide resources and opportunities for members.</li>
+                        <li>Managed digital platforms, including social media and the official website, to enhance communication and outreach.</li>
+                        <li>Facilitated workshops and seminars on topics such as career development, health, and wellness, addressing members' diverse needs.</li>
+                        <li>Coordinated volunteer training programs to equip team members with skills necessary for effective community service.</li>
+                    </ul>
+                </div>
+            </section>
+        </mat-tab>
+
+        <!-- Education Tab -->
+        <mat-tab label="Education">
+            <section class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <strong>Andersonville Theological Seminary</strong> - Associate in Theology
+                        <p>Completed an Associate in Theology, focusing on theological principles, scripture interpretation, and foundational ministry practices.</p>
+                    </li>
+                    <li>
+                        <strong>U.S. Navy</strong> - Communications
+                        <p>Studied advanced military communication systems and protocols, gaining experience in secure message encryption, decoding, and technical operations.</p>
+                    </li>
+                    <li>
+                        <strong>Blackhawk Community College</strong> - Waterloo, IA
+                        <p>Completed coursework in Computer Science, providing foundational knowledge in programming, systems analysis, and software development toward a Bachelor's program.</p>
+                    </li>
+                    <li>
+                        <strong>University of Phoenix</strong> - Tampa, FL
+                        <p>Engaged in undergraduate Computer Science studies with a focus on business applications, software development, and information technology, earning credits toward a Bachelor’s program.</p>
+                    </li>
+                </ul>
+            </section>
+        </mat-tab>
+
+        <!-- LinkedIn Articles Tab -->
+        <mat-tab label="LinkedIn Articles">
+            <section class="linkedin-articles-section">
+                <h2>LinkedIn Articles</h2>
+                
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7246014983430406145" height="645" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7156054456348954624" height="543" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135426265162911744" height="561" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7140055571608571904" height="561" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7149915788085198848" height="624" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7162532036350529536" height="645" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+
+                <div class="article">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7166853838535077891" height="602" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe>
+                </div>
+                
+            </section>
+        </mat-tab>
+
+
+    </mat-tab-group>
+</div>
