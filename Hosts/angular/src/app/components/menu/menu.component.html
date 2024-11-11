@@ -10,7 +10,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'quizzes')">
                 Quizzes
-                <span class="icon">{{ isDropdownOpen.quizzes ? '▼' : '▲' }}</span>
+                <span class="icon">{{ isDropdownOpen.quizzes ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.quizzes">
                 <li><a routerLink="/PSM 1">Professional Scrum Master Quiz</a></li>
@@ -24,7 +24,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'general')">
                 General
-                <span class="icon">{{ isDropdownOpen.general ? '▼' : '▲' }}</span>
+                <span class="icon">{{ isDropdownOpen.general ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.general">
                 <li><a href="/SAFe-study-guide.html">SAFe Certification Study Guide</a></li>
@@ -32,6 +32,7 @@
                 <li><a href="/OOP.html">Object-Oriented Programming and Design Principles</a></li>
                 <li><a href="/Rest.html">REST API Development and Principles</a></li>
                 <li><a href="/POPM.html">Product Owner Product Manager</a></li>
+                <li><a href="/340B.html">340B Drug Pricing Program</a></li>
             </ul>
         </li>
 
@@ -39,7 +40,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'angular')">
                 Angular
-                <span class="icon">{{ isDropdownOpen.angular ? '▼' : '▲' }}</span>
+                <span class="icon">{{ isDropdownOpen.angular ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.angular">
                 <li><a href="/Angular.html">Angular</a></li>
@@ -52,7 +53,7 @@
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'fintech')">
                 Fintech
-                <span class="icon">{{ isDropdownOpen.fintech ? '▼' : '▲' }}</span>
+                <span class="icon">{{ isDropdownOpen.fintech ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.fintech">
                 <li><a href="/Compliance-in-Banking.html">Banking and Mortgage Software Development</a></li>
@@ -61,7 +62,6 @@
                 <li><a href="/Tila.html">TILA</a></li>
                 <li><a href="/Respa.html">RESPA</a></li>
                 <li><a href="/MISMO.html">MISMO</a></li>
-                <li><a href="/340B.html">340B Drug Pricing Program</a></li>
             </ul>
         </li>
     </ul>
