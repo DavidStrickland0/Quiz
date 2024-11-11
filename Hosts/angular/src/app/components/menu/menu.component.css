@@ -1,50 +1,70 @@
-/* Style for the hamburger button, fixed to the top-left corner */
+/* Hamburger button to trigger menu */
 .hamburger-btn {
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    color: #e0e0e0;
-    cursor: pointer;
-    position: fixed; /* Fixes the button to the top-left of the viewport */
-    top: 20px;
-    left: 20px; /* Position it in the top-left corner */
-    z-index: 1000; /* Ensure it's above other content */
-  }
-  
-  /* Hamburger icon (3 lines) */
-  .hamburger-icon {
-    font-size: 36px;
-    color: #e0e0e0;
-  }
-  
-  /* Popup menu styles, fixed to appear under the hamburger button */
-  .popup-menu {
-    position: fixed; /* Fixes the menu in place under the button */
-    top: 60px; /* Positioned just below the hamburger button */
-    left: 20px; /* Aligns with the button on the left */
-    background-color: #333;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    z-index: 1000; /* Ensure the menu stays above other elements */
-  }
-  
-  .popup-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .popup-menu li {
-    margin: 10px 0;
-  }
-  
-  .popup-menu a {
-    color: #90caf9;
-    text-decoration: none;
-  }
-  
-  .popup-menu a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #e0e0e0;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* Style dropdown link to look like a plain text link */
+.dropdown-link {
+  color: #90caf9;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline;
+  color: #b3e5fc;
+}
+
+/* Popup menu container styling */
+.popup-menu {
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  z-index: 1000;
+}
+
+/* Main list styling */
+.popup-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dropdown item styling */
+.popup-menu li {
+  margin: 8px 0;
+}
+
+/* Submenu styling for indentation */
+.popup-menu .dropdown ul {
+  margin-left: 20px; /* Indent submenus */
+}
+
+/* Style for links within the popup menu */
+.popup-menu a,
+.popup-menu .dropdown-link {
+  color: #90caf9; /* Consistent link color */
+  text-decoration: none;
+}
+
+/* Hover effect for links and dropdown links */
+.popup-menu a:hover,
+.popup-menu .dropdown-link:hover {
+  text-decoration: underline;
+}
