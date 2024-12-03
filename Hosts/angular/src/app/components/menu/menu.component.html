@@ -40,22 +40,34 @@
                 <li><a href="/JTBD.html">Jobs to be Done</a></li>
                 <li><a href="/TOC.html">Theory of Constraints</a></li>
                 <li><a href="/SemanticKernal.html">Semantic Kernal</a></li>
+                <li><a href="/ML.html">Artificial Intelligence</a></li>
                 <li><a href="/SoftwareDevKPIs.html">Software Development KPIs</a></li>
+            </ul>
+        </li>
+        <!-- Compliance Dropdown -->
+        <li class="dropdown">
+            <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'compliance')">
+                Angular
+                <span class="icon">{{ isDropdownOpen.compliance ? '▼' : '^' }}</span>
+            </a>
+            <ul *ngIf="isDropdownOpen.compliance">
                 <li><a href="/TOGAF.html">The Open Group 10.0</a></li>
                 <li><a href="/NIST.html">NIST</a></li>
                 <li><a href="/CMMC.html">CMMC</a></li>
                 <li><a href="/ISO27001.html">ISO 27001</a></li>
                 <li><a href="/DFARS.html">DFARS</a></li>
+                <li><a href="/DFARS.html">DFARS</a></li>
+                <li><a href="/Tila.html">TILA</a></li>
+                <li><a href="/Respa.html">RESPA</a></li>
             </ul>
         </li>
-
-        <!-- Angular Dropdown -->
+        <!-- UIUX Dropdown -->
         <li class="dropdown">
-            <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'angular')">
+            <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'uiux')">
                 Angular
-                <span class="icon">{{ isDropdownOpen.angular ? '▼' : '^' }}</span>
+                <span class="icon">{{ isDropdownOpen.uiux ? '▼' : '^' }}</span>
             </a>
-            <ul *ngIf="isDropdownOpen.angular">
+            <ul *ngIf="isDropdownOpen.uiux">
                 <li><a href="/Angular.html">Angular</a></li>
                 <li><a href="/AngularCLI.html">Angular CLI</a></li>
                 <li><a href="/AngularDecorators.html">Angular Decorators</a></li>
