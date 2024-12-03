@@ -42,12 +42,13 @@
                 <li><a href="/SemanticKernal.html">Semantic Kernal</a></li>
                 <li><a href="/ML.html">Artificial Intelligence</a></li>
                 <li><a href="/SoftwareDevKPIs.html">Software Development KPIs</a></li>
+                <li><a href="/Nodejs.html">Node JS</a></li>
             </ul>
         </li>
         <!-- Compliance Dropdown -->
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'compliance')">
-                Angular
+                Compliance
                 <span class="icon">{{ isDropdownOpen.compliance ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.compliance">
@@ -64,10 +65,12 @@
         <!-- UIUX Dropdown -->
         <li class="dropdown">
             <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'uiux')">
-                Angular
+                UI/UX
                 <span class="icon">{{ isDropdownOpen.uiux ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.uiux">
+                <li><a href="/React.html">React</a></li>
+                <li><a href="/Vue.html">Vue</a></li>
                 <li><a href="/Angular.html">Angular</a></li>
                 <li><a href="/AngularCLI.html">Angular CLI</a></li>
                 <li><a href="/AngularDecorators.html">Angular Decorators</a></li>
