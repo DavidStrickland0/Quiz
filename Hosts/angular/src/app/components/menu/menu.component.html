@@ -27,25 +27,11 @@
                 <span class="icon">{{ isDropdownOpen.general ? '▼' : '^' }}</span>
             </a>
             <ul *ngIf="isDropdownOpen.general">
-                <li><a href="/SAFe-study-guide.html">SAFe Certification Study Guide</a></li>
                 <li><a href="/AZ-900-Study-Guide.html">AZ 900 Study Guide</a></li>
                 <li><a href="/AzureOfferings.html">Azure Offerings</a></li>
-                <li><a href="/OOP.html">Object-Oriented Programming and Design Principles</a></li>
-                <li><a href="/Rest.html">REST API Development and Principles</a></li>
-                <li><a href="/POPM.html">Product Owner Product Manager</a></li>
-                <li><a href="/340B.html">340B Drug Pricing Program</a></li>
-                <li><a href="/EQandExecutivePrescence.html">EQ and Executive Presence</a></li>
                 <li><a href="/CloudNativeMemberCatalog.html">Cloud Native Catalog</a></li>
-                <li><a href="/Lean.html">Lean Software Development</a></li>
-                <li><a href="/JTBD.html">Jobs to be Done</a></li>
-                <li><a href="/TOC.html">Theory of Constraints</a></li>
-                <li><a href="/SemanticKernal.html">Semantic Kernal</a></li>
-                <li><a href="/ML.html">Artificial Intelligence</a></li>
                 <li><a href="/SoftwareDevKPIs.html">Software Development KPIs</a></li>
                 <li><a href="/Nodejs.html">Node JS</a></li>
-                <li><a href="/EventSourcing.html">Event Sourcing</a></li>
-                <li><a href="/MCA.html">Merchant Cash Advances</a></li>
-                <li><a href="/EmergingWithLegacy.html">Integrating Emerging Tech with Legacy</a></li>
             </ul>
         </li>
         <!-- Compliance Dropdown -->
@@ -63,6 +49,29 @@
                 <li><a href="/DFARS.html">DFARS</a></li>
                 <li><a href="/Tila.html">TILA</a></li>
                 <li><a href="/Respa.html">RESPA</a></li>
+            </ul>
+        </li>
+        <!-- Concept Dropdown -->
+        <li class="dropdown">
+            <a href="#" class="dropdown-link" (click)="toggleDropdown($event, 'concepts')">
+                General
+                <span class="icon">{{ isDropdownOpen.general ? '▼' : '^' }}</span>
+            </a>
+            <ul *ngIf="isDropdownOpen.general">
+                <li><a href="/SAFe-study-guide.html">SAFe Certification Study Guide</a></li>
+                <li><a href="/OOP.html">Object-Oriented Programming and Design Principles</a></li>
+                <li><a href="/POPM.html">Product Owner Product Manager</a></li>
+                <li><a href="/340B.html">340B Drug Pricing Program</a></li>
+                <li><a href="/EQandExecutivePrescence.html">EQ and Executive Presence</a></li>
+                <li><a href="/Lean.html">Lean Software Development</a></li>
+                <li><a href="/JTBD.html">Jobs to be Done</a></li>
+                <li><a href="/TOC.html">Theory of Constraints</a></li>
+                <li><a href="/SemanticKernal.html">Semantic Kernal</a></li>
+                <li><a href="/ML.html">Artificial Intelligence</a></li>
+                <li><a href="/SoftwareDevKPIs.html">Software Development KPIs</a></li>
+                <li><a href="/EventSourcing.html">Event Sourcing</a></li>
+                <li><a href="/MCA.html">Merchant Cash Advances</a></li>
+                <li><a href="/EmergingWithLegacy.html">Integrating Emerging Tech with Legacy</a></li>
             </ul>
         </li>
         <!-- UIUX Dropdown -->

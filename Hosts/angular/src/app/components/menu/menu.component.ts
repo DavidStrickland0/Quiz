@@ -11,6 +11,7 @@ export class MenuComponent {
     quizzes: false,
     general: false,
     uiux: false,
+    concepts: false,
     fintech: false,
     compliance: false
   };
@@ -19,13 +20,14 @@ export class MenuComponent {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
-  toggleDropdown(event: Event, section: 'quizzes' | 'general' |  'fintech' | 'uiux'| 'compliance') {
+  toggleDropdown(event: Event, section: 'quizzes' | 'general' |  'fintech' | 'uiux'| 'concepts'| 'compliance') {
     event.preventDefault(); // Prevents default link behavior
     // Close all sections
     this.isDropdownOpen = {
       quizzes: false,
       general: false,
       uiux: false,
+      concepts: false,
       fintech: false,
       compliance: false,
     };
