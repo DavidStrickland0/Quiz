@@ -4456,4 +4456,846 @@
             1
         ]
     }
+,
+    {
+        "header": "Categories in Solutions Architecture",
+        "subject": "Key AWS Services",
+        "outlineSection": "Introduction to Solutions Architecture",
+        "question": "Which AWS services are primarily used for building cloud-based systems?",
+        "options": [
+            "EC2",
+            "S3",
+            "Lambda",
+            "DynamoDB"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Roles and Responsibilities",
+        "subject": "Pre-Deployment Planning",
+        "outlineSection": "Strategic Planning and Design",
+        "question": "What is included in pre-deployment planning?",
+        "options": [
+            "Requirements gathering",
+            "Validation process",
+            "KPIs definition",
+            "Stakeholder alignment"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Post-Deployment Monitoring",
+        "subject": "Performance and Availability",
+        "outlineSection": "System Monitoring and Maintenance",
+        "question": "What are some key activities post-deployment?",
+        "options": [
+            "Monitoring performance",
+            "Setting up alerts",
+            "Analyzing logs",
+            "Stress testing"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Collaboration and Compliance",
+        "subject": "Team Collaboration",
+        "outlineSection": "Cross-functional Team Collaboration",
+        "question": "Which teams collaborate with a Solutions Architect?",
+        "options": [
+            "Product Managers",
+            "DevOps Engineers",
+            "Security Experts",
+            "Legal Counsel"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Security Best Practices",
+        "subject": "Compliance and Security",
+        "outlineSection": "Ensuring Compliance",
+        "question": "What are some security measures implemented?",
+        "options": [
+            "IAM",
+            "Encryption",
+            "Regular audits",
+            "Identity management"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Cost Management",
+        "subject": "Budgeting and Cost Optimization",
+        "outlineSection": "Cost Management",
+        "question": "Which strategies are used for cost optimization?",
+        "options": [
+            "Budgeting services",
+            "Managing AWS budgets",
+            "Reserved instances",
+            "Spot instances"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Requirements Gathering in AWS Solutions Architecture",
+        "outlineSection": "1",
+        "question": "What is an example requirement for a solution architecture using AWS?",
+        "options": [
+            "Develop a scalable API gateway.",
+            "Implement high availability for critical services.",
+            "Ensure cost efficiency through optimal resource usage."
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "Defining Success Metrics and KPIs",
+        "subject": "Converting Requirements to Measurable Outcomes",
+        "outlineSection": "2",
+        "question": "What is a key success metric for API performance?",
+        "options": [
+            "API response time under 1 second.",
+            "95% uptime of the hosted service.",
+            "Cost efficiency achieved through AWS usage compared to on-premises costs over a year."
+        ],
+        "correctAnswer": [
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "header": "Implementation and Monitoring",
+        "subject": "Ensuring Technical Architecture Meets KPIs",
+        "outlineSection": "3",
+        "question": "What is a technical aspect that needs monitoring during deployment?",
+        "options": [
+            "Serverless function health (active, scaling up/down).",
+            "Microservices scaling with EKS or the rate of scaling adjustments.",
+            "Load balancer efficiency in terms of status."
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "Security and Compliance",
+        "subject": "Ensuring Security Standards",
+        "outlineSection": "4",
+        "question": "Which tool is used to track security best practices compliance?",
+        "options": [
+            "AWS Security Center.",
+            "AWS OpsWorks.",
+            "Manually through logs."
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "Scalability and Performance",
+        "subject": "Ensuring Scalable Architectures",
+        "outlineSection": "5",
+        "question": "What is a key indicator for load balancer efficiency?",
+        "options": [
+            "Health of the load balancer.",
+            "Status of the load balancer (50/50, forward-only).",
+            "Performance metrics related to scaling."
+        ],
+        "correctAnswer": [
+            1,
+            2
+        ]
+    },
+    {
+        "header": "True/False",
+        "subject": "Security Compliance",
+        "outlineSection": "4",
+        "question": "Using AWS Security Center to track vulnerabilities is a true success metric.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "True/False",
+        "subject": "Load Balancer Efficiency",
+        "outlineSection": "5",
+        "question": "A load balancer in status \u0027scaling\u0027 indicates potential performance issues.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "True or False",
+        "subject": "General Awareness of Energy Optimization in AWS Environments",
+        "outlineSection": "",
+        "question": "Workload consolidation reduces overall power consumption in AWS environments.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Multiple Choice",
+        "subject": "Techniques for Optimizing Energy Consumption",
+        "outlineSection": "",
+        "question": "Which of the following is a strategy used to optimize energy consumption in AWS environments?",
+        "options": [
+            "Workload consolidation",
+            "Leveraging load balancing techniques",
+            "Adjusting instance types based on workload patterns"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "True or False",
+        "subject": "Efficiency Through Instance Type Selection",
+        "outlineSection": "",
+        "question": "Is it true that using smaller instances during off-peak hours can help reduce overall energy consumption?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "General Awareness of AWS Services for Energy Efficiency",
+        "subject": "Leveraging AWS Services",
+        "outlineSection": "",
+        "question": "Which services in AWS are specifically designed to optimize energy efficiency?",
+        "options": [
+            "AWS Compute Optimizer",
+            "AWS Cost Explorer",
+            "AWS CloudWatch",
+            "AWS Lambda"
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "header": "General Awareness of AWS Tools for Energy Management",
+        "subject": "Automated Energy Management in AWS",
+        "outlineSection": "",
+        "question": "Which AWS tool is used to manage and optimize energy consumption?",
+        "options": [
+            "AWS CloudWatch",
+            "AWS Lambda",
+            "AWS Direct Connect",
+            "AWS S3"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "True or False",
+        "subject": "Ineffectiveness of Shuting Off Unused Instances",
+        "outlineSection": "",
+        "question": "Is it true that simply turning off unused instances or services does not lead to significant energy savings?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Importance of Monitoring and Reporting",
+        "subject": "Monitoring and reporting are critical for managing cloud costs.",
+        "outlineSection": "The Importance of Monitoring",
+        "question": "Why is monitoring and reporting essential in a cloud environment?",
+        "options": [
+            "To identify cost drivers",
+            "To ensure operational efficiency",
+            "Both",
+            "Neither"
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "header": "Tools for Monitoring",
+        "subject": "AWS provides tools to manage costs effectively.",
+        "outlineSection": "Key Tools for Monitoring",
+        "question": "Which AWS tool collects metrics from applications and services?",
+        "options": [
+            "AWS CloudWatch",
+            "AWS Budgets",
+            "AWS Lambda",
+            "AWS DynamoDB"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Data Analysis for Cost Savings",
+        "subject": "Analyzing data helps in cost optimization.",
+        "outlineSection": "Analyzing Data for Cost Savings",
+        "question": "What does analyzing the monitoring data allow you to do?",
+        "options": [
+            "Identify inefficiencies",
+            "Generate reports",
+            "Both",
+            "Neither"
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "header": "Leveraging AWS Features",
+        "subject": "AWS features can help reduce costs.",
+        "outlineSection": "Leveraging AWS Features for Cost Optimization",
+        "question": "What is a cost-effective AWS feature to use?",
+        "options": [
+            "Spot Instances",
+            "Reserved Instances",
+            "Both",
+            "Neither"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Challenges in Cost Management",
+        "subject": "Cost management comes with challenges.",
+        "outlineSection": "Challenges and Considerations",
+        "question": "What challenge is mentioned regarding monitoring data?",
+        "options": [
+            "Interpreting complex data sets",
+            "Performing tasks manually",
+            "Both",
+            "Neither"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Automation in Cost Reporting",
+        "subject": "Automation can enhance efficiency.",
+        "outlineSection": "Leveraging AWS Features for Cost Optimization",
+        "question": "Which tool helps automate cost reporting?",
+        "options": [
+            "AWS CloudFormation",
+            "AWS Budgets",
+            "AWS Lambda",
+            "AWS DynamoDB"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Traffic Monitoring and Proactive Management",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "Which AWS tool is used to monitor network traffic patterns?",
+        "options": [
+            "AWS CloudWatch",
+            "Elastic Load Balancing",
+            "AWS Alarms",
+            "Direct Connect"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Load Balancing with Application Load Balancers (ALB)",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "What is the purpose of using ALB in AWS?",
+        "options": [
+            "To balance traffic across instances",
+            "To create subnets",
+            "To enable QoS settings",
+            "To optimize Direct Connect"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Network Segmentation and Subnet Optimization",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "Why is optimizing network segmentation important?",
+        "options": [
+            "To reduce unnecessary interconnectivity",
+            "To ensure applications have exclusive bandwidth",
+            "To improve ALB performance"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Utilizing AWS Network Interface Options (ACI)",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "Which AWS feature can reduce overhead and improve efficiency in network interface cards?",
+        "options": [
+            "AWS Direct Connect",
+            "AWS ACI",
+            "AWS VPC peering settings",
+            "AWS Elastic Load Balancing"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Implementing Quality of Service (QoS) Settings",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "What does QoS help in optimizing within a VPC?",
+        "options": [
+            "Network traffic performance",
+            "Bandwidth allocation between services",
+            "Direct Connect connections",
+            "VPC peering"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Testing and Balancing Traffic",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "How can traffic be balanced across multiple paths to avoid bottlenecks?",
+        "options": [
+            "Test peering connections",
+            "Balance traffic between VPCs",
+            "Dynamically scale network resources"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "header": "Category of the question",
+        "subject": "Avoiding Common Pitfalls",
+        "outlineSection": "Key Strategies for Optimizing Bandwidth",
+        "question": "Which is a common pitfall in optimizing bandwidth within VPCs?",
+        "options": [
+            "Overcommitting resources",
+            "Using too many ALB instances",
+            "Poorly configured NAT settings"
+        ],
+        "correctAnswer": [
+            0,
+            2
+        ]
+    },
+    {
+        "header": "Design Considerations",
+        "subject": "Understanding system requirements for recovery planning",
+        "outlineSection": "Design Considerations",
+        "question": "What is a primary consideration when designing an effective recovery plan?",
+        "options": [
+            "Ensure data redundancy",
+            "Understand dependencies and architectures",
+            "Prepare for regional outages",
+            "Implement third-party tools"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Validation Methods",
+        "subject": "Testing the effectiveness of a recovery plan",
+        "outlineSection": "Validation Methods",
+        "question": "Which method is used to simulate disaster scenarios and test recovery mechanisms?",
+        "options": [
+            "Simulation-based testing",
+            "Real-world implementation",
+            "Cross-departmental reviews",
+            "Iterative refinement"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Disaster Recovery Strategies",
+        "subject": "Handling specific disruptions",
+        "outlineSection": "Disaster Recovery Strategies",
+        "question": "What type of strategies are tailored for scenarios like regional outages?",
+        "options": [
+            "Failover mechanisms",
+            "Data center migrations",
+            "Hardware failure recovery",
+            "Simulation testing"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Validation Process",
+        "subject": "Ensuring the plan\u0027s effectiveness post-implementation",
+        "outlineSection": "Validation Methods",
+        "question": "What aspect involves using detailed logs to evaluate system performance?",
+        "options": [
+            "Cross-departmental reviews",
+            "Monitoring system health with dashboards",
+            "Iterative refinement phase",
+            "Simulation testing"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Refinement Phase",
+        "subject": "Improving the recovery plan after implementation",
+        "outlineSection": "Refinement Process",
+        "question": "Which tool is used to monitor system health and recovery progress?",
+        "options": [
+            "Dashboards or alerting systems",
+            "Simulation tools like AWS CFT",
+            "Detailed logs from operations",
+            "Cross-departmental reviews"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Post-Implementation Training",
+        "subject": "Ensuring readiness for critical events",
+        "outlineSection": "Refinement Process",
+        "question": "What training ensures personnel know how to execute recovery plans during critical events?",
+        "options": [
+            "Technical proficiency",
+            "Knowledge of failover mechanisms",
+            "Experience with regional outages",
+            "Data center migration processes"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Post-Implementation Training",
+        "subject": "Ensuring readiness for critical events",
+        "outlineSection": "Post-Implementation Training",
+        "question": "What is the purpose of this training?",
+        "options": [
+            "To execute recovery plans effectively",
+            "To understand system dependencies",
+            "To monitor system health",
+            "To simulate disaster scenarios"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Importance of Automation in Maintenance",
+        "outlineSection": "Understanding the Importance of Automation in Maintenance",
+        "question": "What is the primary benefit of automating maintenance tasks?",
+        "options": [
+            "Reducing manual errors",
+            "Minimizing downtime",
+            "Increasing server load",
+            "Decreasing system performance"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Leveraging AWS Services for Automated Maintenance",
+        "subject": "Using CloudFormation for Infrastructure as Code",
+        "outlineSection": "Using CloudFormation for Infrastructure as Code",
+        "question": "Which AWS service is used to define infrastructure as code?",
+        "options": [
+            "AWS EC2",
+            "AWS Lambda",
+            "AWS CloudFormation",
+            "AWS CI/CD"
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "header": "Integration with CI/CD Pipelines",
+        "subject": "Integrating with CI/CD Pipelines",
+        "outlineSection": "Integrating with CI/CD Pipelines",
+        "question": "What is the purpose of CI/CD pipelines in automation?",
+        "options": [
+            "To automate deployment steps",
+            "To manage manual processes",
+            "To handle server restarts",
+            "To update code"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Self-healing Solutions",
+        "subject": "Implementing Self-healing Solutions",
+        "outlineSection": "Implementing Self-H healing Solutions",
+        "question": "What is an example of a self-healing solution?",
+        "options": [
+            "Automated restarts",
+            "Scheduled updates",
+            "Manual backups",
+            "Preventive maintenance"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Best Practices for Automating Maintenance Tasks",
+        "subject": "Best Practices for Automating Maintenance Tasks",
+        "outlineSection": "Best Practices for Automating Maintenance Tasks",
+        "question": "Which of the following is NOT a best practice when automating maintenance tasks?",
+        "options": [
+            "Adhere to best practices",
+            "Leverage existing tools",
+            "Test automation scripts",
+            "Optimize as needed"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Implementation of Self-healing Solutions",
+        "outlineSection": "Implementing Self-H healing Solutions",
+        "question": "What does AWS Lambda enable?",
+        "options": [
+            "Server restarts",
+            "Code updates",
+            "Self-healing processes",
+            "Static content delivery"
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Leveraging CI/CD Pipelines",
+        "outlineSection": "Integrating with CI/CD Pipelines",
+        "question": "What is the primary use of a CI/CD pipeline?",
+        "options": [
+            "Updates to server code",
+            "Rollback functionality during deployment",
+            "Scheduled backups for data protection",
+            "Analysis of system logs"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Integration with CI/CD Pipelines",
+        "outlineSection": "Integrating with CI/CD Pipelines",
+        "question": "Which AWS service integrates well with CI/CD pipelines for automation?",
+        "options": [
+            "AWS ECS",
+            "AWS CodePipeline",
+            "AWS Lambda",
+            "AWS CloudFormation"
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Self-healing Solutions",
+        "outlineSection": "Implementing Self-H healing Solutions",
+        "question": "Which AWS service can be used for applying automatic updates?",
+        "options": [
+            "AWS Lambda",
+            "AWS ECS",
+            "AWS EC2",
+            "AWS RDS"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "True/False Questions",
+        "outlineSection": "True/False Questions",
+        "question": "Automating maintenance tasks can reduce downtime.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Automation and Orchestration",
+        "subject": "Integration with CI/CD Pipelines",
+        "outlineSection": "Integrating with CI/CD Pipelines",
+        "question": "AWS CodePipeline is used for which purpose?",
+        "options": [
+            "Deployment automation",
+            "Security hardening",
+            "Backup scheduling",
+            "Self-healing configurations"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Event Sourcing in Serverless Context",
+        "subject": "Integration with Serverless Platforms",
+        "outlineSection": "1. Integration with Serverless Platforms",
+        "question": "Lambda functions are used to capture and store events in this context.",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Data Storage Solutions",
+        "subject": "Integration with Serverless Platforms",
+        "outlineSection": "2. Utilizing DynamoDB or Cognito Tables",
+        "question": "DynamoDB is used for efficient data storage.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Role of SAM and CDK",
+        "subject": "Deployment Management",
+        "outlineSection": "1. Deployment Management",
+        "question": "SAM provides a unified environment for deployment.",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Role of SAM and CDK",
+        "subject": "Development Facilitation",
+        "outlineSection": "2. Template-Based Development",
+        "question": "CDK templates are used for rapid development.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Security Considerations",
+        "subject": "Data Flow and Function Execution",
+        "outlineSection": "1. Security is maintained using IAM roles.",
+        "question": "IAM roles are used to control access.",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "header": "Log Management and Performance",
+        "subject": "Monitoring and Troubleshooting",
+        "outlineSection": "1. SAM provides built-in logging.",
+        "question": "Logs capture the event flow and Lambda function calls.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswer": [
+            0
+        ]
+    }
 ]
