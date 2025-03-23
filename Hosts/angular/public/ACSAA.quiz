@@ -510,21 +510,6 @@
         ]
     },
     {
-        "header": "Validation Methods",
-        "subject": "Testing the effectiveness of a recovery plan",
-        "outlineSection": "Validation Methods",
-        "question": "Which method is used to simulate disaster scenarios and test recovery mechanisms?",
-        "options": [
-            "Simulation-based testing",
-            "Real-world implementation",
-            "Cross-departmental reviews",
-            "Iterative refinement"
-        ],
-        "correctAnswer": [
-            1
-        ]
-    },
-    {
         "header": "Disaster Recovery Strategies",
         "subject": "Handling specific disruptions",
         "outlineSection": "Disaster Recovery Strategies",

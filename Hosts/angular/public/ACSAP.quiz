@@ -1,4 +1,3379 @@
 [
+	{
+		"header": "Core Concepts",
+		"subject": "AWS Infrastructure Basics",
+		"outlineSection": "Foundational Concepts - EC2, VPC, etc.",
+		"question": "Which service ensures traffic distribution across VMs in AWS?",
+		"options": [
+			"Auto Scaling",
+			"Elastic Load Balancing",
+			"Direct Connect",
+			"VPC"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Core Concepts",
+		"subject": "Advanced Infrastructure - Lambda, RDS/DynamoDB",
+		"outlineSection": "Advanced Concepts",
+		"question": "Lambda functions are best suited for which purpose?",
+		"options": [
+			"Database management",
+			"Serverless computing",
+			"Virtual machines allocation",
+			"Network configuration"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Solution Architect Competencies",
+		"subject": "Designing Scalable Solutions",
+		"outlineSection": "Disaster Recovery & CI/CD",
+		"question": "Which tool is used to build CI/CD pipelines in AWS?",
+		"options": [
+			"CodePipeline",
+			"CodeBuild",
+			"CodeDeploy",
+			"Lambda"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Cybersecurity & Compliance",
+		"subject": "IAM & RBAC",
+		"outlineSection": "Security Best Practices",
+		"question": "Which service uses IAM policies for access control?",
+		"options": [
+			"AWS IAM",
+			"RDS",
+			"DynamoDB",
+			"Direct Connect"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Global Infrastructure",
+		"subject": "Regions & Connectivity",
+		"outlineSection": "Global Infrastructure Considerations",
+		"question": "Which regions offer Direct Connect options?",
+		"options": [
+			"US",
+			"EU",
+			"AP",
+			"All of the above"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Cost Management",
+		"subject": "Budgeting & Optimization",
+		"outlineSection": "Efficient Cost Management",
+		"question": "Which strategy helps in reducing costs by optimizing resource usage?",
+		"options": [
+			"Auto Scaling",
+			"Reserved Instances",
+			"Direct Attach",
+			"Database Replication"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Core Concepts",
+		"subject": "Understanding AWS infrastructure fundamentals",
+		"outlineSection": "EC2 instances, VPCs, Elastic Load Balancing, Auto Scaling",
+		"question": "What does EC2 instance provide in terms of networking?",
+		"options": [
+			"Direct connections to the internet",
+			"Isolated network with private IP addresses",
+			"Shared network address",
+			"No specific network guarantee"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Advanced Concepts",
+		"subject": "Serverless computing and NoSQL databases",
+		"outlineSection": "Lambda functions, DynamoDB",
+		"question": "Which AWS service is used for creating a new table in DynamoDB?",
+		"options": [
+			"Lambda Function creation",
+			"DynamoDB Table creation",
+			"EC2 instance launch",
+			"Elastic Load Balancing setup"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Solution Architect Competence",
+		"subject": "Designing microservices and CI/CD pipelines",
+		"outlineSection": "Disaster recovery, scaling solutions",
+		"question": "What is a common technique for disaster recovery in AWS Solutions Architecture?",
+		"options": [
+			"Implementing automatic restarts",
+			"Configuring backup jobs to S3",
+			"Using Direct Connect for high-speed connections",
+			"Optimizing resource usage with Auto Scaling"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Cybersecurity & Compliance",
+		"subject": "IAM policies and RBAC models",
+		"outlineSection": "Securing AWS resources",
+		"question": "Which AWS service enforces RBAC model restrictions?",
+		"options": [
+			"Lambda Function settings",
+			"DynamoDB database configurations",
+			"Elastic Load Balancing rules",
+			"EC2 security group policies"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Global Infrastructure",
+		"subject": "Handling diverse client environments",
+		"outlineSection": "VPC configuration and cache replication",
+		"question": "What does CloudFront do in the context of content delivery networks?",
+		"options": [
+			"Replicates data across regions for faster access",
+			"Provides VPC connectivity to customers",
+			"Manages auto-scaling groups for EC2 instances",
+			"Handles serverless database setups"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Cost Management",
+		"subject": "Optimizing AWS costs",
+		"outlineSection": "Pricing models and reserved instances",
+		"question": "Which of the following is NOT a component used to optimize AWS costs?",
+		"options": [
+			"Adjusting auto-scaling groups",
+			"Using reserved instances for peak traffic",
+			"Configuring Direct Connect with peering networks",
+			"Utilizing spot instance discounts"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Understanding EC2, VPCs, Elastic Load Balancing, Auto Scaling, and Scaling Groups",
+		"subject": "Core concepts of building scalable infrastructure with AWS services",
+		"outlineSection": "Introduction to foundational components",
+		"question": "What is the primary function of EC2 in AWS?",
+		"options": [
+			"Provide secure access from public internet",
+			"Host virtual machines providing computational resources",
+			"Create isolated network spaces for security",
+			"Manage spot instances"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Security and Isolation",
+		"subject": "Ensuring resource isolation and security",
+		"outlineSection": "VPCs and their role in network security",
+		"question": "What does a VPC achieve in AWS?",
+		"options": [
+			"Ensures all services operate over public internet",
+			"Provides isolated subnets with unique IPs for secure communication",
+			"Segments networks but doesn't guarantee IP uniqueness",
+			"Changes the availability of EC2 instances"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Traffic Management and Load Balancing",
+		"subject": "Efficient resource management through load balancing",
+		"outlineSection": "Elastic Load Balancing (ELmechanisms",
+		"question": "How does Elastic Load Balancing distribute traffic in a scalable system?",
+		"options": [
+			"It ensures all resources are used at full capacity",
+			"It balances traffic across instances based on predefined policies or rules",
+			"It handles instances going offline automatically",
+			"It is used for auto-scaling"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Dynamic Scaling Solutions",
+		"subject": "Adapting resources dynamically to demand",
+		"outlineSection": "Auto Scaling Groups and their function",
+		"question": "What does Auto Scaling automatically do for a workload?",
+		"options": [
+			"Increases instances when system utilization is high",
+			"Decreases instances when there's low demand, maintains consistent performance",
+			"Changes the instance type based on system needs",
+			"Sets pricing for spot instances"
+		],
+		"correctAnswer": [
+			1,
+			2
+		]
+	},
+	{
+		"header": "Scalable Resource Management",
+		"subject": "Managing resources efficiently through scaling groups",
+		"outlineSection": "Scaling Groups in AWS infrastructure management",
+		"question": "What is the role of Scaling Groups in AWS?",
+		"options": [
+			"They consolidate auto-scaling and load balancing configurations for specific workloads",
+			"They manage spot instances across multiple regions to increase capacity",
+			"They create isolated networks with unique IPs for each scaled instance",
+			"They provide a centralized control panel for scaling decisions"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "EBS Configuration and Management",
+		"outlineSection": "Introduction to EBS",
+		"question": "What is a primary consideration when configuring EBS in an EC2 instance or VPC?",
+		"options": [
+			"Performance optimization for frequently accessed data",
+			"Volume management",
+			"Network configuration adjustments",
+			"Data security features"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "EBS Configuration and Management",
+		"subject": "Storage Classes in AWS",
+		"outlineSection": "Storage Classes Overview",
+		"question": "Which AWS storage class is known for enhanced network performance?",
+		"options": [
+			"General Purpose",
+			"High Performance",
+			"Secure Direct Attached Storage (SDAS)",
+			"Tiered"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "EBS Configuration and Management",
+		"subject": "Volume Management",
+		"outlineSection": "Volume Attachments and Snapshots",
+		"question": "What feature allows restoring data in case of failure?",
+		"options": [
+			"Volume size",
+			"Snapshots",
+			"Network configuration",
+			"Placement groups"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "EBS Configuration and Management",
+		"subject": "I/O Optimization",
+		"outlineSection": "Optimizing Storage Performance",
+		"question": "What technique balances load across instances to enhance performance?",
+		"options": [
+			"Placement groups",
+			"Volume size",
+			"Network configuration",
+			"Snapshot management"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "EBS Configuration and Management",
+		"subject": "Integration with Other Services",
+		"outlineSection": "EFS and S3 Integration",
+		"question": "Which service is suitable for file storage across multiple instances?",
+		"options": [
+			"EFS",
+			"S3",
+			"Direct Storage Attached",
+			"Elastic Block Storage"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "EBS Configuration and Management",
+		"subject": "Monitoring and Maintenance",
+		"outlineSection": "Proactive Monitoring",
+		"question": "Which tool tracks EBS health and performance?",
+		"options": [
+			"AWS CloudWatch",
+			"EC2 Control Panel",
+			"S3 Management Dashboard",
+			"VPC Health Monitor"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Firewalls",
+		"subject": "Understanding Firewalls in AWS Networking",
+		"outlineSection": "Introduction to Firewalls",
+		"question": "What is the primary function of a firewall in AWS?",
+		"options": [
+			"Regulate traffic",
+			"Encrypt data",
+			"Create virtual machines",
+			"Deploy applications"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "NAT (Network Address Translation)",
+		"subject": "The Role of NAT in AWS Networking",
+		"outlineSection": "Hiding IP Addresses",
+		"question": "How does NAT help protect a network from unauthorized access?",
+		"options": [
+			"It hides private IP addresses",
+			"It allows multiple devices to share an IP address",
+			"It translates domain names to IP addresses",
+			"It provides secure communication over public networks"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Route53",
+		"subject": "Managing DNS in AWS Networking",
+		"outlineSection": "Domain Resolution",
+		"question": "What does Route53 do in the context of AWS networking?",
+		"options": [
+			"Resolves domain names to IP addresses",
+			"Generates security tokens for authentication",
+			"Manages network traffic configurations",
+			"Provides a graphical interface for network management"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Integration",
+		"subject": "Combining Concepts",
+		"outlineSection": "Synergistic Functionality",
+		"question": "How do Firewalls, NAT, and Route53 work together in AWS to manage network traffic?",
+		"options": [
+			"Firewalls filter traffic based on rules, NAT translates internal IP addresses to public ones, and Route53 resolves domain names to these IPs",
+			"Each function is isolated with no relation to the others",
+			"They operate independently without affecting each other's performance",
+			"NAT and Route53 are used for encryption while Firewalls handle traffic control"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Best Practices",
+		"subject": "Optimizing AWS Networking",
+		"outlineSection": "Security Configurations",
+		"question": "Which of the following is a best practice when configuring security in AWS using these concepts?",
+		"options": [
+			"Using Route53 Direct for granular control",
+			"Leaving NAT configurations unchanged after IP assignment",
+			"Overriding default firewall rules with custom policies only on public subnets",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			2
+		]
+	},
+	{
+		"header": "Practical Applications",
+		"subject": "Real-world Scenarios",
+		"outlineSection": "API Gateways and Function Integration",
+		"question": "Which component is essential for routing API traffic to AWS Lambda functions from an application domain?",
+		"options": [
+			"Firewalls",
+			"NAT outbound rules",
+			"Route53 DNS settings",
+			"Direct HTTP access"
+		],
+		"correctAnswer": [
+			1,
+			2
+		]
+	},
+	{
+		"header": "Infrastructure Design",
+		"subject": "Scalable and Secure Architectures",
+		"outlineSection": "Dynamic Traffic Routing",
+		"question": "Which AWS feature integrates with firewalls for dynamic routing decisions in application gateways?",
+		"options": [
+			"Route53",
+			"NAT",
+			"Firewalls themselves",
+			"Direct HTTP"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Role of Lambda in Serverless Computing",
+		"outlineSection": "Trigger Responses",
+		"question": "Lambda functions are used to trigger specific actions when certain conditions are met. Are they used for this purpose?",
+		"options": [
+			"Yes",
+			"No"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Abstraction in Lambda",
+		"outlineSection": "Abstraction Role",
+		"question": "Are Lambda functions designed to abstract the complexities of hosting environments?",
+		"options": [
+			"Yes",
+			"No"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Scalability with Auto-Scaling Groups",
+		"outlineSection": "Dynamic Scaling",
+		"question": "How do Lambda functions contribute to enhancing scalability in serverless environments?",
+		"options": [
+			"Through auto-scaling groups",
+			"Without using any scaling mechanisms",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Function Isolation",
+		"outlineSection": "Fault Isolation",
+		"question": "Is each function invocation in Lambda isolated from others to prevent unintended side effects?",
+		"options": [
+			"Yes",
+			"No"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Integration with AWS Services",
+		"outlineSection": "Integration with RDS/DynamoDB",
+		"question": "Can Lambda functions be integrated with services like RDS and DynamoDB to enhance data management in applications?",
+		"options": [
+			"Yes",
+			"No"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Invocation Types",
+		"outlineSection": "Triggered vs Auto-Invocation",
+		"question": "What types of invocation are supported by Lambda functions?",
+		"options": [
+			"Only triggered by other AWS services",
+			"Both triggered and auto-invocation"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Pricing Model",
+		"outlineSection": "Cost Management",
+		"question": "How is the pricing of Lambda functions determined based on usage?",
+		"options": [
+			"Based on CPU, memory, storage, and network usage",
+			"No specific metric-based pricing"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Lambda Functions",
+		"subject": "Cost Reduction",
+		"outlineSection": "Reserved Instances for Cost",
+		"question": "Are reserved instances in AWS used to reduce costs associated with Lambda functions during off-peak periods?",
+		"options": [
+			"Yes",
+			"No"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Exam Preparation",
+		"subject": "Relevance of RDS in Exam Prep",
+		"outlineSection": "Introduction",
+		"question": "RDS is a key component for which AWS Certified Solutions Architect exam preparation?",
+		"options": [
+			"AWS Certified Solutions Architect - Associate",
+			"AWS Certified Solutions Architect - Professional",
+			"AWS Certified Database Administrator",
+			"AWS Certified Developer"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Scalability Strategies",
+		"subject": "Features of RDS for Scaling",
+		"outlineSection": "Scaling Strategies",
+		"question": "Which RDS feature automatically adjusts the database size based on traffic needs?",
+		"options": [
+			"Auto-Scaling Groups",
+			"Read Replicas",
+			"Horizontal Scaling",
+			"Database Locking"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Database Types",
+		"subject": "Supported Databases in RDS",
+		"outlineSection": "Database Options",
+		"question": "RDS supports which databases for flexibility?",
+		"options": [
+			"PostgreSQL",
+			"MySQL",
+			"MariaDB",
+			"All of the above"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Integration with AWS Services",
+		"subject": "RDS and AWS Services Integration",
+		"outlineSection": "Integration Capabilities",
+		"question": "Which AWS service integrates with RDS for database access?",
+		"options": [
+			"IAM",
+			"VPC",
+			"Elastic Load Balancing",
+			"Database Encryption"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Global Infrastructure",
+		"subject": "Region-Specific Considerations",
+		"outlineSection": "Geographic Considerations",
+		"question": "Which consideration affects RDS scalability across regions?",
+		"options": [
+			"Choosing the right database type",
+			"Scaling solutions per region",
+			"Database performance",
+			"Security features"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "High Availability",
+		"subject": "Core Features of RDS",
+		"outlineSection": "Key Features",
+		"question": "What ensures global accessibility and high availability in RDS?",
+		"options": [
+			"Auto-Scaling",
+			"Horizontal Scaling",
+			"Database Locking",
+			"Read Replicas"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Introduction",
+		"subject": "DynamoDB overview",
+		"outlineSection": "General introduction to DynamoDB",
+		"question": "What is DynamoDB?",
+		"options": [
+			"cloud-based relational database service provided by AWS",
+			"a NoSQL database designed for real-time analytics and high concurrency",
+			"an advanced database system optimized for global data distribution"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Key Features",
+		"subject": "DynamoDB's auto-scaling capabilities",
+		"outlineSection": "Auto-scaling in DynamoDB",
+		"question": "What feature of DynamoDB allows it to handle fluctuating workloads efficiently?",
+		"options": [
+			"automatic scaling groups setup",
+			"built-in load balancers for distribution",
+			"live database versions for concurrent updates"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Data Management",
+		"subject": "DynamoDB's data organization",
+		"outlineSection": "Document model in DynamoDB",
+		"question": "How does DynamoDB store data?",
+		"options": [
+			"tabular format similar to relational databases",
+			"key-value pairs for flexible storage",
+			"hierarchical data structures"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Understanding AWS API Gateway Functionality",
+		"outlineSection": "Domain Names",
+		"question": "What is a domain name in AWS API Gateway used for?",
+		"options": [
+			"Create custom URLs",
+			"Define routing rules",
+			"Set authentication permissions",
+			"Optimize request performance"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Understanding AWS API Gateway Functionality",
+		"outlineSection": "Routing",
+		"question": "Which feature allows directing incoming traffic to different services based on predefined criteria?",
+		"options": [
+			"Request validation",
+			"CORS (Cross-Origin Resource Sharing)",
+			"API authentication",
+			"Route-based routing"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Understanding AWS API Gateway Functionality",
+		"outlineSection": "Authentication & Authorization",
+		"question": "Which service in AWS API Gateway is used to grant access to specific parts of an API?",
+		"options": [
+			"IAM roles",
+			"CORS rules",
+			"Domain name settings",
+			"API validation"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Understanding AWS API Gateway Functionality",
+		"outlineSection": "Cost Optimization",
+		"question": "What feature in AWS API Gateway helps control expenses by monitoring API usage?",
+		"options": [
+			"Event sourcing",
+			"Real-time processing",
+			"CORS rules",
+			"Authentication"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Security in AWS API Gateway",
+		"outlineSection": "Security Features",
+		"question": "Which security feature ensures that only authorized users can access specific parts of an API?",
+		"options": [
+			"API validation",
+			"CORS rules",
+			"IAM roles",
+			"Cost optimization"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Category of the Question",
+		"subject": "Best Practices for Using AWS API Gateway",
+		"outlineSection": "Versioning Endpoints",
+		"question": "Which best practice helps prevent breaking changes in an API?",
+		"options": [
+			"Real-time processing",
+			"CORS rules",
+			"API authentication",
+			"Versioned endpoints"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Benefits of Microservices Architecture",
+		"subject": "Benefits of designing microservices architecture",
+		"outlineSection": "Key Benefits",
+		"question": "What are considered benefits of designing a microservices architecture?",
+		"options": [
+			"Modularity, scalability, flexibility",
+			"Centralized control and easier management",
+			"Improved performance in all environments"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Responsibilities in Microservices",
+		"subject": "Defining Responsibilities",
+		"outlineSection": "Service Responsibilities",
+		"question": "Which of the following is a benefit of clearly defining service responsibilities?",
+		"options": [
+			"Fosters independence among services",
+			"Reduces coupling between services",
+			"Improves state management"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Reducing Dependencies",
+		"subject": "Minimizing Dependencies",
+		"outlineSection": "Coupling Reduction",
+		"question": "What is a key strategy to reduce coupling between services?",
+		"options": [
+			"Minimizing shared responsibilities",
+			"Encapsulation of functionalities",
+			"Using RESTful APIs"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Communication Methods",
+		"subject": "Methods of Communication",
+		"outlineSection": "Communication Techniques",
+		"question": "Which methods are used for communication between services?",
+		"options": [
+			"RESTful APIs, SOAP",
+			"Kubernetes, Docker containers",
+			"Event-driven architectures"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Challenges in Microservices",
+		"subject": "Challenges in Designing Microservices",
+		"outlineSection": "Challenges",
+		"question": "What are challenges when designing a microservices architecture?",
+		"options": [
+			"State consistency across distributed systems",
+			"Handling partial failures without atomicity"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "AWS Tools for Microservices",
+		"subject": "Tools for Designing Microservices",
+		"outlineSection": "Specific Tools",
+		"question": "Which tools are used in designing microservices with AWS?",
+		"options": [
+			"AWS Lambda",
+			"AWS ECS",
+			"AWS EKS"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "CI/CD Pipeline Setup",
+		"subject": "AWS CDK Project Setup",
+		"outlineSection": "Project Setup: Creating Directory Structure",
+		"question": "In AWS CDK, which of the following best describes how you would structure your project for resources and parameters?",
+		"options": [
+			"Create separate files for resources under a 'resources' directory",
+			"Use JSON configuration in root file",
+			"Define variables using .env files",
+			"Set up stages for pre-commit scripts"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Integration with CI/CD",
+		"subject": "AWS CDK Integration",
+		"outlineSection": "Integrating CI/CD: Stages or Pre-Commit Scripts",
+		"question": "Which AWS tool can be integrated into CI/CD pipelines for GitLab to trigger deployments automatically?",
+		"options": [
+			"gitlab-cdk-plugin",
+			"AWS Lambda",
+			"CDK Functions",
+			"DynamoDB"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Testing",
+		"subject": "Testing in CI/CD",
+		"outlineSection": "Verification with AWS Test Service",
+		"question": "Which service allows you to test your application's functionality before deployment using test scripts written in YAML?",
+		"options": [
+			"AWS Test Service",
+			"GitLab CI/CD",
+			"CDK Execution Layer",
+			"Lambda Functions"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Deployment",
+		"subject": "AWS CDK Deployment",
+		"outlineSection": "Deploying Changes",
+		"question": "After passing tests, how are changes deployed in AWS CDK using the CI/CD pipeline?",
+		"options": [
+			"Parameters from CI/CD",
+			"EC2 Launch Tags",
+			"DynamoDB Auto-Scaling",
+			"CDK Functions"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Monitoring",
+		"subject": "Post-Deployment Monitoring",
+		"outlineSection": "Logging and Notifications",
+		"question": "Which tools can be used to log deployment processes and send notifications post-deployment via SNS?",
+		"options": [
+			"CloudWatch",
+			"AWS Lambda",
+			"Terraform State Changes",
+			"GitLab"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Terraform Project Setup",
+		"subject": "Resources and Configuration",
+		"outlineSection": "Project Structure",
+		"question": "How are resources defined in Terraform for deployment to AWS services?",
+		"options": [
+			".tfstate files",
+			"JSON configuration files",
+			"Variables stored in .env",
+			"CDK templates"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Integration with CI/CD",
+		"subject": "Terraform Integration",
+		"outlineSection": "Triggers for CI/CD",
+		"question": "Which Terraform plugin enables triggering deployments automatically from GitLab CI/CD?",
+		"options": [
+			"gitlab-cdk-plugin",
+			"Terraform Plug-in",
+			"AWS Lambda",
+			"DynamoDB"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Deployment",
+		"subject": "Terraform Deployment",
+		"outlineSection": "Applying State Files",
+		"question": "Which command applies state files to AWS resources like EC2, Lambda functions, or DynamoDB tables?",
+		"options": [
+			" Terraform apply",
+			" cdk:apply",
+			" awsdeploy",
+			" Terraform export"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Monitoring & Post-Deployment",
+		"subject": "Post-Deployment Analysis",
+		"outlineSection": "State Management and Observability",
+		"question": "What tool is used to monitor the application's state after deployment for Terraform workloads?",
+		"options": [
+			"AWS CloudWatch",
+			"Terraform CloudWatch plugin",
+			"AWS Lambda monitoring",
+			"DynamoDB"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Comparison",
+		"subject": "CDK vs. Terraform Deployment",
+		"outlineSection": "Key Differences",
+		"question": "What is a key difference between using AWS CDK and Terraform for deployment?",
+		"options": [
+			"CDK uses EC2 Launch Tags, Terraform uses state files",
+			"Terraform uses .tfstate files while CDK relies on JSON configs",
+			"CDK is tied to Lambda functions whereas Terraform uses Auto-scaling rules"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Triggers",
+		"subject": "Trigger Mechanisms",
+		"outlineSection": "Automated Deployment Triggers",
+		"question": "Which trigger mechanism is used by the gitlab-cdk-plugin to enable automated deployments from GitLab CI/CD?",
+		"options": [
+			"Code push",
+			"Build push",
+			"Code deployment",
+			"State update"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Variables",
+		"subject": "Parameter Management",
+		"outlineSection": "Managing Variables",
+		"question": "How are variables stored in the project for Terraform and CDK to access during deployments?",
+		"options": [
+			".env files",
+			"JSON configuration",
+			"Code commit history",
+			"AWS Test Services"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Data Backup",
+		"subject": "AWS Services for Data Backup",
+		"outlineSection": "Key AWS Services",
+		"question": "Which AWS service offers cost-effective continuous data protection?",
+		"options": [
+			"S3 Glacier",
+			"Amazon Backup Service",
+			"RDS",
+			"Global Infra"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Availability Zones",
+		"subject": "AWS Infrastructure for Redundancy",
+		"outlineSection": "Availability Zones and Global Infrastructure",
+		"question": "How many Availability Zones does AWS offer?",
+		"options": [
+			"1, 2, or more",
+			"4",
+			"6",
+			"8"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Disaster Recovery Implementation",
+		"subject": "Implementing DR Strategies",
+		"outlineSection": "Data Backup and Replication",
+		"question": "Which of the following ensures data is accessible across multiple regions?",
+		"options": [
+			"S3 Glacier",
+			"Replication in EC2 instances",
+			"RDS backed by Amazon Backup",
+			"Global Infra"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Disaster Recovery",
+		"subject": "Minimizing Data Loss and Downtime",
+		"outlineSection": "Key Components of DR",
+		"question": "Which AWS service is used for replicating data across regions to ensure availability?",
+		"options": [
+			"S3 Glacier",
+			"Amazon Backup Service",
+			"RDS with replication",
+			"Global Infra"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Business Continuity",
+		"subject": "Enhancing BC Through DR",
+		"outlineSection": "Strategies for Continuity",
+		"question": "Which AWS tool is used for automating testing environments to evaluate BC processes?",
+		"options": [
+			"Disaster Recovery Health Dashboard",
+			"AWS CloudFormation",
+			"RDS Testing Tool",
+			"Global Infra"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Monitoring",
+		"subject": "Tracking DR Health",
+		"outlineSection": "Monitoring and Maintenance",
+		"question": "Which AWS tool tracks backup jobs, replication status, and AZ statuses?",
+		"options": [
+			"Disaster Recovery Health Dashboard",
+			"AWS CloudFormation",
+			"RDS Testing Tool",
+			"Global Infra"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Tools for Global Infrastructure",
+		"subject": "Direct Connect",
+		"outlineSection": "Key Tools in Global Infrastructure",
+		"question": "What does Direct Connect allow you to do?",
+		"options": [
+			"Bypass peering networks",
+			"Use private DNS names",
+			"Implement auto-scaling across regions"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Global Peering Networks",
+		"subject": "Peering Networks",
+		"outlineSection": "Consistency and Security in Multi-Region Environments",
+		"question": "Why are peering networks essential?",
+		"options": [
+			"Ensure consistent security policies",
+			"Bypass network latency issues",
+			"Provide high-speed internet connections"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "DNS Management",
+		"subject": "Route53/DNS",
+		"outlineSection": "Traffic Distribution and DNS Resolution",
+		"question": "How is Route53/DNS used in global infrastructure?",
+		"options": [
+			"Distribute traffic across regions",
+			"Manage security policies",
+			"Resolve domain names globally"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "VPC Configuration",
+		"subject": "Consistency Across VPCs",
+		"outlineSection": "Ensuring Uniform Behavior in Multi-Region Settings",
+		"question": "What must be consistent when configuring VPCs across regions?",
+		"options": [
+			"Security groups and subnet masks",
+			"IAM roles and RAC models",
+			"Route53/DNS settings"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Lambda Function Deployment",
+		"subject": "Integration with AWS Services",
+		"outlineSection": "Efficient Function Deployment Across Regions",
+		"question": "How are Lambda functions integrated globally?",
+		"options": [
+			"Using consistent configuration for each region",
+			"Automatically configured by domain name",
+			"Peering network bypass"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Security in Multi-Region Environments",
+		"subject": "Security Practices",
+		"outlineSection": "Maintaining Security Across Regions",
+		"question": "What is crucial for security when scaling across regions?",
+		"options": [
+			"Consistent IAM policies and RBAC models",
+			"Exclusive use of reserved instances",
+			"Ignoring peering networks"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "True/False Questions",
+		"subject": "Understanding IAM Policies",
+		"outlineSection": "Introduction to IAM Policies",
+		"question": "Are IAM policies considered foundational tools in AWS for managing access control?",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Definitions and Concepts",
+		"subject": "RBAC Models",
+		"outlineSection": "Understanding RBAC Models",
+		"question": "What does the term 'RBAC' stand for in AWS?",
+		"options": [
+			"Role-Based Access Control",
+			"Resource-Based Access Control",
+			"User-Based Access Control"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Integration and Functionality",
+		"subject": "Integrating RBAC with IAM Policies",
+		"outlineSection": "Integrating RBAC with IAM Policies",
+		"question": "How do RBAC models enhance IAM policies in AWS?",
+		"options": [
+			"By providing role-based granularity for permissions",
+			"By allowing individual actions to be granted access",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "RBAC Categories",
+		"subject": "Categories of RBAC: Viewing, Editing, Deleting (VED)",
+		"outlineSection": "Integrating RBAC with IAM Policies",
+		"question": "Which category allows actions like viewing but not modifying resources?",
+		"options": [
+			"Viewing",
+			"Editing",
+			"Deleting"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Examples of RBAC in Action",
+		"subject": "Categories of RBAC: Viewing, Editing, Deleting (VED)",
+		"outlineSection": "Integrating RBAC with IAM Policies",
+		"question": "Which policy example allows access to read from an S3 bucket?",
+		"options": [
+			"AllowListRead",
+			"EditList",
+			"Delete"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Integration and Security",
+		"subject": "RBAC Models",
+		"outlineSection": "Integrating RBAC with IAM Policies",
+		"question": "Which of the following is NOT a component typically used in RBAC models within AWS?",
+		"options": [
+			"Roles",
+			"Policies",
+			"Access Restrictions (ARNs)",
+			"Conditions"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Security Best Practices in AWS Lambda",
+		"subject": "Encryption in AWS Lambda",
+		"outlineSection": "Client-side and Server-side Encryption",
+		"question": "What is a crucial aspect of securing sensitive data within AWS Lambda?",
+		"options": [
+			"Use AWS KMS for encryption",
+			"Store API keys in plain text",
+			"Decrypt data on the client side",
+			"Enable IAM roles"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Input Validation in Lambda",
+		"subject": "Preventing Common Vulnerabilities",
+		"outlineSection": "Input Validation and Parameter Constraints",
+		"question": "Which method helps prevent SQL injection and XSS attacks in AWS Lambda?",
+		"options": [
+			"Validate user input",
+			"Enforce parameter constraints",
+			"Encrypt sensitive data",
+			"Use AWS Glue"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Regular Testing for Lambda Functions",
+		"subject": "Monitoring Functionality",
+		"outlineSection": "Testing and Monitoring",
+		"question": "What is recommended to ensure Lambda functions operate as intended?",
+		"options": [
+			"Run unit tests",
+			"Perform integration testing",
+			"Use AWS CloudWatch for monitoring",
+			"Review documentation"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Security in RDS and DynamoDB",
+		"subject": "Database Layer Security",
+		"outlineSection": "Managing Database Security",
+		"question": "How is database encryption implemented in AWS services?",
+		"options": [
+			"Encrypt data at rest",
+			"Enable IAM policies",
+			"Use SSL/TLS certificates",
+			"Monitor access patterns"
+		],
+		"correctAnswer": [
+			0,
+			3
+		]
+	},
+	{
+		"header": "Compliance with Industry Standards",
+		"subject": "Regulatory Compliance",
+		"outlineSection": "Compliance and Audits",
+		"question": "Which standards ensure proper handling of sensitive information in AWS environments?",
+		"options": [
+			"HIPAA",
+			"GDP",
+			"NSF",
+			"ISO 27001"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Access Control in Lambda",
+		"subject": "Fine-Grained Security",
+		"outlineSection": "ACM Policies and IAM Roles",
+		"question": "What is used to precisely control function execution permissions?",
+		"options": [
+			"Lambda Express Capture",
+			"AWS KMS",
+			"IAM roles",
+			"RDS encryption"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "HIPAA Encryption",
+		"subject": "Encryption Requirements under HIPAA",
+		"outlineSection": "Compliance standards: PHI encryption",
+		"question": "Which of the following does HIPAA mandate for PHI encryption?",
+		"options": [
+			"End-to-end encryption",
+			"Hashing only",
+			"No encryption required",
+			"Randomized data"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "HIPAA Encryption",
+		"subject": "Access controls and encryption",
+		"outlineSection": "Access controls for PHI",
+		"question": "Under HIPAA, which of the following is used to limit access to PHI?",
+		"options": [
+			"Access controls without encryption",
+			"Encryption along with access controls",
+			"No security measures",
+			"Physical security alone"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "GDPR Encryption",
+		"subject": "Minimum encryption strength",
+		"outlineSection": "Encryption standards under GDPR",
+		"question": "Which algorithm strength does GDPR require for encrypted communications?",
+		"options": [
+			"AES-128",
+			"AES-256",
+			"ECC",
+			"None specified"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "GDPR Compliance",
+		"subject": "Logs for breach traceability",
+		"outlineSection": "Logs on who accessed PHI",
+		"question": "Does GDPR require organizations to maintain logs of who accessed PHI in case of a breach?",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Understanding Security Threats",
+		"outlineSection": "Identifying Key Metrics",
+		"question": "What are some metrics that can help detect anomalies and potential breaches?",
+		"options": [
+			"system performance",
+			"IAM policies changes",
+			"traffic patterns"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Log Analysis",
+		"outlineSection": "Centralized Logging",
+		"question": "Why are logs useful in threat monitoring?",
+		"options": [
+			"Detecting unauthorized access",
+			"Identifying malicious activities",
+			"Both A and B",
+			"None"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Access Management",
+		"outlineSection": "Monitoring IAM Policies",
+		"question": "What does monitoring IAM policies ensure?",
+		"options": [
+			"Compliance with access controls",
+			"Unauthorized changes detection",
+			"Both A and B",
+			"None"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Network Activity Monitoring",
+		"outlineSection": "Traffic Monitoring via EC2 Instances",
+		"question": "What does monitoring network traffic with EC2 instances help detect?",
+		"options": [
+			"Unusual patterns",
+			"Malicious activities",
+			"Unauthorized access attempts",
+			"All of the above"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Advanced Monitoring Features",
+		"outlineSection": "Advanced Correlations and Automated Responses",
+		"question": "What can advanced features like correlations do?",
+		"options": [
+			"Link related events",
+			"Analyze attack vectors",
+			"Both A and B",
+			"None"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Categories of Security Threats",
+		"subject": "Incident Handling",
+		"outlineSection": "Automated Responses",
+		"question": "What is the purpose of automated responses during incidents?",
+		"options": [
+			"Reduce manual intervention",
+			"Detect emerging threats early",
+			"Both A and B",
+			"None"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "VPC Management",
+		"subject": "AWS VPC Management",
+		"outlineSection": "US Region",
+		"question": "Which AWS account type is used for managing VPCs in the US?",
+		"options": [
+			"Standard Account",
+			"Global Account",
+			"aws accounts",
+			"Local Account"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Connectivity",
+		"subject": "VPC Connectivity Regions",
+		"outlineSection": "EU Region",
+		"question": "What is a common way to achieve consistent DNS resolution in the EU region?",
+		"options": [
+			"Route53 peering",
+			"Direct Connect",
+			"Local Carrier Network",
+			"AWS Management Console"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Security",
+		"subject": "VPC Security",
+		"outlineSection": "APAC Region",
+		"question": "Which method is recommended for establishing private links in the APAC region?",
+		"options": [
+			"Direct Connect",
+			"Local Carrier Network",
+			"Route53 peering",
+			"AWS Management Console"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Latency",
+		"subject": "VPC Latency Regions",
+		"outlineSection": "APAC Region",
+		"question": "What is the primary factor affecting latency in the APAC region?",
+		"options": [
+			"Geographical Distance",
+			"Network Congestion",
+			"VLAN Configuration",
+			"Firewall Settings"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "configure",
+		"subject": "VPC Configuration",
+		"outlineSection": "EU Region",
+		"question": "Which AWS CIDR block is used for the EU region?",
+		"options": [
+			"192.168.xx.x",
+			"40.95.x.x",
+			"10.0.x.x/8 or 203.0.x.x/9",
+			"203.0.x.x/9"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "VPC Regions",
+		"subject": "Geographic VPCs",
+		"outlineSection": "US Region",
+		"question": "How many primary AWS accounts are used for US VPC management?",
+		"options": [
+			"1",
+			"2",
+			"3",
+			"4"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Direct Connect",
+		"subject": "Learning objective or topic",
+		"outlineSection": "Service for high-bandwidth connections",
+		"question": "What service allows direct high-bandwidth connections between AWS accounts in different regions?",
+		"options": [
+			"Direct Connect",
+			"Peering Exchange",
+			"Global Internet Service Provider (ISP)",
+			"Third-party carrier tunnels"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Direct Connect",
+		"subject": "Layer configuration",
+		"outlineSection": "Connection layer specifics",
+		"question": "Where is Direct Connect configured at Layer 3?",
+		"options": [
+			"AWS account settings",
+			"ISP infrastructure",
+			"Carrier provider's equipment",
+			"Network service provider"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Peering Networks",
+		"subject": "Two-way connectivity setup",
+		"outlineSection": "Creating bi-directional links",
+		"question": "Which action creates a two-way connection between two regions?",
+		"options": [
+			"Configuring peering links via a carrier",
+			"Setting up firewall rules in VPCs",
+			"Establishing primary and secondary accounts",
+			"Creating Direct Connect links"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Peering Networks",
+		"subject": "Infrastructure for connecting regions",
+		"outlineSection": "Used infrastructure",
+		"question": "What infrastructure is used to exchange traffic between regions for peering networks?",
+		"options": [
+			"ISP's backbone network",
+			"AWS servers in the region",
+			"Third-party carrier equipment",
+			"Direct Connect links"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Global Networking Concepts",
+		"subject": "US-Peering connection",
+		"outlineSection": "US and Europe link provider",
+		"question": "Which provider connects US and Europe directly through an ISP?",
+		"options": [
+			"Level3",
+			"CenturyLink",
+			"Amazon Web Services (AWS)",
+			"Netwarex"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Global Networking Concepts",
+		"subject": "Latency checking method",
+		"outlineSection": "Checking latencies",
+		"question": "How do you check latencies for a peering exchange?",
+		"options": [
+			"Use AWS Direct Connect Calculator tool",
+			"Contact carrier providers via email",
+			"Check carrier's service level agreements (SLAs)",
+			"Log into the region's control panel."
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Security and Best Practices",
+		"subject": "Secure international traffic",
+		"outlineSection": "Essential security measures",
+		"question": "What is essential for secure international traffic on AWS?",
+		"options": [
+			"IAM policies controlling access",
+			"HTTPS encryption",
+			"Firewall rules within VPCs",
+			"All"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Security and Best Practices",
+		"subject": "Mitigating Direct Connect latency",
+		"outlineSection": "Latency reduction method",
+		"question": "Which method mitigates Direct Connect latency issues by routing through carrier networks known for speed?",
+		"options": [
+			"Using a global ISP with high reliability",
+			"Configuring peering links via a carrier provider",
+			"Setting up AWS Direct Connect links directly",
+			"Implementing region-based IAM policies"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Route53 Setup",
+		"subject": "Setting up Route53 in multiple regions",
+		"outlineSection": "Creating RRSS in each supported region",
+		"question": "What is ensured by creating a Region Resource Record Set (RRS) in each supported AWS region for Route53?",
+		"options": [
+			"Consistent DNS names across all regions",
+			"Same IP address everywhere",
+			"Multiple DNS records per domain",
+			"Global traffic distribution"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "DNS Configuration",
+		"subject": "Directing Traffic Globally",
+		"outlineSection": "Configuring DNS records for global region deployment",
+		"question": "What does a DNS record typically direct users to in the context of AWS hosting solutions?",
+		"options": [
+			"An IP address",
+			"A domain name",
+			"Multiple IP addresses across regions",
+			"An external IP address"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Optimization",
+		"subject": "Factors affecting global infrastructure optimization",
+		"outlineSection": "Considering network performance and regional traffic patterns",
+		"question": "Which of the following is a factor considered when optimizing global DNS routing configurations?",
+		"options": [
+			"Network latency",
+			"Regional bandwidth capabilities",
+			"DNS record updates frequency",
+			"All"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Scalability",
+		"subject": "Global scalability in Route53 setup",
+		"outlineSection": "Ensuring consistent DNS names across regions for global traffic distribution",
+		"question": "How does Route53 contribute to the consistency of IP addresses and domains across globally deployed resources?",
+		"options": [
+			"By ensuring all instances point to a single authoritative domain",
+			"By resolving dynamic IP addresses based on location",
+			"By using multiple DNS servers for fallbacks",
+			"By dynamically updating records"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Record Types",
+		"subject": "Types of resource records in Route53",
+		"outlineSection": "Understanding different types of RR Sets",
+		"question": "What type of record is used to define the authoritative domain name for a set of IP addresses?",
+		"options": [
+			"Name server record",
+			"IP address record",
+			"DNS zone record",
+			"Wildcard DNS record"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Record Distribution",
+		"subject": "Handling multiple RRs for the same domain",
+		"outlineSection": "Multiple RR Sets for redundancy and accuracy",
+		"question": "If a domain has two Resource Records, which one takes precedence when resolving an IP address?",
+		"options": [
+			"The primary record is updated most frequently",
+			"Secondary records are ignored if primary isn't specified",
+			"All records are considered in the order they were added",
+			"There's no defined precedence between records"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Record Eviction",
+		"subject": "How Route53 handles expired records",
+		"outlineSection": "Removing old resource records",
+		"question": "What happens to a Resource Record that becomes outdated or is no longer needed?",
+		"options": [
+			"It's automatically deleted by Route53",
+			"It remains active until explicitly removed by the user",
+			"It can only be deleted through AWS management tools",
+			"It’s not possible for a record to become invalid"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": " authoritative DNS",
+		"subject": "Understanding authoritative DNS servers",
+		"outlineSection": "Definition of authoritative records",
+		"question": "What defines an 'authoritative' resource record in DNS terminology?",
+		"options": [
+			"A record that is manually specified by a user",
+			"A record updated most frequently by the domain owner",
+			"The final and most trusted source for IP addresses",
+			"A secondary DNS server listing multiple IP addresses"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Consistent Record Ownership",
+		"subject": "Ownership of resource records in Route53",
+		"outlineSection": "Single owner of authoritative records",
+		"question": "Who is responsible for all the domain's authoritative resource records?",
+		"options": [
+			"The domain owner",
+			"Any registered user",
+			"Third-party service providers like AWS",
+			"DNS operators"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Dynamic DNS Update Frequency",
+		"subject": "Frequency of record updates",
+		"outlineSection": "Regular updates for accurate data",
+		"question": "Which frequency is recommended for updating Resource Records in Route53 to ensure up-to-date IP addresses?",
+		"options": [
+			"Every 24 hours",
+			"Every few minutes",
+			"Whenever changes are detected",
+			"Never update records"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Content Delivery Networks (CDNs)",
+		"subject": "Understanding the role of CloudFront",
+		"outlineSection": "Introduction to Cache Replication",
+		"question": "What is the primary function of AWS CloudFront in optimizing content delivery?",
+		"options": [
+			"Optimizing content distribution",
+			"Replicating data across regions",
+			"Improving user authentication",
+			"Managing server load"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "CDN Configuration",
+		"subject": "Setting up CDNs in different regions",
+		"outlineSection": "Implementing Cache Replication",
+		"question": "Which AWS feature is used to distribute content from multiple regions for global coverage?",
+		"options": [
+			"AWS CloudFront",
+			"AWS S3",
+			"AWS EC2",
+			"AWS Lambda"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Advanced Topics in Cache Replication",
+		"subject": "Enhancing security and compliance",
+		"outlineSection": "Advanced Configurations",
+		"question": "Which AWS service ensures secure handling of cache credentials for sensitive data?",
+		"options": [
+			"AWS CloudFront",
+			"AWS Credentials Manager",
+			"AWS S3",
+			"AWS EC2"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Best Practices",
+		"subject": "Optimizing performance and costs",
+		"outlineSection": "Implementation Best Practices",
+		"question": "What strategy ensures efficient distribution of cached content across regions?",
+		"options": [
+			"Load balancing",
+			"CDNs",
+			"Dynamic routing",
+			"Direct hosting"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Cost Management",
+		"subject": "Optimizing expenses with caching",
+		"outlineSection": "Cost Optimization",
+		"question": "Which AWS feature is used to manage costs by reserving instances temporarily?",
+		"options": [
+			"AWS CloudFront",
+			"AWS Direct Connect",
+			"AWS Elastic Compute Cloud (EC2)",
+			"AWS Auto Scaling"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Budgeting",
+		"subject": "Understanding AWS Pricing Models",
+		"outlineSection": "Foundational Concepts",
+		"question": "What are reserved instances in AWS and what do they provide?",
+		"options": [
+			"Stable, predictable costs",
+			"Variable costs based on usage",
+			"Frequent failure rates",
+			"Minimal performance overhead"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Cost Monitoring",
+		"subject": "Tools for Cost Management",
+		"outlineSection": "Monitoring and Forecasting Costs",
+		"question": "Which AWS tool provides real-time insights into resource usage?",
+		"options": [
+			"AWS CloudWatch",
+			"Third-party analytics tools",
+			"Manual logging systems",
+			"Budget tracker dashboard"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Optimizing Resource Utilization",
+		"subject": "Efficient Resource Management",
+		"outlineSection": "Optimizing Resources",
+		"question": "Which AWS instance type is best for predictable workloads and stable performance?",
+		"options": [
+			"Reserved Instances",
+			"Spot Instances",
+			"On-Demand Instances",
+			"Provisioned instances"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Predictive Analytics in Budgeting",
+		"subject": "Forecasting Future Costs",
+		"outlineSection": "Advanced Cost Management Strategies",
+		"question": "What tool allows for forecasting future expenses based on historical data?",
+		"options": [
+			"AWS CloudWatch",
+			"Third-party analytics tools",
+			"Manual logging systems",
+			"Budget tracker dashboard"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Dashboard Construction",
+		"subject": "Dashboard Creation",
+		"outlineSection": "Creating a Budget Tracker Dashboard",
+		"question": "Which tool is commonly used to construct a budget tracker dashboard in AWS?",
+		"options": [
+			"AWS budgets",
+			"Third-party dashboards",
+			"Manual reports",
+			"Custom scripts"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Regular Reviews",
+		"subject": "Budget Management Over Time",
+		"outlineSection": "Ensuring Budget Alignment",
+		"question": "Why are regular budget reviews important in AWS resource management?",
+		"options": [
+			"To adjust budgets as financial goals change",
+			"To identify and address cost overruns early",
+			"Both A and B",
+			"None of the above"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Disaster Recovery",
+		"subject": "Ensuring Business Continuity",
+		"outlineSection": "Key Features in AWS",
+		"question": "Which AWS feature allows for cost-effective recovery from failures?",
+		"options": [
+			"Spot Instances",
+			"Reserved Instances",
+			"On-Demand Instances",
+			"Provisioned instances"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Cost Management Tools",
+		"subject": "Budget Tracker Dashboards",
+		"outlineSection": "Introduction",
+		"question": "What do budget tracker dashboards enable?",
+		"options": [
+			"Monitor and predict costs",
+			"Update AWS services",
+			"Analyze resource utilization",
+			"Set up billing"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Integration with AWS Services",
+		"subject": "Setup Process",
+		"outlineSection": "Setting Up Dashboards",
+		"question": "Which services are typically integrated for dashboards?",
+		"options": [
+			"EC2 instances",
+			"Storage solutions",
+			"Task scheduling tools",
+			"Network bandwidth meters"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Analyzing Dashboards",
+		"subject": "Identifying Cost Spikes",
+		"outlineSection": "Predicting Future Trends",
+		"question": "What patterns indicate potential cost spikes?",
+		"options": [
+			"Increased CPU usage",
+			"High memory consumption",
+			"Sudden storage utilization drops",
+			"Network bandwidth increases"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Optimization Strategies",
+		"subject": "Cost Optimization",
+		"outlineSection": "Adjusting Resource Utilization",
+		"question": "Which strategies help reduce costs?",
+		"options": [
+			"Upgrading EC2 instances",
+			"Optimizing storage configurations",
+			"Reducing network bandwidth usage",
+			"Implementing reserved instances"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			3
+		]
+	},
+	{
+		"header": "Data Analysis Capabilities",
+		"subject": "Granular Insights",
+		"outlineSection": "Advanced Analytics",
+		"question": "What does dashboards offer for detailed analysis?",
+		"options": [
+			"Filtering and grouping metrics",
+			"Drilling down into specific services",
+			"Exporting reports",
+			"Setting up alerts"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			3
+		]
+	},
+	{
+		"header": "Benefits of Dashboard Integration",
+		"subject": "Cost Efficiency",
+		"outlineSection": "Proactive Cost Management",
+		"question": "What are the benefits of using dashboards?",
+		"options": [
+			"Enhanced resource utilization",
+			"Accurate and real-time cost tracking",
+			"Better financial alignment with budgets",
+			"Improved decision-making"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2,
+			3
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Reserved Instances",
+		"outlineSection": "Strategic Balancing Act",
+		"question": "What does a reserved instance provide in terms of compute power?",
+		"options": [
+			"Consistent availability with predictable costs",
+			"Variable capacity at fluctuating rates",
+			"Low cost for temporary workloads",
+			"No guarantee of service availability"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Spot Instances",
+		"outlineSection": "Strategic Balancing Act",
+		"question": "Which instances are best suited for temporary workloads that can tolerate interruptions?",
+		"options": [
+			"Reserved instances",
+			"Spot instances",
+			"Dedicated instances",
+			"Elastic Launch_instances"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Strategic Balancing Act",
+		"outlineSection": "Best Practices for Optimal Usage",
+		"question": "Which best practice is mentioned for managing cost and risk?",
+		"options": [
+			"Designate a portion of your budget specifically for spot purchases",
+			"Track AWS's spot instance pricing trends",
+			"Avoid high-priority workloads by using reserved instances",
+			"Maintain a buffer with reserved capacity"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Reserved Instances",
+		"outlineSection": "Strategic Balancing Act",
+		"question": "Why might one avoid using spot instances frequently?",
+		"options": [
+			"Because they offer flexibility",
+			"Because they provide stability at a premium",
+			"Because they require higher costs for the same resources",
+			"They are always available"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Spot Instances",
+		"outlineSection": "Strategic Balancing Act",
+		"question": "Which instance type offers a predictable cost structure?",
+		"options": [
+			"Reserved instances",
+			"Spot instances",
+			"Dedicated instances",
+			"Elastic Launch_instances"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "AWS Cost Management",
+		"subject": "Best Practices for Optimal Usage",
+		"outlineSection": "Risk Management",
+		"question": "What should be considered when using spot instances to avoid cost spikes?",
+		"options": [
+			"Monitoring spot instance prices regularly",
+			"Adjusting the reserved capacity buffer",
+			"Setting up auto-scaling groups",
+			"Minimizing usage during peak demand"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Storage Pricing",
+		"subject": "Understanding storage pricing models in AWS",
+		"outlineSection": "Storage Pricing",
+		"question": "What are General Purpose Storage (SStypically used for?",
+		"options": [
+			"High-performance computing",
+			"Cost-effective file storage",
+			"Database workloads with average performance needs",
+			"Cloud gaming"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Compute Pricing",
+		"subject": "Optimizing compute costs in AWS EC2",
+		"outlineSection": "Compute Pricing",
+		"question": "How can users reduce their compute costs using spot instances?",
+		"options": [
+			"By replacing on-demand instances with reserved capacity",
+			"By only using spot instances for peak workloads",
+			"By using spot instances exclusively during off-peak hours",
+			"Spot instances should never be used"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Networking Pricing",
+		"subject": "Evaluating networking costs in AWS",
+		"outlineSection": "Networking Pricing",
+		"question": "What is a key benefit of using network peering between VPCs?",
+		"options": [
+			"Reduces the need for redundant network infrastructure",
+			"Improves traffic distribution but increases setup costs",
+			"Provides high-speed, secure connections at the expense of increased complexity",
+			"Saves money on bandwidth costs"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Storage Pricing",
+		"subject": "Choosing the right storage option in AWS",
+		"outlineSection": "Storage Pricing",
+		"question": "Which storage option is known for higher throughput compared to General Purpose SSD, justifying a slightly higher cost?",
+		"options": [
+			"High Performance Storage (SSD or HDD)",
+			"Cost-Effective Provisioning (CEP)",
+			"General Purpose Storage (SSD)",
+			"Cold Storage (HDD)"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Compute Pricing",
+		"subject": "Identifying compute resources in AWS EC2",
+		"outlineSection": "Compute Pricing",
+		"question": "Which instance type uses 8 cores and 16GB of RAM?",
+		"options": [
+			"t3",
+			"p5",
+			"r5",
+			"k5"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Networking Pricing",
+		"subject": "Cost considerations for network solutions in AWS",
+		"outlineSection": "Networking Pricing",
+		"question": "What is the extra setup cost of using Direct Connect compared to public internet connections?",
+		"options": [
+			"Significantly lower, as it bypasses the need for a public IP",
+			"Higher due to high-speed and dedicated connection requirements",
+			"No additional setup costs since it's an alternative connectivity method",
+			"Moderate cost savings when using direct connections"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "General Exam Structure",
+		"subject": "Understanding the exam format",
+		"outlineSection": "Number of Questions",
+		"question": "How many questions are typically in the AWS Certified Solutions Architect exam?",
+		"options": [
+			"Approximately 75-90 questions",
+			"Around 60-70 questions",
+			"About 45-55 questions",
+			"Over 100 questions"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Time Management",
+		"subject": "Effective exam preparation",
+		"outlineSection": "Time Allocation",
+		"question": "How much time is allocated per question on average?",
+		"options": [
+			"Less than 2 minutes",
+			"Between 2-3 minutes",
+			"More than 5 minutes",
+			"Exact time varies"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Scoring System",
+		"subject": "Exam passing criteria",
+		"outlineSection": "Passing Score Threshold",
+		"question": "What is the typical passing score threshold for the exam?",
+		"options": [
+			"75%",
+			"60-70%",
+			"80%",
+			"Below 50%"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Question Types",
+		"subject": "Types of Multiple Choice Questions",
+		"outlineSection": "Distractor Design",
+		"question": "What is true about the distractors in each question?",
+		"options": [
+			"They are designed to test common mistakes",
+			"All distractors are correct answers from other exams",
+			"They include only well-known AWS services",
+			"Distractors do not vary per question"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Preparation Strategy",
+		"subject": "Effective study methods",
+		"outlineSection": "Focus Areas",
+		"question": "Which areas are emphasized in preparation?",
+		"options": [
+			"Infrastructure concepts and advanced services",
+			"Core AWS services only",
+			"Cybersecurity practices only",
+			"Global infrastructure specifics"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Time Management",
+		"subject": "Efficiency during the exam",
+		"outlineSection": "Time Allocation per Question",
+		"question": "How much time should be spent on each question?",
+		"options": [
+			"About 1 minute",
+			"Between 2-3 minutes",
+			"About 5 minutes",
+			"Exact time varies"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Answering Techniques",
+		"subject": "Applying knowledge during the exam",
+		"outlineSection": "Reading Scenarios",
+		"question": "What is a common technique for answering questions?",
+		"options": [
+			"Skimming the options before reading the question",
+			"Relying solely on memory of answers",
+			"Choosing distractors randomly",
+			"Assuming all options are correct"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Recurring Themes",
+		"subject": "Exam topics",
+		"outlineSection": "Key Areas",
+		"question": "Which recurring themes appear in the exam?",
+		"options": [
+			"Designing microservices and CI/CD pipelines",
+			"Implementing advanced services like Lambda, RDS, DynamoDB",
+			"Applying cybersecurity measures globally",
+			"All of the above"
+		],
+		"correctAnswer": [
+			3
+		]
+	},
+	{
+		"header": "Preparation Strategy",
+		"subject": "Focus Areas",
+		"outlineSection": "Study Tips",
+		"question": "What is a good practice for exam preparation?",
+		"options": [
+			"Studying each topic in isolation",
+			"Focusing only on one service at a time",
+			"Practicing case studies and real-world scenarios",
+			"All of the above"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Scoring System",
+		"subject": "Passing Criteria",
+		"outlineSection": "Scoring System",
+		"question": "How is the score calculated?",
+		"options": [
+			"Correct answers earn points; incorrect ones deduct points",
+			"Each correct answer earns full marks; no deduction for incorrect ones",
+			"Points are deducted for incorrect answers",
+			"Points remain unchanged regardless of answers"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Time Management Strategy",
+		"subject": "General Approach to Time Allocation",
+		"outlineSection": "Prioritize Knowing What You Don’t Know",
+		"question": "According to the article, which section should be addressed first in terms of time management during exam preparation?",
+		"options": [
+			"Address Core Concepts First",
+			"Identify Weak Areas First",
+			"Focus on Advanced Topics First",
+			"Start with Global Infrastructure"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Core Concepts Time Allocation",
+		"subject": "Time Dedication for Specific Sections",
+		"outlineSection": "Dedicate 30 Minutes to Core Concepts",
+		"question": "How much time is recommended for core concepts in the exam preparation?",
+		"options": [
+			"15 minutes",
+			"25 minutes",
+			"30 minutes",
+			"45 minutes"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Advanced Concepts Time Allocation",
+		"subject": "Time Dedication for Specific Sections",
+		"outlineSection": "Allocate 15 Minutes to Advanced Concepts",
+		"question": "Which section is allocated the least time according to the article?",
+		"options": [
+			"Global Infrastructure & Cost Management",
+			"Core Concepts",
+			"Solution Architect Competence & Cybersecurity",
+			"Advanced Concepts"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Solution Architect Competence Time Allocation",
+		"subject": "Time Dedication for Specific Sections",
+		"outlineSection": "Reserve the Last 25 Minutes for Solution Architect Competence & Cybersecurity",
+		"question": "How much time is reserved for solution architect competence and cybersecurity questions?",
+		"options": [
+			"15 minutes",
+			"25 minutes",
+			"30 minutes",
+			"45 minutes"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Cost Management Time Allocation",
+		"subject": "Time Dedication for Specific Sections",
+		"outlineSection": "Remember: Use Remaining Time Wisely for Global Infrastructure & Cost Management",
+		"question": "What is the last section addressed in terms of time management?",
+		"options": [
+			"Global Infrastructure & Cost Management",
+			"Core Concepts",
+			"Solution Architect Competence & Cybersecurity",
+			"Advanced Concepts"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Time Management Best Practices",
+		"subject": "Efficiency Over Memorization",
+		"outlineSection": "Remember: Efficiency Over Memorization",
+		"question": "Which of the following is NOT a recommended strategy for effective exam preparation?",
+		"options": [
+			"Memorize all details",
+			"Understand concepts deeply",
+			"Simulate exam conditions with practice exams",
+			"Use time wisely"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Scoring System",
+		"subject": "Understanding AWS Certified Solutions Architect Exam Scoring",
+		"outlineSection": "Exam Structure and Scoring Details",
+		"question": "How many points are deducted for each incorrect answer in the AWS exam?",
+		"options": [
+			"0.25",
+			"-0.25",
+			"1",
+			"-1"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Certification Requirements",
+		"subject": "Passing Score and Competency Importance",
+		"outlineSection": "Scoring System and Certification Criteria",
+		"question": "What is the minimum score required to pass the AWS Certified Solutions Architect exam?",
+		"options": [
+			"70%",
+			"80%",
+			"65%",
+			"90%"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Exam Structure",
+		"subject": "Types of Questions",
+		"outlineSection": "Multiple-Choice Questions",
+		"question": "Which type of questions does the AWS exam primarily use?",
+		"options": [
+			"True/False",
+			"Multiple-Response",
+			"Short Answer",
+			"Fill-in-the-Blank"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Domain Weightage",
+		"subject": "Competency Importance",
+		"outlineSection": "Scoring System and Certification Criteria",
+		"question": "Which competencies have the highest weightage in the exam?",
+		"options": [
+			"Networking",
+			"Security",
+			"Infrastructure",
+			"Cloud Services"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Preparation Strategy",
+		"subject": "Effective Study Methods",
+		"outlineSection": "Time Management and Exam Preparation",
+		"question": "What is a recommended strategy for preparing for the exam?",
+		"options": [
+			"Practice mock exams under timed conditions",
+			"Focus on weak areas",
+			"Attend webinars",
+			"Read case studies"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "General Infrastructure",
+		"subject": "EC2",
+		"outlineSection": "General Infrastructure",
+		"question": "What is EC2?",
+		"options": [
+			"A type of AWS storage service",
+			"A cloud server instance for running applications",
+			"An infrastructure control plane",
+			"A network traffic management system"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "General Infrastructure",
+		"subject": "VPCs",
+		"outlineSection": "General Infrastructure",
+		"question": "What does a Virtual Private Cloud (VPprovide?",
+		"options": [
+			"A secure connection to the internet",
+			"An overlay network for managing resources within an isolated security group",
+			"A network firewall built into the AWS infrastructure",
+			"A service that provides on-demand storage"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "General Infrastructure",
+		"subject": "Elastic Load Balancing",
+		"outlineSection": "General Infrastructure",
+		"question": "What is Elastic Load Balancing used for?",
+		"options": [
+			"To balance the load of an application across multiple instances",
+			"To secure sensitive data in AWS storage",
+			"To manage disaster recovery processes",
+			"To control traffic on a network interface"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Cybersecurity & Compliance",
+		"subject": "Compliance Auditing",
+		"outlineSection": "Cybersecurity & Compliance",
+		"question": "What is the primary purpose of compliance auditing in AWS?",
+		"options": [
+			"To ensure that security controls are implemented correctly",
+			"To manage storage traffic efficiently",
+			"To optimize infrastructure performance",
+			"To secure network services"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Solution Architect Competence",
+		"subject": "Problem Decomposition",
+		"outlineSection": "Solution Architect Competence",
+		"question": "How does a solution architect break down complex systems?",
+		"options": [
+			"By identifying key components and their interactions",
+			"By creating detailed diagrams of network topologies",
+			"By focusing solely on the database layer",
+			"By implementing advanced encryption techniques"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Solution Architect Competence",
+		"subject": "Understanding Solution Architect Competence",
+		"outlineSection": "1. **Solution Architect Competence**",
+		"question": "What does Solution Architect Competence involve?",
+		"options": [
+			"Designing scalable architectures",
+			"Managing CI/CD pipelines",
+			"Integrating various services",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Technical Concepts (Core & Advanced)",
+		"subject": "Mastering Technical Concepts",
+		"outlineSection": "2. **Technical Concepts (Core & Advanced)**",
+		"question": "Which technical concepts are core to the exam?",
+		"options": [
+			"Database concepts",
+			"Cloud services",
+			"Infrastructure management",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Global Infrastructure",
+		"subject": "Understanding Global Infrastructure",
+		"outlineSection": "3. **Global Infrastructure**",
+		"question": "What aspects are covered under Global Infrastructure?",
+		"options": [
+			"VPCs across regions",
+			"Direct Connect",
+			"Peering networks",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Cybersecurity & Compliance",
+		"subject": "Importance of Cybersecurity & Compliance",
+		"outlineSection": "4. **Cybersecurity & Compliance**",
+		"question": "Why is Cybersecurity & Compliance important in the exam?",
+		"options": [
+			"To ensure secure infrastructure",
+			"To pass certification",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Cost Management",
+		"subject": "Budgeting and Cost Optimization",
+		"outlineSection": "5. **Cost Management**",
+		"question": "What does Cost Management involve?",
+		"options": [
+			"Budgeting",
+			"Optimizing costs",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Networking & Additional Topics",
+		"subject": "Advanced Networking Configurations",
+		"outlineSection": "6. **Networking & Additional Topics**",
+		"question": "Which topics are included in Networking & Additional Topics?",
+		"options": [
+			"Networking configurations",
+			"Advanced setups",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Setting Realistic Goals",
+		"outlineSection": "Firstly, understanding what constitutes a study schedule involves setting clear objectives and breaking down the exam syllabus into manageable parts.",
+		"question": "What is the primary purpose of a study schedule in preparing for the AWS Certified Solutions Architect exam?",
+		"options": [
+			"To allocate specific time slots for each topic",
+			"To memorize all exam topics perfectly",
+			"To create an unstructured study plan",
+			"To forget important details"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Breaking Down the Syllabus",
+		"outlineSection": "Firstly, understanding what constitutes a study schedule involves setting clear objectives and breaking down the exam syllabus into manageable parts.",
+		"question": "How do you categorize topics in the AWS Certified Solutions Architect exam to prioritize them?",
+		"options": [
+			"By intensity of difficulty",
+			"Without any categories",
+			"By alphabetical order",
+			"Randomly"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Realistic Goals",
+		"outlineSection": "Realistic goals form the cornerstone of this strategy. Instead of aiming for perfection or overwhelming yourself with ambitious timelines, setting achievable milestones ensures steady progress without causing burnout.",
+		"question": "What does setting realistic goals help you achieve during your study preparation?",
+		"options": [
+			"To avoid getting overwhelmed",
+			"To perfect your skills overnight",
+			"To forget previous mistakes",
+			"To complete the syllabus in a day"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Balancing Study Sessions",
+		"outlineSection": "Balancing your study schedule is another critical aspect. Avoiding excessive concentration on a single area can lead to inefficiency; hence, integrating varied topics each session helps maintain engagement and retention.",
+		"question": "Why is it important to balance study sessions when preparing for the exam?",
+		"options": [
+			"To avoid overloading yourself",
+			"To perfect one topic at a time",
+			"To complete all tasks efficiently",
+			"To forget previous material"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Tracking Progress",
+		"outlineSection": "Tracking progress through checkpoints allows you to assess your readiness effectively. Regular reviews of completed material and areas needing improvement provide clarity on what's working and what isn't.",
+		"question": "How do you ensure continuous improvement during your study sessions?",
+		"options": [
+			"By setting regular checkpoints",
+			"By memorizing everything perfectly",
+			"By forgetting previous notes",
+			"By completing the syllabus quickly"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Study Planning",
+		"subject": "Maintaining Motivation",
+		"outlineSection": "Staying motivated throughout the process is equally important. Maintaining focus and discipline contributes to long-term success, so setting up a routine that suits your learning style can keep you on track.",
+		"question": "What role does motivation play in effective study preparation for the exam?",
+		"options": [
+			"It helps you stay focused",
+			"It makes studying enjoyable",
+			"Both A and B",
+			"Neither A nor B"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Exam Preparation",
+		"subject": "Importance of Thorough Preparation",
+		"outlineSection": "Core Concepts (General Infrastructure, etc.)",
+		"question": "Thorough preparation is key. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Time Management Strategies",
+		"subject": "Allocating Time During Exam",
+		"outlineSection": "Time Allocation Tips",
+		"question": "During the exam, allocate specific time blocks to each question based on its difficulty level. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Managing Stress Through Positivity",
+		"subject": "Importance of Positive Mindset",
+		"outlineSection": "Maintaining Motivation",
+		"question": "Staying positive is vital. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Physical Well-Being",
+		"subject": "Night Before Exam",
+		"outlineSection": "Sleep and Meal Preparations",
+		"question": "A strong understanding of these topics will give you confidence on exam day. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Managing Time During Exam",
+		"subject": "Pacing Strategies",
+		"outlineSection": "Avoid Rushing/Reading Carefully",
+		"question": "Time management plays a crucial role in reducing stress. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Test-Taking Strategy",
+		"subject": "Handling Unknown Questions",
+		"outlineSection": "Skipping Unfamiliar Ones",
+		"question": "Staying positive is vital. True or False.",
+		"options": [
+			"True",
+			"False"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Skimming and Scanning Techniques",
+		"outlineSection": "2.1",
+		"question": "What is the primary purpose of skimming in multiple-choice questions?",
+		"options": [
+			"To speed up finding answers",
+			"To ensure all options are considered",
+			"To assess understanding of complex topics",
+			"To help with elimination"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Process of Elimination",
+		"outlineSection": "3.1",
+		"question": "Why is the process of elimination useful in multiple-choice questions?",
+		"options": [
+			"To increase the likelihood of selecting a correct answer",
+			"To reduce time spent on each question",
+			"Both A and B",
+			"Neither A nor B"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Time Management: Prioritizing Questions",
+		"outlineSection": "4.1",
+		"question": "How should time be managed during the exam to maximize performance?",
+		"options": [
+			"Allocate more time to difficult questions",
+			"Attempt easier questions first to build momentum",
+			"Both A and B",
+			"Neither A nor B"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Educated Guessing as a Tool",
+		"outlineSection": "5.1",
+		"question": "When is educated guessing particularly useful?",
+		"options": [
+			"When unsure about the answer",
+			"To avoid penalties for incorrect guesses",
+			"Both A and B",
+			"Neither A nor B"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Understanding Question Stems",
+		"outlineSection": "6.1",
+		"question": "What role does the question stem play in multiple-choice questions?",
+		"options": [
+			"It provides context or hints about the correct answer",
+			"It is irrelevant to answering",
+			"It helps with elimination",
+			"None of the above"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Strategies",
+		"subject": "Reviewing Answers",
+		"outlineSection": "7.1",
+		"question": "Why is reviewing answers important during an exam?",
+		"options": [
+			"To catch mistakes and ensure accuracy",
+			"To save time on other questions",
+			"Both A and B",
+			"Neither A nor B"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Using practice exams for AWS exam preparation",
+		"outlineSection": "How practice exams help familiarize with test format and structure",
+		"question": "What do practice exams primarily help candidates achieve?",
+		"options": [
+			"Familiarize with the test format",
+			"Improve time management skills",
+			"Reinforce learning after study sessions",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Benefits of timed conditions in practice exams",
+		"outlineSection": "Simulating real exam conditions during practice",
+		"question": "What is one benefit of taking practice exams under timed conditions?",
+		"options": [
+			"It helps reduce test anxiety",
+			"It improves time management under pressure",
+			"It enhances problem-solving skills adaptability",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Practice exams after study sessions",
+		"outlineSection": "Reinforcement of learning concepts",
+		"question": "Why should candidates take practice exams after completing thorough study?",
+		"options": [
+			"To test their understanding",
+			"To simulate real exam conditions",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Importance of reviewing mistakes in practice exams",
+		"outlineSection": "Improving performance through feedback",
+		"question": "What is an essential step after completing a practice exam?",
+		"options": [
+			"Reviewing and analyzing mistakes",
+			"Calculating scores",
+			"All of the above"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Benefits of mock exams in preparation",
+		"outlineSection": "Boost confidence and reduce anxiety",
+		"question": "What do mock exams help candidates achieve during exam preparation?",
+		"options": [
+			"Increase confidence",
+			"Decrease stress levels",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Category of the question",
+		"subject": "Integrating timed practice into study routine",
+		"outlineSection": "Enhancing overall exam readiness",
+		"question": "How can candidates effectively integrate timed practice exams into their study routine?",
+		"options": [
+			"Regularly after completing each subject",
+			"Incorporate mock exams as a weekly activity",
+			"Both A and B"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
+	{
+		"header": "Self-Assessment Techniques",
+		"subject": "Identifying Weak Areas",
+		"outlineSection": "2",
+		"question": "What method is recommended for identifying areas needing improvement during self-assessment?",
+		"options": [
+			"Taking practice exams",
+			"Reviewing study notes",
+			"Analyzing syllabus weightage",
+			"Reflecting on past mistakes"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Identifying Mistakes",
+		"subject": "Practice Exams/Notes Review",
+		"outlineSection": "3",
+		"question": "What is a common method to identify recurring mistakes or errors?",
+		"options": [
+			"Taking timed practice exams",
+			"Reviewing study notes and identifying mistakes",
+			"Focusing on high-weightage topics",
+			"Setting personal goals"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Analyzing Syllabus Weightage",
+		"subject": "Allocating Study Time",
+		"outlineSection": "4",
+		"question": "What approach is suggested based on the analysis of exam syllabus weightage?",
+		"options": [
+			"Increasing practice exam frequency",
+			"Reviewing notes and study materials",
+			"Adjusting focus to high-priority topics",
+			"Reflecting on past mistakes"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Improving Weak Areas",
+		"subject": "Reflecting on Mistakes",
+		"outlineSection": "5",
+		"question": "After analyzing past mistakes, what should be the next step?",
+		"options": [
+			"Taking more practice exams",
+			"Revisiting study materials and notes",
+			"Strengthening weak areas with focused study",
+			"Analyzing syllabus weightage"
+		],
+		"correctAnswer": [
+			2
+		]
+	},
+	{
+		"header": "Setting Goals",
+		"subject": "Improving Performance",
+		"outlineSection": "6",
+		"question": "Which strategy is recommended to improve exam performance?",
+		"options": [
+			"Conducting self-assessment alone",
+			"Identifying mistakes, setting goals, and seeking feedback",
+			"Taking only practice exams",
+			"Analyzing syllabus weightage"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Seeking Feedback",
+		"subject": "Improving Preparation",
+		"outlineSection": "7",
+		"question": "What strategy is recommended for enhancing exam preparation?",
+		"options": [
+			"Conducting self-assessment alone",
+			"Seeking feedback and setting goals",
+			"Increasing practice exams frequency",
+			"Analyzing syllabus weightage"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Infrastructure Concepts",
+		"subject": "Core Concepts",
+		"outlineSection": "1. Core Concepts Mastery",
+		"question": "Which of the following is a key infrastructure service in AWS?",
+		"options": [
+			"EC2",
+			"RDS",
+			"DynamoDB",
+			"API Gateway"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Solution Architect Competence",
+		"subject": "Microservices and CI/CD",
+		"outlineSection": "2. Solution Architect Competence",
+		"question": "Which tool is commonly used for infrastructure as code in AWS?",
+		"options": [
+			"Terraform",
+			"AWS CloudFormation",
+			"CDK"
+		],
+		"correctAnswer": [
+			0,
+			1,
+			2
+		]
+	},
+	{
+		"header": "Cybersecurity & Compliance",
+		"subject": "IAM and RBAC",
+		"outlineSection": "3. Cybersecurity & Compliance",
+		"question": "Which AWS service enforces role-based access control?",
+		"options": [
+			"EC2",
+			"RDS",
+			"DynamoDB",
+			"API Gateway"
+		],
+		"correctAnswer": [
+			1
+		]
+	},
+	{
+		"header": "Global Infrastructure",
+		"subject": "VPC and Regions",
+		"outlineSection": "4. Global Infrastructure",
+		"question": "Which region is AWS's default region for customers?",
+		"options": [
+			"us-west-2",
+			"eu-west-1",
+			"ap-northeast-1"
+		],
+		"correctAnswer": [
+			0
+		]
+	},
+	{
+		"header": "Cost Management",
+		"subject": "Budgeting and Reserved Instances",
+		"outlineSection": "5. Cost Management",
+		"question": "Which of the following is a method to reduce AWS costs?",
+		"options": [
+			"Use reserved instances",
+			"Optimize storage types"
+		],
+		"correctAnswer": [
+			0,
+			1
+		]
+	},
     {
         "header": "AWS Architecture",
         "subject": "Understanding AWS services architecture",
@@ -4258,7 +7633,7 @@
         "header": "Workflow Optimization",
         "subject": "Optimizing Deployment Workflows",
         "outlineSection": "- Example: Using containerization (e.g., Docker) and Kubernetes for workflow optimization.",
-        "question": "Which technologies are highlighted for optimizing deployment workflows?",
+        "question": "Which of the following technologies are commonly used to optimize and automate application deployment workflows?",
         "options": [
             "Docker",
             "Kubernetes",
@@ -4268,7 +7643,8 @@
         ],
         "correctAnswer": [
             0,
-            1
+            1,
+			2
         ]
     },
     {
