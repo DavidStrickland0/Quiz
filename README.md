@@ -47,7 +47,7 @@ To run the application locally, you will need:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo/quiz-app.git
+    git clone https://github.com/your-repo/Quiz.git
     cd quiz-app
     ```
 
