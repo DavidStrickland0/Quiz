@@ -220,7 +220,7 @@
     "header": "Hebrew Roots",
     "subject": "Verbs",
     "question": "נשא (nasa)",
-    "options": ["lift/carry", "forgive", "take", "both 0 and 1"],
+    "options": ["lift/carry", "forgive", "take"],
     "correctAnswer": [3]
   },
   {
@@ -262,14 +262,14 @@
     "header": "Hebrew Roots",
     "subject": "Verbs",
     "question": "שלח (shalakh)",
-    "options": ["send", "stretch out", "release", "all of the above"],
+    "options": ["send", "stretch out", "release"],
     "correctAnswer": [3]
   },
   {
     "header": "Hebrew Roots",
     "subject": "Verbs",
     "question": "קרא (qara)",
-    "options": ["call/proclaim", "read", "name", "all of the above"],
+    "options": ["call/proclaim", "read", "name"],
     "correctAnswer": [3]
   },
   {
@@ -283,7 +283,7 @@
     "header": "Hebrew Roots",
     "subject": "Nouns",
     "question": "אשה (ishah)",
-    "options": ["woman", "mother", "wife", "both 0 and 2"],
+    "options": ["woman", "mother", "wife"],
     "correctAnswer": [3]
   },
   {
