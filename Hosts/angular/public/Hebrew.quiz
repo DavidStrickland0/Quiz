@@ -1,0 +1,338 @@
+[
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "אמר",
+        "options": ["say", "see", "go", "give"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "היה",
+        "options": ["be", "make", "live", "stand"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "עשה",
+        "options": ["build", "do", "take", "send"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "הלך",
+        "options": ["walk", "return", "fall", "sit"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "בא",
+        "options": ["come", "go out", "stand", "rise"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "נתן",
+        "options": ["take", "give", "find", "see"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "ראה",
+        "options": ["hear", "know", "see", "say"],
+        "correctAnswer": [2]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "ידע",
+        "options": ["fear", "know", "love", "remember"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שמע",
+        "options": ["obey", "speak", "walk", "build"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "דבר",
+        "options": ["judge", "speak", "command", "call"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "לקח",
+        "options": ["send", "take", "give", "leave"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "יצא",
+        "options": ["enter", "go out", "stand", "return"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "עמד",
+        "options": ["stand", "sit", "fall", "run"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "ישב",
+        "options": ["dwell", "rise", "build", "walk"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "קום",
+        "options": ["fall", "rise", "sit", "sleep"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "מצא",
+        "options": ["lose", "find", "take", "hide"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שמר",
+        "options": ["destroy", "keep", "leave", "forget"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "אכל",
+        "options": ["drink", "eat", "cook", "serve"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שתה",
+        "options": ["wash", "drink", "eat", "pour"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "אהב",
+        "options": ["fear", "hate", "love", "remember"],
+        "correctAnswer": [2]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שנא",
+        "options": ["love", "hate", "fear", "reject"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "עבד",
+        "options": ["serve", "rule", "build", "judge"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "ירא",
+        "options": ["fear", "see", "honor", "obey"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "חיה",
+        "options": ["live", "heal", "breathe", "grow"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "מות",
+        "options": ["sleep", "die", "kill", "fall"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "זכר",
+        "options": ["remember", "forget", "know", "see"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שכח",
+        "options": ["forget", "leave", "hide", "lose"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "בנה",
+        "options": ["destroy", "build", "plant", "cover"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "פתח",
+        "options": ["close", "open", "enter", "break"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "סגר",
+        "options": ["seal", "close", "hide", "bind"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "נפל",
+        "options": ["stand", "fall", "die", "sink"],
+        "correctAnswer": [1]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "נשא",
+        "options": ["carry", "lift", "forgive", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "עבר",
+        "options": ["pass over", "remain", "enter", "stand"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שוב",
+        "options": ["return", "stay", "repent", "both 0 and 2"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "הלל",
+        "options": ["boast", "sing", "praise", "shout"],
+        "correctAnswer": [2]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "ברך",
+        "options": ["curse", "kneel", "bless", "honor"],
+        "correctAnswer": [2]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "קלל",
+        "options": ["curse", "mock", "reject", "hate"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "שלח",
+        "options": ["send", "stretch", "release", "both 0 and 2"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Verbs",
+        "question": "קרא",
+        "options": ["call", "read", "proclaim", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "איש",
+        "options": ["man", "son", "servant", "husband"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "אשה",
+        "options": ["mother", "woman", "wife", "both 1 and 2"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "בן",
+        "options": ["son", "child", "heir", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "אב",
+        "options": ["father", "ancestor", "chief", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "עם",
+        "options": ["nation", "people", "tribe", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "ארץ",
+        "options": ["land", "earth", "country", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "בית",
+        "options": ["house", "family", "temple", "all of the above"],
+        "correctAnswer": [3]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "יום",
+        "options": ["day", "time", "sunlight", "period"],
+        "correctAnswer": [0]
+    },
+    {
+        "header": "Hebrew Roots",
+        "subject": "Nouns",
+        "question": "מלך",
+        "options": ["ruler", "king", "leader", "all of the above"],
+        "correctAnswer": [3]
+    }
+]

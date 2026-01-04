@@ -79,3 +79,11 @@ button:disabled {
   background-color: #424242; /* Change background on hover to indicate interactivity */
   border-color: #76ff03; /* Highlight border on hover */
 }
+
+.question-text {
+  margin: 10px 0 20px 0;
+}
+
+.short-question {
+  margin: 10px 0 20px 0; /* keeps spacing consistent */
+}

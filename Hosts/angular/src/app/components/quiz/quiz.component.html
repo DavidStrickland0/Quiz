@@ -3,7 +3,14 @@
       <h2>Question</h2>
       <span class="attempt-counter">{{ correctOnFirstTryCount }} of {{ questionCount }}</span>
   </div>
-    <p>{{ question.question }}</p>
+    <h1 *ngIf="question.question?.length < 20; else normalQuestion" class="question-text short-question">
+      {{ question.question }}
+    </h1>
+
+    <ng-template #normalQuestion>
+      <p class="question-text">{{ question.question }}</p>
+    </ng-template>
+
     <!-- Use checkbox if multiple answers are required, otherwise use radio buttons -->
     <div *ngIf="question.isMultiple">
       <div *ngFor="let answer of question.options; let i = index" class="answer-option">
