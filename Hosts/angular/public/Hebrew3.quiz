@@ -219,13 +219,6 @@
   {
     "header": "Hebrew Roots",
     "subject": "Verbs",
-    "question": "נשא (nasa)",
-    "options": ["lift/carry", "forgive", "take", "both 0 and 1"],
-    "correctAnswer": [3]
-  },
-  {
-    "header": "Hebrew Roots",
-    "subject": "Verbs",
     "question": "עבר (avar)",
     "options": ["pass over", "remain", "enter", "stand"],
     "correctAnswer": [0]
@@ -262,29 +255,22 @@
     "header": "Hebrew Roots",
     "subject": "Verbs",
     "question": "שלח (shalakh)",
-    "options": ["send", "stretch out", "release", "all of the above"],
+    "options": ["send", "stretch out", "release",  "all are correct"],
     "correctAnswer": [3]
   },
   {
     "header": "Hebrew Roots",
     "subject": "Verbs",
     "question": "קרא (qara)",
-    "options": ["call/proclaim", "read", "name", "all of the above"],
+    "options": ["call/proclaim", "read", "name", "all are correct"],
     "correctAnswer": [3]
   },
   {
     "header": "Hebrew Roots",
     "subject": "Nouns",
     "question": "איש (ish)",
-    "options": ["man", "father", "son", "servant"],
+    "options": ["man", "father", "son", "all are correct"],
     "correctAnswer": [0]
-  },
-  {
-    "header": "Hebrew Roots",
-    "subject": "Nouns",
-    "question": "אשה (ishah)",
-    "options": ["woman", "mother", "wife", "both 0 and 2"],
-    "correctAnswer": [3]
   },
   {
     "header": "Hebrew Roots",
@@ -297,7 +283,7 @@
     "header": "Hebrew Roots",
     "subject": "Nouns",
     "question": "אב (av)",
-    "options": ["father", "people", "land", "name"],
+    "options": ["father", "people", "land", "all are correct"],
     "correctAnswer": [0]
   },
   {
@@ -311,7 +297,7 @@
     "header": "Hebrew Roots",
     "subject": "Nouns",
     "question": "עם (am)",
-    "options": ["people", "city", "day", "house"],
+    "options": ["people", "city", "day", "all are correct"],
     "correctAnswer": [0]
   },
   {
@@ -325,7 +311,7 @@
     "header": "Hebrew Roots",
     "subject": "Nouns",
     "question": "עיר (ir)",
-    "options": ["city", "king", "priest", "prophet"],
+    "options": ["city", "king", "priest", "all are correct],
     "correctAnswer": [0]
   },
   {
