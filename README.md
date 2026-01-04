@@ -47,20 +47,13 @@ To run the application locally, you will need:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo/quiz-app.git
-    cd quiz-app
+    git clone https://github.com/your-repo/Quiz.git
+    cd Quiz/hosts/angular
     ```
 
 2. **Install frontend dependencies**:
     ```bash
-    cd frontend
     npm install
-    ```
-
-3. **Install backend dependencies**:
-    ```bash
-    cd ../backend
-    dotnet restore
     ```
 
 ### Running the Application
@@ -69,31 +62,10 @@ To run the application locally, you will need:
 To start the Angular frontend, run:
 
 ```bash
-cd frontend
 ng serve
 ```
 
 The frontend should be available at `http://localhost:4200`.
-
-#### Backend
-To start the C# API backend, run:
-
-```bash
-cd backend
-dotnet run
-```
-
-The API should be available at `http://localhost:5000`.
-
-## Backend API
-
-The backend API is responsible for managing quiz data and handling quiz-related logic. Key API endpoints include:
-
-- `POST /api/quiz/start`: Starts a new quiz session
-- `POST /api/quiz/submit`: Submits answers for a quiz
-- `GET /api/quiz/progress`: Retrieves quiz progress for a user
-
-All quiz data is stored in a JSON file that acts as a datastore.
 
 ## Frontend
 
