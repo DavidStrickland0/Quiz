@@ -1,0 +1,100 @@
+[
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "אמר (amar)",
+    "options": ["say", "walk", "give", "see"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "היה (hayah)",
+    "options": ["be", "make", "know", "build"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "עשה (asah)",
+    "options": ["take", "do/make", "hear", "come"],
+    "correctAnswer": [1]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "הלך (halakh)",
+    "options": ["walk/go", "sit", "return", "fall"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "בא (ba)",
+    "options": ["come", "rise", "stand", "send"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "נתן (natan)",
+    "options": ["give", "take", "find", "keep"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "ראה (ra'ah)",
+    "options": ["see", "hear", "know", "say"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "ידע (yada)",
+    "options": ["know", "love", "fear", "remember"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "שמע (shama)",
+    "options": ["hear/obey", "speak", "build", "call"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "דבר (dabar)",
+    "options": ["speak", "judge", "guard", "bless"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "לקח (laqakh)",
+    "options": ["take", "send", "give", "leave"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "יצא (yatsa)",
+    "options": ["go out", "enter", "stand", "return"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "עמד (amad)",
+    "options": ["stand", "fall", "sit", "run"],
+    "correctAnswer": [0]
+  },
+  {
+    "header": "Hebrew Roots",
+    "subject": "Verbs",
+    "question": "ישב (yashav)",
+    "options": ["sit/dwell", "rise", "walk", "build"],
+    "correctAnswer": [0]
+  }
+]
